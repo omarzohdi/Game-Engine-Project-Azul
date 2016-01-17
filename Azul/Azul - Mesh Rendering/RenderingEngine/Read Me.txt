@@ -1,0 +1,21 @@
+Run Generate.bat to generate the CDMs from the Models and textures (may take a while)
+
+Note: Textures have to resized to 512 x 512 to save space and converted to TGA format for compatibility
+
+Run GameEngine.exe to view the models in the engine.
+
+Controls:
+
+Home - Start Orbit;
+End - Stop Orbi;
+
+W - move in look at direction.
+S - move opposite look at direction.
+
+up - move up.
+down - move down.
+left - turn left.
+right - turn right.
+
+A & D - move in X axis;
+R & F - move in Z axis;

@@ -1,0 +1,3549 @@
+
+
+File: humanoid.fbx
+
+FBX version number for this FBX SDK is 7.2.0
+FBX version number for file humanoid.fbx is 6.0.0
+
+Animation Stack Information
+    Number of Animation Stacks: 3
+    Current Animation Stack: "shot"
+
+    Animation Stack 0
+         Name: "run"
+         Description: ""
+         Import Name: "run"
+         Import State: true
+
+    Animation Stack 1
+         Name: "punch"
+         Description: ""
+         Import Name: "punch"
+         Import State: true
+
+    Animation Stack 2
+         Name: "shot"
+         Description: ""
+         Import Name: "shot"
+         Import State: true
+
+
+
+--------------------
+Meta-Data
+--------------------
+
+    Title: 
+    Subject: 
+    Author: 
+    Keywords: 
+    Revision: 
+    Comment: 
+
+
+---------------------
+Global Light Settings
+---------------------
+
+Ambient Color: 0.000000 (red), 0.000000 (green), 0.000000 (blue)
+
+
+
+----------------------
+Global Camera Settings
+----------------------
+
+Default Camera: Producer Perspective
+
+
+
+--------------------
+Global Time Settings
+--------------------
+
+Time Mode : 30 fps
+Timeline default timespan: 
+     Start: 0
+     Stop : 30
+
+
+
+---------
+Hierarchy
+---------
+
+PyramidObject *pHumanoid:MaxToFilmbox_Root = new PyramidObject( "xxx", pPyramid );
+pHumanoid:MaxToFilmbox_Root->setIndex(0);
+pHumanoid:MaxToFilmbox_Root->setName("Humanoid:MaxToFilmbox_Root");
+tree->insert( pHumanoid:MaxToFilmbox_Root, pRootNode );
+
+PyramidObject *pHumanoid:Reference = new PyramidObject( "xxx", pPyramid );
+pHumanoid:Reference->setIndex(1);
+pHumanoid:Reference->setName("Humanoid:Reference");
+tree->insert( pHumanoid:Reference, pHumanoid:MaxToFilmbox_Root );
+
+PyramidObject *pHumanoid:Hips = new PyramidObject( "xxx", pPyramid );
+pHumanoid:Hips->setIndex(2);
+pHumanoid:Hips->setName("Humanoid:Hips");
+tree->insert( pHumanoid:Hips, pHumanoid:Reference );
+
+PyramidObject *pHumanoid:Spine_Dummy = new PyramidObject( "xxx", pPyramid );
+pHumanoid:Spine_Dummy->setIndex(3);
+pHumanoid:Spine_Dummy->setName("Humanoid:Spine_Dummy");
+tree->insert( pHumanoid:Spine_Dummy, pHumanoid:Hips );
+
+PyramidObject *pHumanoid:Spine = new PyramidObject( "xxx", pPyramid );
+pHumanoid:Spine->setIndex(4);
+pHumanoid:Spine->setName("Humanoid:Spine");
+tree->insert( pHumanoid:Spine, pHumanoid:Spine_Dummy );
+
+PyramidObject *pHumanoid:Spine1 = new PyramidObject( "xxx", pPyramid );
+pHumanoid:Spine1->setIndex(5);
+pHumanoid:Spine1->setName("Humanoid:Spine1");
+tree->insert( pHumanoid:Spine1, pHumanoid:Spine );
+
+PyramidObject *pHumanoid:Spine2 = new PyramidObject( "xxx", pPyramid );
+pHumanoid:Spine2->setIndex(6);
+pHumanoid:Spine2->setName("Humanoid:Spine2");
+tree->insert( pHumanoid:Spine2, pHumanoid:Spine1 );
+
+PyramidObject *pHumanoid:Neck = new PyramidObject( "xxx", pPyramid );
+pHumanoid:Neck->setIndex(7);
+pHumanoid:Neck->setName("Humanoid:Neck");
+tree->insert( pHumanoid:Neck, pHumanoid:Spine2 );
+
+PyramidObject *pHumanoid:Head = new PyramidObject( "xxx", pPyramid );
+pHumanoid:Head->setIndex(8);
+pHumanoid:Head->setName("Humanoid:Head");
+tree->insert( pHumanoid:Head, pHumanoid:Neck );
+
+PyramidObject *pHumanoid:Head_End = new PyramidObject( "xxx", pPyramid );
+pHumanoid:Head_End->setIndex(9);
+pHumanoid:Head_End->setName("Humanoid:Head_End");
+tree->insert( pHumanoid:Head_End, pHumanoid:Head );
+
+PyramidObject *pHumanoid:LeftShoulder_Dummy = new PyramidObject( "xxx", pPyramid );
+pHumanoid:LeftShoulder_Dummy->setIndex(10);
+pHumanoid:LeftShoulder_Dummy->setName("Humanoid:LeftShoulder_Dummy");
+tree->insert( pHumanoid:LeftShoulder_Dummy, pHumanoid:Spine2 );
+
+PyramidObject *pHumanoid:LeftShoulder = new PyramidObject( "xxx", pPyramid );
+pHumanoid:LeftShoulder->setIndex(11);
+pHumanoid:LeftShoulder->setName("Humanoid:LeftShoulder");
+tree->insert( pHumanoid:LeftShoulder, pHumanoid:LeftShoulder_Dummy );
+
+PyramidObject *pHumanoid:LeftArm_Dummy = new PyramidObject( "xxx", pPyramid );
+pHumanoid:LeftArm_Dummy->setIndex(12);
+pHumanoid:LeftArm_Dummy->setName("Humanoid:LeftArm_Dummy");
+tree->insert( pHumanoid:LeftArm_Dummy, pHumanoid:LeftShoulder );
+
+PyramidObject *pHumanoid:LeftArm = new PyramidObject( "xxx", pPyramid );
+pHumanoid:LeftArm->setIndex(13);
+pHumanoid:LeftArm->setName("Humanoid:LeftArm");
+tree->insert( pHumanoid:LeftArm, pHumanoid:LeftArm_Dummy );
+
+PyramidObject *pHumanoid:LeftArmRoll = new PyramidObject( "xxx", pPyramid );
+pHumanoid:LeftArmRoll->setIndex(14);
+pHumanoid:LeftArmRoll->setName("Humanoid:LeftArmRoll");
+tree->insert( pHumanoid:LeftArmRoll, pHumanoid:LeftArm );
+
+PyramidObject *pHumanoid:LeftForeArm = new PyramidObject( "xxx", pPyramid );
+pHumanoid:LeftForeArm->setIndex(15);
+pHumanoid:LeftForeArm->setName("Humanoid:LeftForeArm");
+tree->insert( pHumanoid:LeftForeArm, pHumanoid:LeftArmRoll );
+
+PyramidObject *pHumanoid:LeftForeArmRoll = new PyramidObject( "xxx", pPyramid );
+pHumanoid:LeftForeArmRoll->setIndex(16);
+pHumanoid:LeftForeArmRoll->setName("Humanoid:LeftForeArmRoll");
+tree->insert( pHumanoid:LeftForeArmRoll, pHumanoid:LeftForeArm );
+
+PyramidObject *pHumanoid:LeftHand = new PyramidObject( "xxx", pPyramid );
+pHumanoid:LeftHand->setIndex(17);
+pHumanoid:LeftHand->setName("Humanoid:LeftHand");
+tree->insert( pHumanoid:LeftHand, pHumanoid:LeftForeArmRoll );
+
+PyramidObject *pHumanoid:LeftThumb1 = new PyramidObject( "xxx", pPyramid );
+pHumanoid:LeftThumb1->setIndex(18);
+pHumanoid:LeftThumb1->setName("Humanoid:LeftThumb1");
+tree->insert( pHumanoid:LeftThumb1, pHumanoid:LeftHand );
+
+PyramidObject *pHumanoid:LeftThumb2 = new PyramidObject( "xxx", pPyramid );
+pHumanoid:LeftThumb2->setIndex(19);
+pHumanoid:LeftThumb2->setName("Humanoid:LeftThumb2");
+tree->insert( pHumanoid:LeftThumb2, pHumanoid:LeftThumb1 );
+
+PyramidObject *pHumanoid = new PyramidObject( "xxx", pPyramid );
+pHumanoid->setIndex(0);
+pHumanoid->setName("Humanoid");
+tree->insert( pHumanoid, pRootNode );
+
+PyramidObject *pCamera = new PyramidObject( "xxx", pPyramid );
+pCamera->setIndex(0);
+pCamera->setName("Camera");
+tree->insert( pCamera, pRootNode );
+
+PyramidObject *pLight_1 = new PyramidObject( "xxx", pPyramid );
+pLight_1->setIndex(0);
+pLight_1->setName("Light_1");
+tree->insert( pLight_1, pRootNode );
+
+
+
+---------
+Animation
+---------
+
+Animation Stack Name: run
+
+Animation stack contains 1 Animation Layer(s)
+AnimLayer 0
+AnimLayer 0
+AnimLayer 0
+pHead = new Frame_Bucket(); 
+pHead->prevBucket = 0; 
+pHead->nextBucket = 0; 
+pHead->KeyTime = Time(TIME_ZERO); 
+pHead->pBone = new Bone[NUM_BONES]; 
+
+ // --------  Frame 0  ---------------------------- 
+
+Frame_Bucket *pTmp = new Frame_Bucket(); 
+pTmp->prevBucket = pHead; 
+pTmp->nextBucket = 0; 
+pTmp->KeyTime = 0 * Time(TIME_NTSC_30_FRAME); 
+pTmp->pBone = new Bone[NUM_BONES]; 
+pHead->nextBucket = pTmp; 
+
+
+
+ //------- Key Time: 0  ms: 0 ------------------ 
+
+//     Node Name: RootNode
+//     Node Name: Humanoid:MaxToFilmbox_Root
+pTmp0->pBone[0].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Reference
+pTmp0->pBone[1].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Hips
+pTmp0->pBone[2].T = Vect( -280.172638f, 1288.917847f, 526.212402f );
+pTmp0->pBone[2].Q = Quat( ROT_XYZ, 0.401148f, 0.069213f, -0.030462f );
+pTmp0->pBone[2].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine_Dummy
+pTmp0->pBone[3].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Spine
+pTmp0->pBone[4].T = Vect( 73.400002f, 0.000001f, 0.000000f );
+pTmp0->pBone[4].Q = Quat( ROT_XYZ, -0.031461f, 0.001422f, 0.030284f );
+pTmp0->pBone[4].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine1
+pTmp0->pBone[5].T = Vect( 70.001335f, -0.000002f, -0.000000f );
+pTmp0->pBone[5].Q = Quat( ROT_XYZ, -0.060012f, 0.005307f, 0.060495f );
+pTmp0->pBone[5].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine2
+pTmp0->pBone[6].T = Vect( 71.400032f, -0.000000f, 0.000000f );
+pTmp0->pBone[6].Q = Quat( ROT_XYZ, -0.060005f, 0.005307f, 0.060495f );
+pTmp0->pBone[6].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Neck
+pTmp0->pBone[7].T = Vect( 121.576225f, -0.000001f, -0.000000f );
+pTmp0->pBone[7].Q = Quat( ROT_XYZ, -0.083518f, 0.064311f, 0.228354f );
+pTmp0->pBone[7].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head
+pTmp0->pBone[8].T = Vect( 67.855774f, 0.000039f, -0.000000f );
+pTmp0->pBone[8].Q = Quat( ROT_XYZ, -0.119745f, -0.014206f, -0.072717f );
+pTmp0->pBone[8].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head_End
+pTmp0->pBone[9].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder_Dummy
+pTmp0->pBone[10].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder
+pTmp0->pBone[11].T = Vect( -36.845097f, -0.000012f, -0.000005f );
+pTmp0->pBone[11].Q = Quat( ROT_XYZ, -0.086833f, -0.017928f, -0.028073f );
+pTmp0->pBone[11].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArm_Dummy
+pTmp0->pBone[12].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftArm
+pTmp0->pBone[13].T = Vect( -20.843035f, -1.709348f, 11.313786f );
+pTmp0->pBone[13].Q = Quat( ROT_XYZ, -0.141143f, 0.317536f, 2.825809f );
+pTmp0->pBone[13].S = Vect( 0.999999f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArmRoll
+pTmp0->pBone[14].T = Vect( 78.950714f, 0.000019f, 0.000006f );
+pTmp0->pBone[14].Q = Quat( ROT_XYZ, 0.113023f, 0.000000f, 0.000000f );
+pTmp0->pBone[14].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftForeArm
+pTmp0->pBone[15].T = Vect( 65.979294f, 0.000019f, -0.000010f );
+pTmp0->pBone[15].Q = Quat( ROT_XYZ, 0.065537f, 0.030556f, -2.037498f );
+pTmp0->pBone[15].S = Vect( 1.000002f, 0.999999f, 1.000000f );
+
+//     Node Name: Humanoid:LeftForeArmRoll
+pTmp0->pBone[16].T = Vect( 101.404221f, 0.000009f, 0.000010f );
+pTmp0->pBone[16].Q = Quat( ROT_XYZ, 0.100070f, 0.000000f, 0.000000f );
+pTmp0->pBone[16].S = Vect( 0.999999f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftHand
+pTmp0->pBone[17].T = Vect( 71.692039f, 0.000010f, 0.000004f );
+pTmp0->pBone[17].Q = Quat( ROT_XYZ, -0.030181f, 0.374359f, -0.159030f );
+pTmp0->pBone[17].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftThumb1
+pTmp0->pBone[18].T = Vect( 29.257690f, -22.640423f, -5.069802f );
+pTmp0->pBone[18].Q = Quat( ROT_XYZ, 0.709381f, 0.537656f, -0.914867f );
+pTmp0->pBone[18].S = Vect( 0.999999f, 1.000001f, 1.000003f );
+
+//     Node Name: Humanoid:LeftThumb2
+pTmp0->pBone[19].T = Vect( 22.746157f, -0.353276f, -0.113011f );
+pTmp0->pBone[19].Q = Quat( ROT_XYZ, 0.081784f, 0.342417f, 0.683623f );
+pTmp0->pBone[19].S = Vect( 0.999997f, 1.000002f, 1.000001f );
+
+
+
+ //------- Key Time: 0  ms: 0 ------------------ 
+
+
+
+ // --------  Frame 1  ---------------------------- 
+
+Frame_Bucket *pTmp1= new Frame_Bucket(); 
+pTmp1->prevBucket = pTmp0; 
+pTmp1->nextBucket = 0; 
+pTmp1->KeyTime = 1 * Time(TIME_NTSC_30_FRAME); 
+pTmp1->pBone = new Bone[NUM_BONES]; 
+pTmp0->nextBucket = pTmp1; 
+
+
+
+ //------- Key Time: 1  ms: 33 ------------------ 
+
+//     Node Name: RootNode
+//     Node Name: Humanoid:MaxToFilmbox_Root
+pTmp1->pBone[0].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Reference
+pTmp1->pBone[1].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Hips
+pTmp1->pBone[2].T = Vect( -276.852875f, 1205.757080f, 541.135681f );
+pTmp1->pBone[2].Q = Quat( ROT_XYZ, 0.425435f, 0.102657f, -0.065670f );
+pTmp1->pBone[2].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine_Dummy
+pTmp1->pBone[3].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Spine
+pTmp1->pBone[4].T = Vect( 73.400002f, 0.000001f, 0.000000f );
+pTmp1->pBone[4].Q = Quat( ROT_XYZ, -0.038688f, 0.018555f, 0.021182f );
+pTmp1->pBone[4].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine1
+pTmp1->pBone[5].T = Vect( 70.001335f, -0.000002f, -0.000000f );
+pTmp1->pBone[5].Q = Quat( ROT_XYZ, -0.074136f, 0.027633f, 0.041902f );
+pTmp1->pBone[5].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine2
+pTmp1->pBone[6].T = Vect( 71.400032f, -0.000000f, 0.000000f );
+pTmp1->pBone[6].Q = Quat( ROT_XYZ, -0.074129f, 0.027632f, 0.041903f );
+pTmp1->pBone[6].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Neck
+pTmp1->pBone[7].T = Vect( 121.576225f, -0.000001f, -0.000000f );
+pTmp1->pBone[7].Q = Quat( ROT_XYZ, -0.048002f, 0.029100f, 0.228164f );
+pTmp1->pBone[7].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head
+pTmp1->pBone[8].T = Vect( 67.855774f, 0.000039f, -0.000000f );
+pTmp1->pBone[8].Q = Quat( ROT_XYZ, -0.070009f, -0.003628f, -0.073226f );
+pTmp1->pBone[8].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head_End
+pTmp1->pBone[9].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder_Dummy
+pTmp1->pBone[10].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder
+pTmp1->pBone[11].T = Vect( -36.845097f, -0.000012f, -0.000005f );
+pTmp1->pBone[11].Q = Quat( ROT_XYZ, -0.088965f, -0.019141f, -0.023816f );
+pTmp1->pBone[11].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArm_Dummy
+pTmp1->pBone[12].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftArm
+pTmp1->pBone[13].T = Vect( -20.843035f, -1.709348f, 11.313786f );
+pTmp1->pBone[13].Q = Quat( ROT_XYZ, -0.115202f, 0.285822f, 2.829047f );
+pTmp1->pBone[13].S = Vect( 0.999999f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArmRoll
+pTmp1->pBone[14].T = Vect( 78.950714f, 0.000018f, 0.000006f );
+pTmp1->pBone[14].Q = Quat( ROT_XYZ, 0.157551f, 0.000000f, 0.000000f );
+pTmp1->pBone[14].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftForeArm
+pTmp1->pBone[15].T = Vect( 65.979294f, 0.000019f, -0.000010f );
+pTmp1->pBone[15].Q = Quat( ROT_XYZ, 0.072369f, 0.030357f, -2.024473f );
+pTmp1->pBone[15].S = Vect( 1.000002f, 0.999999f, 1.000000f );
+
+//     Node Name: Humanoid:LeftForeArmRoll
+pTmp1->pBone[16].T = Vect( 101.404221f, 0.000009f, 0.000010f );
+pTmp1->pBone[16].Q = Quat( ROT_XYZ, 0.110009f, 0.000000f, 0.000000f );
+pTmp1->pBone[16].S = Vect( 0.999999f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftHand
+pTmp1->pBone[17].T = Vect( 71.692039f, 0.000010f, 0.000004f );
+pTmp1->pBone[17].Q = Quat( ROT_XYZ, -0.011464f, 0.255659f, -0.089137f );
+pTmp1->pBone[17].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftThumb1
+pTmp1->pBone[18].T = Vect( 29.257690f, -22.640423f, -5.069802f );
+pTmp1->pBone[18].Q = Quat( ROT_XYZ, 0.709381f, 0.537656f, -0.914867f );
+pTmp1->pBone[18].S = Vect( 0.999999f, 1.000001f, 1.000003f );
+
+//     Node Name: Humanoid:LeftThumb2
+pTmp1->pBone[19].T = Vect( 22.746157f, -0.353276f, -0.113011f );
+pTmp1->pBone[19].Q = Quat( ROT_XYZ, 0.081784f, 0.342417f, 0.683623f );
+pTmp1->pBone[19].S = Vect( 0.999997f, 1.000002f, 1.000001f );
+
+
+
+ //------- Key Time: 1  ms: 33 ------------------ 
+
+
+
+ // --------  Frame 2  ---------------------------- 
+
+Frame_Bucket *pTmp2= new Frame_Bucket(); 
+pTmp2->prevBucket = pTmp1; 
+pTmp2->nextBucket = 0; 
+pTmp2->KeyTime = 2 * Time(TIME_NTSC_30_FRAME); 
+pTmp2->pBone = new Bone[NUM_BONES]; 
+pTmp1->nextBucket = pTmp2; 
+
+
+
+ //------- Key Time: 2  ms: 66 ------------------ 
+
+//     Node Name: RootNode
+//     Node Name: Humanoid:MaxToFilmbox_Root
+pTmp2->pBone[0].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Reference
+pTmp2->pBone[1].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Hips
+pTmp2->pBone[2].T = Vect( -273.767975f, 1139.004761f, 528.285889f );
+pTmp2->pBone[2].Q = Quat( ROT_XYZ, 0.444421f, 0.118699f, -0.081648f );
+pTmp2->pBone[2].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine_Dummy
+pTmp2->pBone[3].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Spine
+pTmp2->pBone[4].T = Vect( 73.400002f, 0.000001f, 0.000000f );
+pTmp2->pBone[4].Q = Quat( ROT_XYZ, -0.048101f, 0.056130f, 0.014082f );
+pTmp2->pBone[4].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine1
+pTmp2->pBone[5].T = Vect( 70.001335f, -0.000002f, -0.000000f );
+pTmp2->pBone[5].Q = Quat( ROT_XYZ, -0.088991f, 0.031666f, 0.027690f );
+pTmp2->pBone[5].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine2
+pTmp2->pBone[6].T = Vect( 71.400032f, -0.000000f, 0.000000f );
+pTmp2->pBone[6].Q = Quat( ROT_XYZ, -0.088983f, 0.031666f, 0.027690f );
+pTmp2->pBone[6].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Neck
+pTmp2->pBone[7].T = Vect( 121.576225f, -0.000001f, -0.000000f );
+pTmp2->pBone[7].Q = Quat( ROT_XYZ, -0.017427f, 0.011585f, 0.229956f );
+pTmp2->pBone[7].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head
+pTmp2->pBone[8].T = Vect( 67.855774f, 0.000039f, -0.000000f );
+pTmp2->pBone[8].Q = Quat( ROT_XYZ, -0.025395f, -0.001208f, -0.073906f );
+pTmp2->pBone[8].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head_End
+pTmp2->pBone[9].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder_Dummy
+pTmp2->pBone[10].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder
+pTmp2->pBone[11].T = Vect( -36.845097f, -0.000012f, -0.000005f );
+pTmp2->pBone[11].Q = Quat( ROT_XYZ, -0.077391f, -0.016188f, -0.017930f );
+pTmp2->pBone[11].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArm_Dummy
+pTmp2->pBone[12].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftArm
+pTmp2->pBone[13].T = Vect( -20.843035f, -1.709348f, 11.313786f );
+pTmp2->pBone[13].Q = Quat( ROT_XYZ, -0.022543f, 0.288543f, 2.833542f );
+pTmp2->pBone[13].S = Vect( 0.999999f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArmRoll
+pTmp2->pBone[14].T = Vect( 78.950714f, 0.000015f, 0.000004f );
+pTmp2->pBone[14].Q = Quat( ROT_XYZ, 0.295532f, 0.000000f, 0.000000f );
+pTmp2->pBone[14].S = Vect( 1.000000f, 1.000000f, 1.000001f );
+
+//     Node Name: Humanoid:LeftForeArm
+pTmp2->pBone[15].T = Vect( 65.979294f, 0.000019f, -0.000010f );
+pTmp2->pBone[15].Q = Quat( ROT_XYZ, 0.115373f, 0.030219f, -2.071577f );
+pTmp2->pBone[15].S = Vect( 1.000002f, 0.999999f, 1.000000f );
+
+//     Node Name: Humanoid:LeftForeArmRoll
+pTmp2->pBone[16].T = Vect( 101.404221f, 0.000009f, 0.000010f );
+pTmp2->pBone[16].Q = Quat( ROT_XYZ, 0.175642f, 0.000000f, 0.000000f );
+pTmp2->pBone[16].S = Vect( 0.999999f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftHand
+pTmp2->pBone[17].T = Vect( 71.692039f, 0.000010f, 0.000004f );
+pTmp2->pBone[17].Q = Quat( ROT_XYZ, 0.001580f, 0.042077f, 0.075075f );
+pTmp2->pBone[17].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftThumb1
+pTmp2->pBone[18].T = Vect( 29.257690f, -22.640423f, -5.069802f );
+pTmp2->pBone[18].Q = Quat( ROT_XYZ, 0.709381f, 0.537656f, -0.914867f );
+pTmp2->pBone[18].S = Vect( 0.999999f, 1.000001f, 1.000003f );
+
+//     Node Name: Humanoid:LeftThumb2
+pTmp2->pBone[19].T = Vect( 22.746157f, -0.353276f, -0.113011f );
+pTmp2->pBone[19].Q = Quat( ROT_XYZ, 0.081784f, 0.342417f, 0.683623f );
+pTmp2->pBone[19].S = Vect( 0.999997f, 1.000002f, 1.000001f );
+
+
+
+ //------- Key Time: 2  ms: 66 ------------------ 
+
+
+
+ // --------  Frame 3  ---------------------------- 
+
+Frame_Bucket *pTmp3= new Frame_Bucket(); 
+pTmp3->prevBucket = pTmp2; 
+pTmp3->nextBucket = 0; 
+pTmp3->KeyTime = 3 * Time(TIME_NTSC_30_FRAME); 
+pTmp3->pBone = new Bone[NUM_BONES]; 
+pTmp2->nextBucket = pTmp3; 
+
+
+
+ //------- Key Time: 3  ms: 100 ------------------ 
+
+//     Node Name: RootNode
+//     Node Name: Humanoid:MaxToFilmbox_Root
+pTmp3->pBone[0].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Reference
+pTmp3->pBone[1].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Hips
+pTmp3->pBone[2].T = Vect( -268.608063f, 1050.918579f, 534.159241f );
+pTmp3->pBone[2].Q = Quat( ROT_XYZ, 0.426550f, 0.060576f, -0.105217f );
+pTmp3->pBone[2].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine_Dummy
+pTmp3->pBone[3].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Spine
+pTmp3->pBone[4].T = Vect( 73.400002f, 0.000001f, 0.000000f );
+pTmp3->pBone[4].Q = Quat( ROT_XYZ, -0.061817f, 0.037034f, 0.016093f );
+pTmp3->pBone[4].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine1
+pTmp3->pBone[5].T = Vect( 70.001335f, -0.000002f, -0.000000f );
+pTmp3->pBone[5].Q = Quat( ROT_XYZ, -0.102140f, 0.020557f, 0.032144f );
+pTmp3->pBone[5].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine2
+pTmp3->pBone[6].T = Vect( 71.400032f, -0.000000f, 0.000000f );
+pTmp3->pBone[6].Q = Quat( ROT_XYZ, -0.102133f, 0.020556f, 0.032144f );
+pTmp3->pBone[6].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Neck
+pTmp3->pBone[7].T = Vect( 121.576225f, -0.000001f, -0.000000f );
+pTmp3->pBone[7].Q = Quat( ROT_XYZ, 0.007512f, 0.009187f, 0.197237f );
+pTmp3->pBone[7].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head
+pTmp3->pBone[8].T = Vect( 67.855774f, 0.000039f, -0.000000f );
+pTmp3->pBone[8].Q = Quat( ROT_XYZ, 0.012087f, -0.000032f, -0.063755f );
+pTmp3->pBone[8].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head_End
+pTmp3->pBone[9].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder_Dummy
+pTmp3->pBone[10].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder
+pTmp3->pBone[11].T = Vect( -36.845097f, -0.000012f, -0.000005f );
+pTmp3->pBone[11].Q = Quat( ROT_XYZ, -0.066116f, -0.014320f, -0.005221f );
+pTmp3->pBone[11].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArm_Dummy
+pTmp3->pBone[12].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftArm
+pTmp3->pBone[13].T = Vect( -20.843035f, -1.709348f, 11.313786f );
+pTmp3->pBone[13].Q = Quat( ROT_XYZ, 0.143848f, 0.364798f, 2.849725f );
+pTmp3->pBone[13].S = Vect( 0.999999f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArmRoll
+pTmp3->pBone[14].T = Vect( 78.950714f, 0.000009f, 0.000001f );
+pTmp3->pBone[14].Q = Quat( ROT_XYZ, 0.527474f, 0.000000f, 0.000000f );
+pTmp3->pBone[14].S = Vect( 1.000000f, 0.999999f, 1.000001f );
+
+//     Node Name: Humanoid:LeftForeArm
+pTmp3->pBone[15].T = Vect( 65.979294f, 0.000019f, -0.000010f );
+pTmp3->pBone[15].Q = Quat( ROT_XYZ, 0.207397f, 0.028853f, -2.117521f );
+pTmp3->pBone[15].S = Vect( 1.000002f, 0.999999f, 1.000000f );
+
+//     Node Name: Humanoid:LeftForeArmRoll
+pTmp3->pBone[16].T = Vect( 101.404221f, 0.000009f, 0.000009f );
+pTmp3->pBone[16].Q = Quat( ROT_XYZ, 0.314806f, 0.000000f, 0.000000f );
+pTmp3->pBone[16].S = Vect( 0.999999f, 0.999999f, 1.000000f );
+
+//     Node Name: Humanoid:LeftHand
+pTmp3->pBone[17].T = Vect( 71.692039f, 0.000010f, 0.000004f );
+pTmp3->pBone[17].Q = Quat( ROT_XYZ, -0.072373f, -0.390752f, 0.361864f );
+pTmp3->pBone[17].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftThumb1
+pTmp3->pBone[18].T = Vect( 29.257690f, -22.640423f, -5.069802f );
+pTmp3->pBone[18].Q = Quat( ROT_XYZ, 0.709381f, 0.537656f, -0.914867f );
+pTmp3->pBone[18].S = Vect( 0.999999f, 1.000001f, 1.000003f );
+
+//     Node Name: Humanoid:LeftThumb2
+pTmp3->pBone[19].T = Vect( 22.746157f, -0.353276f, -0.113011f );
+pTmp3->pBone[19].Q = Quat( ROT_XYZ, 0.081784f, 0.342417f, 0.683623f );
+pTmp3->pBone[19].S = Vect( 0.999997f, 1.000002f, 1.000001f );
+
+
+
+ //------- Key Time: 3  ms: 100 ------------------ 
+
+
+
+ // --------  Frame 4  ---------------------------- 
+
+Frame_Bucket *pTmp4= new Frame_Bucket(); 
+pTmp4->prevBucket = pTmp3; 
+pTmp4->nextBucket = 0; 
+pTmp4->KeyTime = 4 * Time(TIME_NTSC_30_FRAME); 
+pTmp4->pBone = new Bone[NUM_BONES]; 
+pTmp3->nextBucket = pTmp4; 
+
+
+
+ //------- Key Time: 4  ms: 133 ------------------ 
+
+//     Node Name: RootNode
+//     Node Name: Humanoid:MaxToFilmbox_Root
+pTmp4->pBone[0].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Reference
+pTmp4->pBone[1].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Hips
+pTmp4->pBone[2].T = Vect( -263.109894f, 960.824097f, 531.831909f );
+pTmp4->pBone[2].Q = Quat( ROT_XYZ, 0.378383f, 0.009675f, -0.124000f );
+pTmp4->pBone[2].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine_Dummy
+pTmp4->pBone[3].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Spine
+pTmp4->pBone[4].T = Vect( 73.400002f, 0.000001f, 0.000000f );
+pTmp4->pBone[4].Q = Quat( ROT_XYZ, -0.071342f, 0.021031f, 0.022235f );
+pTmp4->pBone[4].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine1
+pTmp4->pBone[5].T = Vect( 70.001335f, -0.000002f, -0.000000f );
+pTmp4->pBone[5].Q = Quat( ROT_XYZ, -0.114160f, 0.010588f, 0.044522f );
+pTmp4->pBone[5].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine2
+pTmp4->pBone[6].T = Vect( 71.400032f, -0.000000f, 0.000000f );
+pTmp4->pBone[6].Q = Quat( ROT_XYZ, -0.114152f, 0.010588f, 0.044522f );
+pTmp4->pBone[6].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Neck
+pTmp4->pBone[7].T = Vect( 121.576225f, -0.000001f, -0.000000f );
+pTmp4->pBone[7].Q = Quat( ROT_XYZ, 0.032839f, -0.000346f, 0.188919f );
+pTmp4->pBone[7].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head
+pTmp4->pBone[8].T = Vect( 67.855774f, 0.000039f, -0.000000f );
+pTmp4->pBone[8].Q = Quat( ROT_XYZ, 0.050373f, -0.007571f, -0.067498f );
+pTmp4->pBone[8].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head_End
+pTmp4->pBone[9].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder_Dummy
+pTmp4->pBone[10].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder
+pTmp4->pBone[11].T = Vect( -36.845097f, -0.000012f, -0.000005f );
+pTmp4->pBone[11].Q = Quat( ROT_XYZ, -0.043862f, -0.006388f, -0.011962f );
+pTmp4->pBone[11].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArm_Dummy
+pTmp4->pBone[12].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftArm
+pTmp4->pBone[13].T = Vect( -20.843035f, -1.709348f, 11.313786f );
+pTmp4->pBone[13].Q = Quat( ROT_XYZ, 0.174703f, 0.348959f, 2.958013f );
+pTmp4->pBone[13].S = Vect( 0.999999f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArmRoll
+pTmp4->pBone[14].T = Vect( 78.950714f, 0.000009f, 0.000000f );
+pTmp4->pBone[14].Q = Quat( ROT_XYZ, 0.559884f, 0.000000f, 0.000000f );
+pTmp4->pBone[14].S = Vect( 1.000000f, 0.999999f, 1.000001f );
+
+//     Node Name: Humanoid:LeftForeArm
+pTmp4->pBone[15].T = Vect( 65.979294f, 0.000019f, -0.000010f );
+pTmp4->pBone[15].Q = Quat( ROT_XYZ, 0.192989f, 0.028686f, -2.057252f );
+pTmp4->pBone[15].S = Vect( 1.000002f, 0.999999f, 1.000000f );
+
+//     Node Name: Humanoid:LeftForeArmRoll
+pTmp4->pBone[16].T = Vect( 101.404221f, 0.000009f, 0.000009f );
+pTmp4->pBone[16].Q = Quat( ROT_XYZ, 0.291719f, 0.000000f, 0.000000f );
+pTmp4->pBone[16].S = Vect( 0.999999f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftHand
+pTmp4->pBone[17].T = Vect( 71.692039f, 0.000010f, 0.000004f );
+pTmp4->pBone[17].Q = Quat( ROT_XYZ, -0.070026f, -0.415774f, 0.329112f );
+pTmp4->pBone[17].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftThumb1
+pTmp4->pBone[18].T = Vect( 29.257690f, -22.640423f, -5.069802f );
+pTmp4->pBone[18].Q = Quat( ROT_XYZ, 0.709381f, 0.537656f, -0.914867f );
+pTmp4->pBone[18].S = Vect( 0.999999f, 1.000001f, 1.000003f );
+
+//     Node Name: Humanoid:LeftThumb2
+pTmp4->pBone[19].T = Vect( 22.746157f, -0.353276f, -0.113011f );
+pTmp4->pBone[19].Q = Quat( ROT_XYZ, 0.081784f, 0.342417f, 0.683623f );
+pTmp4->pBone[19].S = Vect( 0.999997f, 1.000002f, 1.000001f );
+
+
+
+ //------- Key Time: 4  ms: 133 ------------------ 
+
+
+
+ // --------  Frame 5  ---------------------------- 
+
+Frame_Bucket *pTmp5= new Frame_Bucket(); 
+pTmp5->prevBucket = pTmp4; 
+pTmp5->nextBucket = 0; 
+pTmp5->KeyTime = 5 * Time(TIME_NTSC_30_FRAME); 
+pTmp5->pBone = new Bone[NUM_BONES]; 
+pTmp4->nextBucket = pTmp5; 
+
+
+
+ //------- Key Time: 5  ms: 166 ------------------ 
+
+//     Node Name: RootNode
+//     Node Name: Humanoid:MaxToFilmbox_Root
+pTmp5->pBone[0].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Reference
+pTmp5->pBone[1].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Hips
+pTmp5->pBone[2].T = Vect( -258.587677f, 866.939819f, 525.831482f );
+pTmp5->pBone[2].Q = Quat( ROT_XYZ, 0.340421f, 0.004302f, -0.131523f );
+pTmp5->pBone[2].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine_Dummy
+pTmp5->pBone[3].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Spine
+pTmp5->pBone[4].T = Vect( 73.400002f, 0.000001f, 0.000000f );
+pTmp5->pBone[4].Q = Quat( ROT_XYZ, -0.064586f, 0.020186f, 0.029162f );
+pTmp5->pBone[4].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine1
+pTmp5->pBone[5].T = Vect( 70.001335f, -0.000002f, -0.000000f );
+pTmp5->pBone[5].Q = Quat( ROT_XYZ, -0.106095f, 0.024672f, 0.058030f );
+pTmp5->pBone[5].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine2
+pTmp5->pBone[6].T = Vect( 71.400032f, -0.000000f, 0.000000f );
+pTmp5->pBone[6].Q = Quat( ROT_XYZ, -0.106087f, 0.024672f, 0.058030f );
+pTmp5->pBone[6].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Neck
+pTmp5->pBone[7].T = Vect( 121.576225f, -0.000001f, -0.000000f );
+pTmp5->pBone[7].Q = Quat( ROT_XYZ, 0.038794f, -0.007953f, 0.166151f );
+pTmp5->pBone[7].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head
+pTmp5->pBone[8].T = Vect( 67.855774f, 0.000039f, -0.000000f );
+pTmp5->pBone[8].Q = Quat( ROT_XYZ, 0.063734f, -0.048411f, -0.075629f );
+pTmp5->pBone[8].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head_End
+pTmp5->pBone[9].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder_Dummy
+pTmp5->pBone[10].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder
+pTmp5->pBone[11].T = Vect( -36.845097f, -0.000012f, -0.000005f );
+pTmp5->pBone[11].Q = Quat( ROT_XYZ, -0.040098f, -0.002447f, -0.030272f );
+pTmp5->pBone[11].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArm_Dummy
+pTmp5->pBone[12].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftArm
+pTmp5->pBone[13].T = Vect( -20.843035f, -1.709348f, 11.313786f );
+pTmp5->pBone[13].Q = Quat( ROT_XYZ, 0.200827f, 0.357298f, 3.020103f );
+pTmp5->pBone[13].S = Vect( 0.999999f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArmRoll
+pTmp5->pBone[14].T = Vect( 78.950714f, 0.000008f, -0.000000f );
+pTmp5->pBone[14].Q = Quat( ROT_XYZ, 0.586154f, 0.000000f, 0.000000f );
+pTmp5->pBone[14].S = Vect( 1.000000f, 0.999999f, 1.000001f );
+
+//     Node Name: Humanoid:LeftForeArm
+pTmp5->pBone[15].T = Vect( 65.979294f, 0.000019f, -0.000010f );
+pTmp5->pBone[15].Q = Quat( ROT_XYZ, 0.164049f, 0.027976f, -1.926609f );
+pTmp5->pBone[15].S = Vect( 1.000002f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftForeArmRoll
+pTmp5->pBone[16].T = Vect( 101.404221f, 0.000009f, 0.000010f );
+pTmp5->pBone[16].Q = Quat( ROT_XYZ, 0.245294f, 0.000000f, 0.000000f );
+pTmp5->pBone[16].S = Vect( 0.999999f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftHand
+pTmp5->pBone[17].T = Vect( 71.692039f, 0.000010f, 0.000004f );
+pTmp5->pBone[17].Q = Quat( ROT_XYZ, -0.058125f, -0.418784f, 0.271912f );
+pTmp5->pBone[17].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftThumb1
+pTmp5->pBone[18].T = Vect( 29.257690f, -22.640423f, -5.069802f );
+pTmp5->pBone[18].Q = Quat( ROT_XYZ, 0.709381f, 0.537656f, -0.914867f );
+pTmp5->pBone[18].S = Vect( 0.999999f, 1.000001f, 1.000003f );
+
+//     Node Name: Humanoid:LeftThumb2
+pTmp5->pBone[19].T = Vect( 22.746157f, -0.353276f, -0.113011f );
+pTmp5->pBone[19].Q = Quat( ROT_XYZ, 0.081784f, 0.342417f, 0.683623f );
+pTmp5->pBone[19].S = Vect( 0.999997f, 1.000002f, 1.000001f );
+
+
+
+ //------- Key Time: 5  ms: 166 ------------------ 
+
+
+
+ // --------  Frame 6  ---------------------------- 
+
+Frame_Bucket *pTmp6= new Frame_Bucket(); 
+pTmp6->prevBucket = pTmp5; 
+pTmp6->nextBucket = 0; 
+pTmp6->KeyTime = 6 * Time(TIME_NTSC_30_FRAME); 
+pTmp6->pBone = new Bone[NUM_BONES]; 
+pTmp5->nextBucket = pTmp6; 
+
+
+
+ //------- Key Time: 6  ms: 200 ------------------ 
+
+//     Node Name: RootNode
+//     Node Name: Humanoid:MaxToFilmbox_Root
+pTmp6->pBone[0].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Reference
+pTmp6->pBone[1].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Hips
+pTmp6->pBone[2].T = Vect( -257.371765f, 775.866699f, 511.777893f );
+pTmp6->pBone[2].Q = Quat( ROT_XYZ, 0.316471f, 0.028656f, -0.130275f );
+pTmp6->pBone[2].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine_Dummy
+pTmp6->pBone[3].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Spine
+pTmp6->pBone[4].T = Vect( 73.400002f, 0.000001f, 0.000000f );
+pTmp6->pBone[4].Q = Quat( ROT_XYZ, -0.053787f, 0.029144f, 0.031135f );
+pTmp6->pBone[4].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine1
+pTmp6->pBone[5].T = Vect( 70.001335f, -0.000002f, -0.000000f );
+pTmp6->pBone[5].Q = Quat( ROT_XYZ, -0.094729f, 0.039327f, 0.061643f );
+pTmp6->pBone[5].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine2
+pTmp6->pBone[6].T = Vect( 71.400032f, -0.000000f, 0.000000f );
+pTmp6->pBone[6].Q = Quat( ROT_XYZ, -0.094721f, 0.039327f, 0.061643f );
+pTmp6->pBone[6].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Neck
+pTmp6->pBone[7].T = Vect( 121.576225f, -0.000001f, -0.000000f );
+pTmp6->pBone[7].Q = Quat( ROT_XYZ, 0.033202f, -0.001241f, 0.168197f );
+pTmp6->pBone[7].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head
+pTmp6->pBone[8].T = Vect( 67.855774f, 0.000039f, -0.000000f );
+pTmp6->pBone[8].Q = Quat( ROT_XYZ, 0.059742f, -0.072848f, -0.087996f );
+pTmp6->pBone[8].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head_End
+pTmp6->pBone[9].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder_Dummy
+pTmp6->pBone[10].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder
+pTmp6->pBone[11].T = Vect( -36.845097f, -0.000012f, -0.000005f );
+pTmp6->pBone[11].Q = Quat( ROT_XYZ, -0.057427f, -0.005914f, -0.045727f );
+pTmp6->pBone[11].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArm_Dummy
+pTmp6->pBone[12].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftArm
+pTmp6->pBone[13].T = Vect( -20.843035f, -1.709348f, 11.313786f );
+pTmp6->pBone[13].Q = Quat( ROT_XYZ, 0.224149f, 0.378084f, 3.091080f );
+pTmp6->pBone[13].S = Vect( 0.999998f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArmRoll
+pTmp6->pBone[14].T = Vect( 78.950714f, 0.000008f, -0.000000f );
+pTmp6->pBone[14].Q = Quat( ROT_XYZ, 0.600530f, 0.000000f, 0.000000f );
+pTmp6->pBone[14].S = Vect( 1.000000f, 0.999999f, 1.000002f );
+
+//     Node Name: Humanoid:LeftForeArm
+pTmp6->pBone[15].T = Vect( 65.979294f, 0.000019f, -0.000010f );
+pTmp6->pBone[15].Q = Quat( ROT_XYZ, 0.130885f, 0.026045f, -1.725332f );
+pTmp6->pBone[15].S = Vect( 1.000002f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftForeArmRoll
+pTmp6->pBone[16].T = Vect( 101.404221f, 0.000009f, 0.000010f );
+pTmp6->pBone[16].Q = Quat( ROT_XYZ, 0.191475f, 0.000000f, 0.000000f );
+pTmp6->pBone[16].S = Vect( 0.999999f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftHand
+pTmp6->pBone[17].T = Vect( 71.692039f, 0.000010f, 0.000004f );
+pTmp6->pBone[17].Q = Quat( ROT_XYZ, -0.041115f, -0.373127f, 0.216994f );
+pTmp6->pBone[17].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftThumb1
+pTmp6->pBone[18].T = Vect( 29.257690f, -22.640423f, -5.069802f );
+pTmp6->pBone[18].Q = Quat( ROT_XYZ, 0.709381f, 0.537656f, -0.914867f );
+pTmp6->pBone[18].S = Vect( 0.999999f, 1.000001f, 1.000003f );
+
+//     Node Name: Humanoid:LeftThumb2
+pTmp6->pBone[19].T = Vect( 22.746157f, -0.353276f, -0.113011f );
+pTmp6->pBone[19].Q = Quat( ROT_XYZ, 0.081784f, 0.342417f, 0.683623f );
+pTmp6->pBone[19].S = Vect( 0.999997f, 1.000002f, 1.000001f );
+
+
+
+ //------- Key Time: 6  ms: 200 ------------------ 
+
+
+
+ // --------  Frame 7  ---------------------------- 
+
+Frame_Bucket *pTmp7= new Frame_Bucket(); 
+pTmp7->prevBucket = pTmp6; 
+pTmp7->nextBucket = 0; 
+pTmp7->KeyTime = 7 * Time(TIME_NTSC_30_FRAME); 
+pTmp7->pBone = new Bone[NUM_BONES]; 
+pTmp6->nextBucket = pTmp7; 
+
+
+
+ //------- Key Time: 7  ms: 233 ------------------ 
+
+//     Node Name: RootNode
+//     Node Name: Humanoid:MaxToFilmbox_Root
+pTmp7->pBone[0].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Reference
+pTmp7->pBone[1].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Hips
+pTmp7->pBone[2].T = Vect( -256.090790f, 691.808350f, 495.041534f );
+pTmp7->pBone[2].Q = Quat( ROT_XYZ, 0.335133f, 0.094962f, -0.153566f );
+pTmp7->pBone[2].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine_Dummy
+pTmp7->pBone[3].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Spine
+pTmp7->pBone[4].T = Vect( 73.400002f, 0.000001f, 0.000000f );
+pTmp7->pBone[4].Q = Quat( ROT_XYZ, -0.032705f, 0.044034f, 0.028661f );
+pTmp7->pBone[4].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine1
+pTmp7->pBone[5].T = Vect( 70.001335f, -0.000002f, -0.000000f );
+pTmp7->pBone[5].Q = Quat( ROT_XYZ, -0.059404f, 0.059402f, 0.056313f );
+pTmp7->pBone[5].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine2
+pTmp7->pBone[6].T = Vect( 71.400032f, -0.000000f, 0.000000f );
+pTmp7->pBone[6].Q = Quat( ROT_XYZ, -0.059407f, 0.059390f, 0.056315f );
+pTmp7->pBone[6].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Neck
+pTmp7->pBone[7].T = Vect( 121.576225f, -0.000001f, -0.000000f );
+pTmp7->pBone[7].Q = Quat( ROT_XYZ, 0.028205f, 0.009389f, 0.144116f );
+pTmp7->pBone[7].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head
+pTmp7->pBone[8].T = Vect( 67.855774f, 0.000039f, -0.000000f );
+pTmp7->pBone[8].Q = Quat( ROT_XYZ, 0.055841f, -0.097260f, -0.094513f );
+pTmp7->pBone[8].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head_End
+pTmp7->pBone[9].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder_Dummy
+pTmp7->pBone[10].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder
+pTmp7->pBone[11].T = Vect( -36.845097f, -0.000012f, -0.000005f );
+pTmp7->pBone[11].Q = Quat( ROT_XYZ, -0.069429f, -0.006425f, -0.071630f );
+pTmp7->pBone[11].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArm_Dummy
+pTmp7->pBone[12].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftArm
+pTmp7->pBone[13].T = Vect( -20.843035f, -1.709348f, 11.313786f );
+pTmp7->pBone[13].Q = Quat( ROT_XYZ, 0.214041f, 0.382908f, -3.105753f );
+pTmp7->pBone[13].S = Vect( 0.999998f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArmRoll
+pTmp7->pBone[14].T = Vect( 78.950714f, 0.000009f, 0.000000f );
+pTmp7->pBone[14].Q = Quat( ROT_XYZ, 0.566471f, 0.000000f, 0.000000f );
+pTmp7->pBone[14].S = Vect( 1.000000f, 0.999999f, 1.000001f );
+
+//     Node Name: Humanoid:LeftForeArm
+pTmp7->pBone[15].T = Vect( 65.979294f, 0.000019f, -0.000010f );
+pTmp7->pBone[15].Q = Quat( ROT_XYZ, 0.117285f, 0.022820f, -1.491134f );
+pTmp7->pBone[15].S = Vect( 1.000002f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftForeArmRoll
+pTmp7->pBone[16].T = Vect( 101.404221f, 0.000009f, 0.000010f );
+pTmp7->pBone[16].Q = Quat( ROT_XYZ, 0.167404f, 0.000000f, 0.000000f );
+pTmp7->pBone[16].S = Vect( 0.999999f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftHand
+pTmp7->pBone[17].T = Vect( 71.692039f, 0.000010f, 0.000004f );
+pTmp7->pBone[17].Q = Quat( ROT_XYZ, -0.020702f, -0.244836f, 0.167872f );
+pTmp7->pBone[17].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftThumb1
+pTmp7->pBone[18].T = Vect( 29.257690f, -22.640423f, -5.069802f );
+pTmp7->pBone[18].Q = Quat( ROT_XYZ, 0.709381f, 0.537656f, -0.914867f );
+pTmp7->pBone[18].S = Vect( 0.999999f, 1.000001f, 1.000003f );
+
+//     Node Name: Humanoid:LeftThumb2
+pTmp7->pBone[19].T = Vect( 22.746157f, -0.353276f, -0.113011f );
+pTmp7->pBone[19].Q = Quat( ROT_XYZ, 0.081784f, 0.342417f, 0.683623f );
+pTmp7->pBone[19].S = Vect( 0.999997f, 1.000002f, 1.000001f );
+
+
+
+ //------- Key Time: 7  ms: 233 ------------------ 
+
+
+
+ // --------  Frame 8  ---------------------------- 
+
+Frame_Bucket *pTmp8= new Frame_Bucket(); 
+pTmp8->prevBucket = pTmp7; 
+pTmp8->nextBucket = 0; 
+pTmp8->KeyTime = 8 * Time(TIME_NTSC_30_FRAME); 
+pTmp8->pBone = new Bone[NUM_BONES]; 
+pTmp7->nextBucket = pTmp8; 
+
+
+
+ //------- Key Time: 8  ms: 266 ------------------ 
+
+//     Node Name: RootNode
+//     Node Name: Humanoid:MaxToFilmbox_Root
+pTmp8->pBone[0].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Reference
+pTmp8->pBone[1].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Hips
+pTmp8->pBone[2].T = Vect( -255.818619f, 610.495483f, 484.560089f );
+pTmp8->pBone[2].Q = Quat( ROT_XYZ, 0.340716f, 0.152969f, -0.196342f );
+pTmp8->pBone[2].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine_Dummy
+pTmp8->pBone[3].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Spine
+pTmp8->pBone[4].T = Vect( 73.400002f, 0.000001f, 0.000000f );
+pTmp8->pBone[4].Q = Quat( ROT_XYZ, -0.005009f, 0.055059f, 0.033887f );
+pTmp8->pBone[4].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine1
+pTmp8->pBone[5].T = Vect( 70.001335f, -0.000002f, -0.000000f );
+pTmp8->pBone[5].Q = Quat( ROT_XYZ, -0.005541f, 0.082519f, 0.067719f );
+pTmp8->pBone[5].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine2
+pTmp8->pBone[6].T = Vect( 71.400032f, -0.000000f, 0.000000f );
+pTmp8->pBone[6].Q = Quat( ROT_XYZ, -0.005540f, 0.082521f, 0.067715f );
+pTmp8->pBone[6].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Neck
+pTmp8->pBone[7].T = Vect( 121.576225f, -0.000001f, -0.000000f );
+pTmp8->pBone[7].Q = Quat( ROT_XYZ, 0.019841f, -0.028640f, 0.097119f );
+pTmp8->pBone[7].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head
+pTmp8->pBone[8].T = Vect( 67.855774f, 0.000039f, -0.000000f );
+pTmp8->pBone[8].Q = Quat( ROT_XYZ, 0.037760f, -0.105225f, -0.111734f );
+pTmp8->pBone[8].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head_End
+pTmp8->pBone[9].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder_Dummy
+pTmp8->pBone[10].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder
+pTmp8->pBone[11].T = Vect( -36.845097f, -0.000012f, -0.000005f );
+pTmp8->pBone[11].Q = Quat( ROT_XYZ, -0.065846f, -0.001364f, -0.099331f );
+pTmp8->pBone[11].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArm_Dummy
+pTmp8->pBone[12].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftArm
+pTmp8->pBone[13].T = Vect( -20.843035f, -1.709348f, 11.313786f );
+pTmp8->pBone[13].Q = Quat( ROT_XYZ, 0.174942f, 0.389929f, -3.049190f );
+pTmp8->pBone[13].S = Vect( 0.999998f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArmRoll
+pTmp8->pBone[14].T = Vect( 78.950714f, 0.000010f, 0.000002f );
+pTmp8->pBone[14].Q = Quat( ROT_XYZ, 0.492752f, 0.000000f, 0.000000f );
+pTmp8->pBone[14].S = Vect( 1.000000f, 0.999999f, 1.000001f );
+
+//     Node Name: Humanoid:LeftForeArm
+pTmp8->pBone[15].T = Vect( 65.979294f, 0.000019f, -0.000010f );
+pTmp8->pBone[15].Q = Quat( ROT_XYZ, 0.126578f, 0.017731f, -1.204106f );
+pTmp8->pBone[15].S = Vect( 1.000002f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftForeArmRoll
+pTmp8->pBone[16].T = Vect( 101.404221f, 0.000009f, 0.000010f );
+pTmp8->pBone[16].Q = Quat( ROT_XYZ, 0.178682f, 0.000000f, 0.000000f );
+pTmp8->pBone[16].S = Vect( 0.999999f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftHand
+pTmp8->pBone[17].T = Vect( 71.692039f, 0.000010f, 0.000004f );
+pTmp8->pBone[17].Q = Quat( ROT_XYZ, -0.004900f, -0.085500f, 0.114420f );
+pTmp8->pBone[17].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftThumb1
+pTmp8->pBone[18].T = Vect( 29.257690f, -22.640423f, -5.069802f );
+pTmp8->pBone[18].Q = Quat( ROT_XYZ, 0.709381f, 0.537656f, -0.914867f );
+pTmp8->pBone[18].S = Vect( 0.999999f, 1.000001f, 1.000003f );
+
+//     Node Name: Humanoid:LeftThumb2
+pTmp8->pBone[19].T = Vect( 22.746157f, -0.353276f, -0.113011f );
+pTmp8->pBone[19].Q = Quat( ROT_XYZ, 0.081784f, 0.342417f, 0.683623f );
+pTmp8->pBone[19].S = Vect( 0.999997f, 1.000002f, 1.000001f );
+
+
+
+ //------- Key Time: 8  ms: 266 ------------------ 
+
+
+
+ // --------  Frame 9  ---------------------------- 
+
+Frame_Bucket *pTmp9= new Frame_Bucket(); 
+pTmp9->prevBucket = pTmp8; 
+pTmp9->nextBucket = 0; 
+pTmp9->KeyTime = 9 * Time(TIME_NTSC_30_FRAME); 
+pTmp9->pBone = new Bone[NUM_BONES]; 
+pTmp8->nextBucket = pTmp9; 
+
+
+
+ //------- Key Time: 9  ms: 300 ------------------ 
+
+//     Node Name: RootNode
+//     Node Name: Humanoid:MaxToFilmbox_Root
+pTmp9->pBone[0].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Reference
+pTmp9->pBone[1].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Hips
+pTmp9->pBone[2].T = Vect( -256.320160f, 528.022400f, 485.039398f );
+pTmp9->pBone[2].Q = Quat( ROT_XYZ, 0.367151f, 0.168776f, -0.191712f );
+pTmp9->pBone[2].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine_Dummy
+pTmp9->pBone[3].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Spine
+pTmp9->pBone[4].T = Vect( 73.400002f, 0.000001f, 0.000000f );
+pTmp9->pBone[4].Q = Quat( ROT_XYZ, 0.010299f, 0.057311f, 0.025606f );
+pTmp9->pBone[4].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine1
+pTmp9->pBone[5].T = Vect( 70.001335f, -0.000002f, -0.000000f );
+pTmp9->pBone[5].Q = Quat( ROT_XYZ, 0.020304f, 0.081482f, 0.051412f );
+pTmp9->pBone[5].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine2
+pTmp9->pBone[6].T = Vect( 71.400032f, -0.000000f, 0.000000f );
+pTmp9->pBone[6].Q = Quat( ROT_XYZ, 0.020302f, 0.081491f, 0.051401f );
+pTmp9->pBone[6].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Neck
+pTmp9->pBone[7].T = Vect( 121.576225f, -0.000001f, -0.000000f );
+pTmp9->pBone[7].Q = Quat( ROT_XYZ, 0.018254f, -0.036293f, 0.077548f );
+pTmp9->pBone[7].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head
+pTmp9->pBone[8].T = Vect( 67.855774f, 0.000039f, -0.000000f );
+pTmp9->pBone[8].Q = Quat( ROT_XYZ, 0.032962f, -0.121873f, -0.093375f );
+pTmp9->pBone[8].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head_End
+pTmp9->pBone[9].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder_Dummy
+pTmp9->pBone[10].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder
+pTmp9->pBone[11].T = Vect( -36.845097f, -0.000012f, -0.000005f );
+pTmp9->pBone[11].Q = Quat( ROT_XYZ, -0.081151f, -0.004625f, -0.117408f );
+pTmp9->pBone[11].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArm_Dummy
+pTmp9->pBone[12].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftArm
+pTmp9->pBone[13].T = Vect( -20.843035f, -1.709348f, 11.313786f );
+pTmp9->pBone[13].Q = Quat( ROT_XYZ, 0.195347f, 0.357441f, -2.946504f );
+pTmp9->pBone[13].S = Vect( 0.999999f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArmRoll
+pTmp9->pBone[14].T = Vect( 78.950714f, 0.000010f, 0.000001f );
+pTmp9->pBone[14].Q = Quat( ROT_XYZ, 0.521904f, 0.000000f, 0.000000f );
+pTmp9->pBone[14].S = Vect( 1.000000f, 0.999999f, 1.000001f );
+
+//     Node Name: Humanoid:LeftForeArm
+pTmp9->pBone[15].T = Vect( 65.979294f, 0.000019f, -0.000010f );
+pTmp9->pBone[15].Q = Quat( ROT_XYZ, 0.146227f, 0.014702f, -1.052986f );
+pTmp9->pBone[15].S = Vect( 1.000002f, 0.999999f, 1.000000f );
+
+//     Node Name: Humanoid:LeftForeArmRoll
+pTmp9->pBone[16].T = Vect( 101.404221f, 0.000009f, 0.000010f );
+pTmp9->pBone[16].Q = Quat( ROT_XYZ, 0.207641f, 0.000000f, 0.000000f );
+pTmp9->pBone[16].S = Vect( 0.999999f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftHand
+pTmp9->pBone[17].T = Vect( 71.692039f, 0.000010f, 0.000004f );
+pTmp9->pBone[17].Q = Quat( ROT_XYZ, -0.005895f, -0.102968f, 0.114271f );
+pTmp9->pBone[17].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftThumb1
+pTmp9->pBone[18].T = Vect( 29.257690f, -22.640423f, -5.069802f );
+pTmp9->pBone[18].Q = Quat( ROT_XYZ, 0.709381f, 0.537656f, -0.914867f );
+pTmp9->pBone[18].S = Vect( 0.999999f, 1.000001f, 1.000003f );
+
+//     Node Name: Humanoid:LeftThumb2
+pTmp9->pBone[19].T = Vect( 22.746157f, -0.353276f, -0.113011f );
+pTmp9->pBone[19].Q = Quat( ROT_XYZ, 0.081784f, 0.342417f, 0.683623f );
+pTmp9->pBone[19].S = Vect( 0.999997f, 1.000002f, 1.000001f );
+
+
+
+ //------- Key Time: 9  ms: 300 ------------------ 
+
+
+
+ // --------  Frame 10  ---------------------------- 
+
+Frame_Bucket *pTmp10= new Frame_Bucket(); 
+pTmp10->prevBucket = pTmp9; 
+pTmp10->nextBucket = 0; 
+pTmp10->KeyTime = 10 * Time(TIME_NTSC_30_FRAME); 
+pTmp10->pBone = new Bone[NUM_BONES]; 
+pTmp9->nextBucket = pTmp10; 
+
+
+
+ //------- Key Time: 10  ms: 333 ------------------ 
+
+//     Node Name: RootNode
+//     Node Name: Humanoid:MaxToFilmbox_Root
+pTmp10->pBone[0].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Reference
+pTmp10->pBone[1].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Hips
+pTmp10->pBone[2].T = Vect( -256.619812f, 441.826447f, 501.189575f );
+pTmp10->pBone[2].Q = Quat( ROT_XYZ, 0.364318f, 0.149111f, -0.191151f );
+pTmp10->pBone[2].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine_Dummy
+pTmp10->pBone[3].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Spine
+pTmp10->pBone[4].T = Vect( 73.400002f, 0.000001f, 0.000000f );
+pTmp10->pBone[4].Q = Quat( ROT_XYZ, 0.020757f, 0.042474f, 0.020015f );
+pTmp10->pBone[4].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine1
+pTmp10->pBone[5].T = Vect( 70.001335f, -0.000002f, -0.000000f );
+pTmp10->pBone[5].Q = Quat( ROT_XYZ, 0.041746f, 0.060430f, 0.040666f );
+pTmp10->pBone[5].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine2
+pTmp10->pBone[6].T = Vect( 71.400032f, -0.000000f, 0.000000f );
+pTmp10->pBone[6].Q = Quat( ROT_XYZ, 0.041753f, 0.060429f, 0.040667f );
+pTmp10->pBone[6].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Neck
+pTmp10->pBone[7].T = Vect( 121.576225f, -0.000001f, -0.000000f );
+pTmp10->pBone[7].Q = Quat( ROT_XYZ, 0.013605f, -0.085976f, 0.088848f );
+pTmp10->pBone[7].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head
+pTmp10->pBone[8].T = Vect( 67.855774f, 0.000039f, -0.000000f );
+pTmp10->pBone[8].Q = Quat( ROT_XYZ, 0.013175f, -0.082701f, -0.066379f );
+pTmp10->pBone[8].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head_End
+pTmp10->pBone[9].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder_Dummy
+pTmp10->pBone[10].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder
+pTmp10->pBone[11].T = Vect( -36.845097f, -0.000012f, -0.000005f );
+pTmp10->pBone[11].Q = Quat( ROT_XYZ, -0.080324f, -0.002378f, -0.131281f );
+pTmp10->pBone[11].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArm_Dummy
+pTmp10->pBone[12].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftArm
+pTmp10->pBone[13].T = Vect( -20.843035f, -1.709348f, 11.313786f );
+pTmp10->pBone[13].Q = Quat( ROT_XYZ, 0.235176f, 0.256876f, -2.792554f );
+pTmp10->pBone[13].S = Vect( 0.999999f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArmRoll
+pTmp10->pBone[14].T = Vect( 78.950714f, 0.000008f, -0.000001f );
+pTmp10->pBone[14].Q = Quat( ROT_XYZ, 0.628308f, 0.000000f, 0.000000f );
+pTmp10->pBone[14].S = Vect( 1.000000f, 0.999999f, 1.000002f );
+
+//     Node Name: Humanoid:LeftForeArm
+pTmp10->pBone[15].T = Vect( 65.979294f, 0.000019f, -0.000010f );
+pTmp10->pBone[15].Q = Quat( ROT_XYZ, 0.135429f, 0.016311f, -1.134472f );
+pTmp10->pBone[15].S = Vect( 1.000002f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftForeArmRoll
+pTmp10->pBone[16].T = Vect( 101.404221f, 0.000009f, 0.000010f );
+pTmp10->pBone[16].Q = Quat( ROT_XYZ, 0.191644f, 0.000000f, 0.000000f );
+pTmp10->pBone[16].S = Vect( 0.999999f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftHand
+pTmp10->pBone[17].T = Vect( 71.692039f, 0.000010f, 0.000004f );
+pTmp10->pBone[17].Q = Quat( ROT_XYZ, -0.006825f, -0.137932f, 0.098730f );
+pTmp10->pBone[17].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftThumb1
+pTmp10->pBone[18].T = Vect( 29.257690f, -22.640423f, -5.069802f );
+pTmp10->pBone[18].Q = Quat( ROT_XYZ, 0.709381f, 0.537656f, -0.914867f );
+pTmp10->pBone[18].S = Vect( 0.999999f, 1.000001f, 1.000003f );
+
+//     Node Name: Humanoid:LeftThumb2
+pTmp10->pBone[19].T = Vect( 22.746157f, -0.353276f, -0.113011f );
+pTmp10->pBone[19].Q = Quat( ROT_XYZ, 0.081784f, 0.342417f, 0.683623f );
+pTmp10->pBone[19].S = Vect( 0.999997f, 1.000002f, 1.000001f );
+
+
+
+ //------- Key Time: 10  ms: 333 ------------------ 
+
+
+
+ // --------  Frame 11  ---------------------------- 
+
+Frame_Bucket *pTmp11= new Frame_Bucket(); 
+pTmp11->prevBucket = pTmp10; 
+pTmp11->nextBucket = 0; 
+pTmp11->KeyTime = 11 * Time(TIME_NTSC_30_FRAME); 
+pTmp11->pBone = new Bone[NUM_BONES]; 
+pTmp10->nextBucket = pTmp11; 
+
+
+
+ //------- Key Time: 11  ms: 366 ------------------ 
+
+//     Node Name: RootNode
+//     Node Name: Humanoid:MaxToFilmbox_Root
+pTmp11->pBone[0].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Reference
+pTmp11->pBone[1].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Hips
+pTmp11->pBone[2].T = Vect( -255.668961f, 353.016998f, 526.174194f );
+pTmp11->pBone[2].Q = Quat( ROT_XYZ, 0.367870f, 0.112276f, -0.208011f );
+pTmp11->pBone[2].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine_Dummy
+pTmp11->pBone[3].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Spine
+pTmp11->pBone[4].T = Vect( 73.400002f, 0.000001f, 0.000000f );
+pTmp11->pBone[4].Q = Quat( ROT_XYZ, 0.037455f, 0.018533f, 0.015432f );
+pTmp11->pBone[4].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine1
+pTmp11->pBone[5].T = Vect( 70.001335f, -0.000002f, -0.000000f );
+pTmp11->pBone[5].Q = Quat( ROT_XYZ, 0.074656f, 0.021882f, 0.031267f );
+pTmp11->pBone[5].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine2
+pTmp11->pBone[6].T = Vect( 71.400032f, -0.000000f, 0.000000f );
+pTmp11->pBone[6].Q = Quat( ROT_XYZ, 0.074664f, 0.021882f, 0.031268f );
+pTmp11->pBone[6].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Neck
+pTmp11->pBone[7].T = Vect( 121.576225f, -0.000001f, -0.000000f );
+pTmp11->pBone[7].Q = Quat( ROT_XYZ, -0.004716f, -0.135094f, 0.104606f );
+pTmp11->pBone[7].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head
+pTmp11->pBone[8].T = Vect( 67.855774f, 0.000039f, -0.000000f );
+pTmp11->pBone[8].Q = Quat( ROT_XYZ, -0.027231f, -0.019106f, -0.051665f );
+pTmp11->pBone[8].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head_End
+pTmp11->pBone[9].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder_Dummy
+pTmp11->pBone[10].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder
+pTmp11->pBone[11].T = Vect( -36.845097f, -0.000012f, -0.000005f );
+pTmp11->pBone[11].Q = Quat( ROT_XYZ, -0.077941f, -0.002729f, -0.121854f );
+pTmp11->pBone[11].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArm_Dummy
+pTmp11->pBone[12].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftArm
+pTmp11->pBone[13].T = Vect( -20.843035f, -1.709348f, 11.313786f );
+pTmp11->pBone[13].Q = Quat( ROT_XYZ, 0.266165f, 0.184922f, -2.692960f );
+pTmp11->pBone[13].S = Vect( 0.999999f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArmRoll
+pTmp11->pBone[14].T = Vect( 78.950714f, 0.000006f, -0.000003f );
+pTmp11->pBone[14].Q = Quat( ROT_XYZ, 0.724960f, 0.000000f, 0.000000f );
+pTmp11->pBone[14].S = Vect( 1.000000f, 0.999999f, 1.000002f );
+
+//     Node Name: Humanoid:LeftForeArm
+pTmp11->pBone[15].T = Vect( 65.979294f, 0.000019f, -0.000010f );
+pTmp11->pBone[15].Q = Quat( ROT_XYZ, 0.121411f, 0.017987f, -1.216095f );
+pTmp11->pBone[15].S = Vect( 1.000002f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftForeArmRoll
+pTmp11->pBone[16].T = Vect( 101.404221f, 0.000009f, 0.000010f );
+pTmp11->pBone[16].Q = Quat( ROT_XYZ, 0.171000f, 0.000000f, 0.000000f );
+pTmp11->pBone[16].S = Vect( 0.999999f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftHand
+pTmp11->pBone[17].T = Vect( 71.692039f, 0.000010f, 0.000004f );
+pTmp11->pBone[17].Q = Quat( ROT_XYZ, -0.010401f, -0.206129f, 0.100479f );
+pTmp11->pBone[17].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftThumb1
+pTmp11->pBone[18].T = Vect( 29.257690f, -22.640423f, -5.069802f );
+pTmp11->pBone[18].Q = Quat( ROT_XYZ, 0.709381f, 0.537656f, -0.914867f );
+pTmp11->pBone[18].S = Vect( 0.999999f, 1.000001f, 1.000003f );
+
+//     Node Name: Humanoid:LeftThumb2
+pTmp11->pBone[19].T = Vect( 22.746157f, -0.353276f, -0.113011f );
+pTmp11->pBone[19].Q = Quat( ROT_XYZ, 0.081784f, 0.342417f, 0.683623f );
+pTmp11->pBone[19].S = Vect( 0.999997f, 1.000002f, 1.000001f );
+
+
+
+ //------- Key Time: 11  ms: 366 ------------------ 
+
+
+
+ // --------  Frame 12  ---------------------------- 
+
+Frame_Bucket *pTmp12= new Frame_Bucket(); 
+pTmp12->prevBucket = pTmp11; 
+pTmp12->nextBucket = 0; 
+pTmp12->KeyTime = 12 * Time(TIME_NTSC_30_FRAME); 
+pTmp12->pBone = new Bone[NUM_BONES]; 
+pTmp11->nextBucket = pTmp12; 
+
+
+
+ //------- Key Time: 12  ms: 400 ------------------ 
+
+//     Node Name: RootNode
+//     Node Name: Humanoid:MaxToFilmbox_Root
+pTmp12->pBone[0].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Reference
+pTmp12->pBone[1].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Hips
+pTmp12->pBone[2].T = Vect( -254.910522f, 262.379974f, 549.555298f );
+pTmp12->pBone[2].Q = Quat( ROT_XYZ, 0.366503f, 0.068450f, -0.206105f );
+pTmp12->pBone[2].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine_Dummy
+pTmp12->pBone[3].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Spine
+pTmp12->pBone[4].T = Vect( 73.400002f, 0.000001f, 0.000000f );
+pTmp12->pBone[4].Q = Quat( ROT_XYZ, 0.051508f, -0.004397f, 0.011943f );
+pTmp12->pBone[4].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine1
+pTmp12->pBone[5].T = Vect( 70.001335f, -0.000002f, -0.000000f );
+pTmp12->pBone[5].Q = Quat( ROT_XYZ, 0.100899f, -0.013577f, 0.023555f );
+pTmp12->pBone[5].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine2
+pTmp12->pBone[6].T = Vect( 71.400032f, -0.000000f, 0.000000f );
+pTmp12->pBone[6].Q = Quat( ROT_XYZ, 0.100906f, -0.013577f, 0.023555f );
+pTmp12->pBone[6].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Neck
+pTmp12->pBone[7].T = Vect( 121.576225f, -0.000001f, -0.000000f );
+pTmp12->pBone[7].Q = Quat( ROT_XYZ, -0.008774f, -0.227183f, 0.134364f );
+pTmp12->pBone[7].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head
+pTmp12->pBone[8].T = Vect( 67.855774f, 0.000039f, -0.000000f );
+pTmp12->pBone[8].Q = Quat( ROT_XYZ, -0.049973f, 0.056204f, -0.053526f );
+pTmp12->pBone[8].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head_End
+pTmp12->pBone[9].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder_Dummy
+pTmp12->pBone[10].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder
+pTmp12->pBone[11].T = Vect( -36.845097f, -0.000012f, -0.000005f );
+pTmp12->pBone[11].Q = Quat( ROT_XYZ, -0.067374f, 0.001070f, -0.120516f );
+pTmp12->pBone[11].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArm_Dummy
+pTmp12->pBone[12].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftArm
+pTmp12->pBone[13].T = Vect( -20.843035f, -1.709348f, 11.313786f );
+pTmp12->pBone[13].Q = Quat( ROT_XYZ, 0.276511f, 0.124993f, -2.609516f );
+pTmp12->pBone[13].S = Vect( 0.999999f, 0.999997f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArmRoll
+pTmp12->pBone[14].T = Vect( 78.950714f, 0.000005f, -0.000004f );
+pTmp12->pBone[14].Q = Quat( ROT_XYZ, 0.792414f, 0.000000f, 0.000000f );
+pTmp12->pBone[14].S = Vect( 1.000000f, 0.999998f, 1.000002f );
+
+//     Node Name: Humanoid:LeftForeArm
+pTmp12->pBone[15].T = Vect( 65.979294f, 0.000019f, -0.000010f );
+pTmp12->pBone[15].Q = Quat( ROT_XYZ, 0.112080f, 0.019878f, -1.315526f );
+pTmp12->pBone[15].S = Vect( 1.000002f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftForeArmRoll
+pTmp12->pBone[16].T = Vect( 101.404221f, 0.000009f, 0.000010f );
+pTmp12->pBone[16].Q = Quat( ROT_XYZ, 0.157714f, 0.000000f, 0.000000f );
+pTmp12->pBone[16].S = Vect( 0.999999f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftHand
+pTmp12->pBone[17].T = Vect( 71.692039f, 0.000010f, 0.000004f );
+pTmp12->pBone[17].Q = Quat( ROT_XYZ, -0.013831f, -0.278267f, 0.098685f );
+pTmp12->pBone[17].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftThumb1
+pTmp12->pBone[18].T = Vect( 29.257690f, -22.640423f, -5.069802f );
+pTmp12->pBone[18].Q = Quat( ROT_XYZ, 0.709381f, 0.537656f, -0.914867f );
+pTmp12->pBone[18].S = Vect( 0.999999f, 1.000001f, 1.000003f );
+
+//     Node Name: Humanoid:LeftThumb2
+pTmp12->pBone[19].T = Vect( 22.746157f, -0.353276f, -0.113011f );
+pTmp12->pBone[19].Q = Quat( ROT_XYZ, 0.081784f, 0.342417f, 0.683623f );
+pTmp12->pBone[19].S = Vect( 0.999997f, 1.000002f, 1.000001f );
+
+
+
+ //------- Key Time: 12  ms: 400 ------------------ 
+
+
+
+ // --------  Frame 13  ---------------------------- 
+
+Frame_Bucket *pTmp13= new Frame_Bucket(); 
+pTmp13->prevBucket = pTmp12; 
+pTmp13->nextBucket = 0; 
+pTmp13->KeyTime = 13 * Time(TIME_NTSC_30_FRAME); 
+pTmp13->pBone = new Bone[NUM_BONES]; 
+pTmp12->nextBucket = pTmp13; 
+
+
+
+ //------- Key Time: 13  ms: 433 ------------------ 
+
+//     Node Name: RootNode
+//     Node Name: Humanoid:MaxToFilmbox_Root
+pTmp13->pBone[0].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Reference
+pTmp13->pBone[1].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Hips
+pTmp13->pBone[2].T = Vect( -254.347580f, 174.662857f, 563.617004f );
+pTmp13->pBone[2].Q = Quat( ROT_XYZ, 0.375062f, 0.048229f, -0.196498f );
+pTmp13->pBone[2].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine_Dummy
+pTmp13->pBone[3].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Spine
+pTmp13->pBone[4].T = Vect( 73.400002f, 0.000001f, 0.000000f );
+pTmp13->pBone[4].Q = Quat( ROT_XYZ, 0.061240f, -0.022671f, 0.009839f );
+pTmp13->pBone[4].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine1
+pTmp13->pBone[5].T = Vect( 70.001335f, -0.000002f, -0.000000f );
+pTmp13->pBone[5].Q = Quat( ROT_XYZ, 0.118346f, -0.042104f, 0.018522f );
+pTmp13->pBone[5].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine2
+pTmp13->pBone[6].T = Vect( 71.400032f, -0.000000f, 0.000000f );
+pTmp13->pBone[6].Q = Quat( ROT_XYZ, 0.118354f, -0.042104f, 0.018522f );
+pTmp13->pBone[6].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Neck
+pTmp13->pBone[7].T = Vect( 121.576225f, -0.000001f, -0.000000f );
+pTmp13->pBone[7].Q = Quat( ROT_XYZ, -0.019241f, -0.291665f, 0.157199f );
+pTmp13->pBone[7].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head
+pTmp13->pBone[8].T = Vect( 67.855774f, 0.000039f, -0.000000f );
+pTmp13->pBone[8].Q = Quat( ROT_XYZ, -0.076535f, 0.117117f, -0.054291f );
+pTmp13->pBone[8].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head_End
+pTmp13->pBone[9].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder_Dummy
+pTmp13->pBone[10].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder
+pTmp13->pBone[11].T = Vect( -36.845097f, -0.000012f, -0.000005f );
+pTmp13->pBone[11].Q = Quat( ROT_XYZ, -0.068184f, -0.000872f, -0.108734f );
+pTmp13->pBone[11].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArm_Dummy
+pTmp13->pBone[12].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftArm
+pTmp13->pBone[13].T = Vect( -20.843035f, -1.709348f, 11.313786f );
+pTmp13->pBone[13].Q = Quat( ROT_XYZ, 0.272982f, 0.087887f, -2.549186f );
+pTmp13->pBone[13].S = Vect( 0.999999f, 0.999997f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArmRoll
+pTmp13->pBone[14].T = Vect( 78.950714f, 0.000004f, -0.000005f );
+pTmp13->pBone[14].Q = Quat( ROT_XYZ, 0.824788f, 0.000000f, 0.000000f );
+pTmp13->pBone[14].S = Vect( 1.000000f, 0.999998f, 1.000002f );
+
+//     Node Name: Humanoid:LeftForeArm
+pTmp13->pBone[15].T = Vect( 65.979294f, 0.000019f, -0.000010f );
+pTmp13->pBone[15].Q = Quat( ROT_XYZ, 0.113927f, 0.021740f, -1.425422f );
+pTmp13->pBone[15].S = Vect( 1.000002f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftForeArmRoll
+pTmp13->pBone[16].T = Vect( 101.404221f, 0.000009f, 0.000010f );
+pTmp13->pBone[16].Q = Quat( ROT_XYZ, 0.161570f, 0.000000f, 0.000000f );
+pTmp13->pBone[16].S = Vect( 0.999999f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftHand
+pTmp13->pBone[17].T = Vect( 71.692039f, 0.000010f, 0.000004f );
+pTmp13->pBone[17].Q = Quat( ROT_XYZ, -0.017518f, -0.325306f, 0.106650f );
+pTmp13->pBone[17].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftThumb1
+pTmp13->pBone[18].T = Vect( 29.257690f, -22.640423f, -5.069802f );
+pTmp13->pBone[18].Q = Quat( ROT_XYZ, 0.709381f, 0.537656f, -0.914867f );
+pTmp13->pBone[18].S = Vect( 0.999999f, 1.000001f, 1.000003f );
+
+//     Node Name: Humanoid:LeftThumb2
+pTmp13->pBone[19].T = Vect( 22.746157f, -0.353276f, -0.113011f );
+pTmp13->pBone[19].Q = Quat( ROT_XYZ, 0.081784f, 0.342417f, 0.683623f );
+pTmp13->pBone[19].S = Vect( 0.999997f, 1.000002f, 1.000001f );
+
+
+
+ //------- Key Time: 13  ms: 433 ------------------ 
+
+
+
+ // --------  Frame 14  ---------------------------- 
+
+Frame_Bucket *pTmp14= new Frame_Bucket(); 
+pTmp14->prevBucket = pTmp13; 
+pTmp14->nextBucket = 0; 
+pTmp14->KeyTime = 14 * Time(TIME_NTSC_30_FRAME); 
+pTmp14->pBone = new Bone[NUM_BONES]; 
+pTmp13->nextBucket = pTmp14; 
+
+
+
+ //------- Key Time: 14  ms: 466 ------------------ 
+
+//     Node Name: RootNode
+//     Node Name: Humanoid:MaxToFilmbox_Root
+pTmp14->pBone[0].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Reference
+pTmp14->pBone[1].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Hips
+pTmp14->pBone[2].T = Vect( -255.366287f, 89.640419f, 567.933655f );
+pTmp14->pBone[2].Q = Quat( ROT_XYZ, 0.390398f, 0.075456f, -0.181905f );
+pTmp14->pBone[2].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine_Dummy
+pTmp14->pBone[3].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Spine
+pTmp14->pBone[4].T = Vect( 73.400002f, 0.000001f, 0.000000f );
+pTmp14->pBone[4].Q = Quat( ROT_XYZ, 0.070800f, -0.025228f, 0.007464f );
+pTmp14->pBone[4].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine1
+pTmp14->pBone[5].T = Vect( 70.001335f, -0.000002f, -0.000000f );
+pTmp14->pBone[5].Q = Quat( ROT_XYZ, 0.133261f, -0.047870f, 0.013536f );
+pTmp14->pBone[5].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine2
+pTmp14->pBone[6].T = Vect( 71.400032f, -0.000000f, 0.000000f );
+pTmp14->pBone[6].Q = Quat( ROT_XYZ, 0.133269f, -0.047870f, 0.013535f );
+pTmp14->pBone[6].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Neck
+pTmp14->pBone[7].T = Vect( 121.576225f, -0.000001f, -0.000000f );
+pTmp14->pBone[7].Q = Quat( ROT_XYZ, -0.024827f, -0.325191f, 0.145762f );
+pTmp14->pBone[7].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head
+pTmp14->pBone[8].T = Vect( 67.855774f, 0.000039f, -0.000000f );
+pTmp14->pBone[8].Q = Quat( ROT_XYZ, -0.094006f, 0.149791f, -0.055715f );
+pTmp14->pBone[8].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head_End
+pTmp14->pBone[9].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder_Dummy
+pTmp14->pBone[10].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder
+pTmp14->pBone[11].T = Vect( -36.845097f, -0.000012f, -0.000005f );
+pTmp14->pBone[11].Q = Quat( ROT_XYZ, -0.085749f, -0.008382f, -0.100779f );
+pTmp14->pBone[11].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArm_Dummy
+pTmp14->pBone[12].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftArm
+pTmp14->pBone[13].T = Vect( -20.843035f, -1.709348f, 11.313786f );
+pTmp14->pBone[13].Q = Quat( ROT_XYZ, 0.267993f, 0.082204f, -2.520678f );
+pTmp14->pBone[13].S = Vect( 0.999999f, 0.999997f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArmRoll
+pTmp14->pBone[14].T = Vect( 78.950714f, 0.000004f, -0.000005f );
+pTmp14->pBone[14].Q = Quat( ROT_XYZ, 0.824871f, 0.000000f, 0.000000f );
+pTmp14->pBone[14].S = Vect( 1.000000f, 0.999998f, 1.000002f );
+
+//     Node Name: Humanoid:LeftForeArm
+pTmp14->pBone[15].T = Vect( 65.979294f, 0.000019f, -0.000010f );
+pTmp14->pBone[15].Q = Quat( ROT_XYZ, 0.138183f, 0.023052f, -1.527287f );
+pTmp14->pBone[15].S = Vect( 1.000002f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftForeArmRoll
+pTmp14->pBone[16].T = Vect( 101.404221f, 0.000009f, 0.000010f );
+pTmp14->pBone[16].Q = Quat( ROT_XYZ, 0.199235f, 0.000000f, 0.000000f );
+pTmp14->pBone[16].S = Vect( 0.999999f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftHand
+pTmp14->pBone[17].T = Vect( 71.692039f, 0.000010f, 0.000004f );
+pTmp14->pBone[17].Q = Quat( ROT_XYZ, -0.023622f, -0.337807f, 0.138311f );
+pTmp14->pBone[17].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftThumb1
+pTmp14->pBone[18].T = Vect( 29.257690f, -22.640423f, -5.069802f );
+pTmp14->pBone[18].Q = Quat( ROT_XYZ, 0.709381f, 0.537656f, -0.914867f );
+pTmp14->pBone[18].S = Vect( 0.999999f, 1.000001f, 1.000003f );
+
+//     Node Name: Humanoid:LeftThumb2
+pTmp14->pBone[19].T = Vect( 22.746157f, -0.353276f, -0.113011f );
+pTmp14->pBone[19].Q = Quat( ROT_XYZ, 0.081784f, 0.342417f, 0.683623f );
+pTmp14->pBone[19].S = Vect( 0.999997f, 1.000002f, 1.000001f );
+
+
+
+ //------- Key Time: 14  ms: 466 ------------------ 
+
+
+
+ // --------  Frame 15  ---------------------------- 
+
+Frame_Bucket *pTmp15= new Frame_Bucket(); 
+pTmp15->prevBucket = pTmp14; 
+pTmp15->nextBucket = 0; 
+pTmp15->KeyTime = 15 * Time(TIME_NTSC_30_FRAME); 
+pTmp15->pBone = new Bone[NUM_BONES]; 
+pTmp14->nextBucket = pTmp15; 
+
+
+
+ //------- Key Time: 15  ms: 500 ------------------ 
+
+//     Node Name: RootNode
+//     Node Name: Humanoid:MaxToFilmbox_Root
+pTmp15->pBone[0].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Reference
+pTmp15->pBone[1].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Hips
+pTmp15->pBone[2].T = Vect( -257.334076f, 3.682120f, 564.938477f );
+pTmp15->pBone[2].Q = Quat( ROT_XYZ, 0.359540f, 0.115683f, -0.173862f );
+pTmp15->pBone[2].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine_Dummy
+pTmp15->pBone[3].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Spine
+pTmp15->pBone[4].T = Vect( 73.400002f, 0.000001f, 0.000000f );
+pTmp15->pBone[4].Q = Quat( ROT_XYZ, 0.080301f, -0.022023f, 0.014550f );
+pTmp15->pBone[4].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine1
+pTmp15->pBone[5].T = Vect( 70.001335f, -0.000002f, -0.000000f );
+pTmp15->pBone[5].Q = Quat( ROT_XYZ, 0.149114f, -0.044794f, 0.027681f );
+pTmp15->pBone[5].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine2
+pTmp15->pBone[6].T = Vect( 71.400032f, -0.000000f, 0.000000f );
+pTmp15->pBone[6].Q = Quat( ROT_XYZ, 0.149122f, -0.044794f, 0.027681f );
+pTmp15->pBone[6].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Neck
+pTmp15->pBone[7].T = Vect( 121.576225f, -0.000001f, -0.000000f );
+pTmp15->pBone[7].Q = Quat( ROT_XYZ, -0.030691f, -0.329759f, 0.136569f );
+pTmp15->pBone[7].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head
+pTmp15->pBone[8].T = Vect( 67.855774f, 0.000039f, -0.000000f );
+pTmp15->pBone[8].Q = Quat( ROT_XYZ, -0.105004f, 0.159863f, -0.064837f );
+pTmp15->pBone[8].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head_End
+pTmp15->pBone[9].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder_Dummy
+pTmp15->pBone[10].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder
+pTmp15->pBone[11].T = Vect( -36.845097f, -0.000012f, -0.000005f );
+pTmp15->pBone[11].Q = Quat( ROT_XYZ, -0.100661f, -0.013893f, -0.100097f );
+pTmp15->pBone[11].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArm_Dummy
+pTmp15->pBone[12].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftArm
+pTmp15->pBone[13].T = Vect( -20.843035f, -1.709348f, 11.313786f );
+pTmp15->pBone[13].Q = Quat( ROT_XYZ, 0.256992f, 0.107181f, -2.524298f );
+pTmp15->pBone[13].S = Vect( 0.999999f, 0.999997f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArmRoll
+pTmp15->pBone[14].T = Vect( 78.950714f, 0.000005f, -0.000004f );
+pTmp15->pBone[14].Q = Quat( ROT_XYZ, 0.783133f, 0.000000f, 0.000000f );
+pTmp15->pBone[14].S = Vect( 1.000000f, 0.999998f, 1.000002f );
+
+//     Node Name: Humanoid:LeftForeArm
+pTmp15->pBone[15].T = Vect( 65.979294f, 0.000019f, -0.000010f );
+pTmp15->pBone[15].Q = Quat( ROT_XYZ, 0.153692f, 0.023872f, -1.596607f );
+pTmp15->pBone[15].S = Vect( 1.000002f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftForeArmRoll
+pTmp15->pBone[16].T = Vect( 101.404221f, 0.000009f, 0.000010f );
+pTmp15->pBone[16].Q = Quat( ROT_XYZ, 0.223512f, 0.000000f, 0.000000f );
+pTmp15->pBone[16].S = Vect( 0.999999f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftHand
+pTmp15->pBone[17].T = Vect( 71.692039f, 0.000010f, 0.000004f );
+pTmp15->pBone[17].Q = Quat( ROT_XYZ, -0.029497f, -0.351420f, 0.165776f );
+pTmp15->pBone[17].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftThumb1
+pTmp15->pBone[18].T = Vect( 29.257690f, -22.640423f, -5.069802f );
+pTmp15->pBone[18].Q = Quat( ROT_XYZ, 0.709381f, 0.537656f, -0.914867f );
+pTmp15->pBone[18].S = Vect( 0.999999f, 1.000001f, 1.000003f );
+
+//     Node Name: Humanoid:LeftThumb2
+pTmp15->pBone[19].T = Vect( 22.746157f, -0.353276f, -0.113011f );
+pTmp15->pBone[19].Q = Quat( ROT_XYZ, 0.081784f, 0.342417f, 0.683623f );
+pTmp15->pBone[19].S = Vect( 0.999997f, 1.000002f, 1.000001f );
+
+
+
+ //------- Key Time: 15  ms: 500 ------------------ 
+
+
+
+ // --------  Frame 16  ---------------------------- 
+
+Frame_Bucket *pTmp16= new Frame_Bucket(); 
+pTmp16->prevBucket = pTmp15; 
+pTmp16->nextBucket = 0; 
+pTmp16->KeyTime = 16 * Time(TIME_NTSC_30_FRAME); 
+pTmp16->pBone = new Bone[NUM_BONES]; 
+pTmp15->nextBucket = pTmp16; 
+
+
+
+ //------- Key Time: 16  ms: 533 ------------------ 
+
+//     Node Name: RootNode
+//     Node Name: Humanoid:MaxToFilmbox_Root
+pTmp16->pBone[0].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Reference
+pTmp16->pBone[1].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Hips
+pTmp16->pBone[2].T = Vect( -259.276489f, -84.417114f, 556.658020f );
+pTmp16->pBone[2].Q = Quat( ROT_XYZ, 0.307124f, 0.144241f, -0.163374f );
+pTmp16->pBone[2].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine_Dummy
+pTmp16->pBone[3].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Spine
+pTmp16->pBone[4].T = Vect( 73.400002f, 0.000001f, 0.000000f );
+pTmp16->pBone[4].Q = Quat( ROT_XYZ, 0.082632f, -0.020360f, 0.020858f );
+pTmp16->pBone[4].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine1
+pTmp16->pBone[5].T = Vect( 70.001335f, -0.000002f, -0.000000f );
+pTmp16->pBone[5].Q = Quat( ROT_XYZ, 0.154978f, -0.041656f, 0.040309f );
+pTmp16->pBone[5].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine2
+pTmp16->pBone[6].T = Vect( 71.400032f, -0.000000f, 0.000000f );
+pTmp16->pBone[6].Q = Quat( ROT_XYZ, 0.154986f, -0.041657f, 0.040309f );
+pTmp16->pBone[6].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Neck
+pTmp16->pBone[7].T = Vect( 121.576225f, -0.000001f, -0.000000f );
+pTmp16->pBone[7].Q = Quat( ROT_XYZ, -0.036659f, -0.309711f, 0.167891f );
+pTmp16->pBone[7].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head
+pTmp16->pBone[8].T = Vect( 67.855774f, 0.000039f, -0.000000f );
+pTmp16->pBone[8].Q = Quat( ROT_XYZ, -0.106141f, 0.164714f, -0.081748f );
+pTmp16->pBone[8].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head_End
+pTmp16->pBone[9].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder_Dummy
+pTmp16->pBone[10].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder
+pTmp16->pBone[11].T = Vect( -36.845097f, -0.000012f, -0.000005f );
+pTmp16->pBone[11].Q = Quat( ROT_XYZ, -0.102780f, -0.015969f, -0.089031f );
+pTmp16->pBone[11].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArm_Dummy
+pTmp16->pBone[12].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftArm
+pTmp16->pBone[13].T = Vect( -20.843035f, -1.709348f, 11.313786f );
+pTmp16->pBone[13].Q = Quat( ROT_XYZ, 0.249210f, 0.158274f, -2.540067f );
+pTmp16->pBone[13].S = Vect( 0.999999f, 0.999997f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArmRoll
+pTmp16->pBone[14].T = Vect( 78.950714f, 0.000006f, -0.000003f );
+pTmp16->pBone[14].Q = Quat( ROT_XYZ, 0.720261f, 0.000000f, 0.000000f );
+pTmp16->pBone[14].S = Vect( 1.000000f, 0.999999f, 1.000002f );
+
+//     Node Name: Humanoid:LeftForeArm
+pTmp16->pBone[15].T = Vect( 65.979294f, 0.000019f, -0.000010f );
+pTmp16->pBone[15].Q = Quat( ROT_XYZ, 0.147666f, 0.024348f, -1.622612f );
+pTmp16->pBone[15].S = Vect( 1.000002f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftForeArmRoll
+pTmp16->pBone[16].T = Vect( 101.404221f, 0.000009f, 0.000010f );
+pTmp16->pBone[16].Q = Quat( ROT_XYZ, 0.214883f, 0.000000f, 0.000000f );
+pTmp16->pBone[16].S = Vect( 0.999999f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftHand
+pTmp16->pBone[17].T = Vect( 71.692039f, 0.000010f, 0.000004f );
+pTmp16->pBone[17].Q = Quat( ROT_XYZ, -0.031583f, -0.349791f, 0.178281f );
+pTmp16->pBone[17].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftThumb1
+pTmp16->pBone[18].T = Vect( 29.257690f, -22.640423f, -5.069802f );
+pTmp16->pBone[18].Q = Quat( ROT_XYZ, 0.709381f, 0.537656f, -0.914867f );
+pTmp16->pBone[18].S = Vect( 0.999999f, 1.000001f, 1.000003f );
+
+//     Node Name: Humanoid:LeftThumb2
+pTmp16->pBone[19].T = Vect( 22.746157f, -0.353276f, -0.113011f );
+pTmp16->pBone[19].Q = Quat( ROT_XYZ, 0.081784f, 0.342417f, 0.683623f );
+pTmp16->pBone[19].S = Vect( 0.999997f, 1.000002f, 1.000001f );
+
+
+
+ //------- Key Time: 16  ms: 533 ------------------ 
+
+
+
+ // --------  Frame 17  ---------------------------- 
+
+Frame_Bucket *pTmp17= new Frame_Bucket(); 
+pTmp17->prevBucket = pTmp16; 
+pTmp17->nextBucket = 0; 
+pTmp17->KeyTime = 17 * Time(TIME_NTSC_30_FRAME); 
+pTmp17->pBone = new Bone[NUM_BONES]; 
+pTmp16->nextBucket = pTmp17; 
+
+
+
+ //------- Key Time: 17  ms: 566 ------------------ 
+
+//     Node Name: RootNode
+//     Node Name: Humanoid:MaxToFilmbox_Root
+pTmp17->pBone[0].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Reference
+pTmp17->pBone[1].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Hips
+pTmp17->pBone[2].T = Vect( -258.115723f, -172.968185f, 542.579773f );
+pTmp17->pBone[2].Q = Quat( ROT_XYZ, 0.284483f, 0.146821f, -0.142768f );
+pTmp17->pBone[2].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine_Dummy
+pTmp17->pBone[3].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Spine
+pTmp17->pBone[4].T = Vect( 73.400002f, 0.000001f, 0.000000f );
+pTmp17->pBone[4].Q = Quat( ROT_XYZ, 0.076055f, -0.025618f, 0.019990f );
+pTmp17->pBone[4].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine1
+pTmp17->pBone[5].T = Vect( 70.001335f, -0.000002f, -0.000000f );
+pTmp17->pBone[5].Q = Quat( ROT_XYZ, 0.144250f, -0.048853f, 0.038410f );
+pTmp17->pBone[5].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine2
+pTmp17->pBone[6].T = Vect( 71.400032f, -0.000000f, 0.000000f );
+pTmp17->pBone[6].Q = Quat( ROT_XYZ, 0.144258f, -0.048853f, 0.038410f );
+pTmp17->pBone[6].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Neck
+pTmp17->pBone[7].T = Vect( 121.576225f, -0.000001f, -0.000000f );
+pTmp17->pBone[7].Q = Quat( ROT_XYZ, -0.036075f, -0.267231f, 0.182300f );
+pTmp17->pBone[7].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head
+pTmp17->pBone[8].T = Vect( 67.855774f, 0.000039f, -0.000000f );
+pTmp17->pBone[8].Q = Quat( ROT_XYZ, -0.100956f, 0.171847f, -0.079035f );
+pTmp17->pBone[8].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head_End
+pTmp17->pBone[9].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder_Dummy
+pTmp17->pBone[10].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder
+pTmp17->pBone[11].T = Vect( -36.845097f, -0.000012f, -0.000005f );
+pTmp17->pBone[11].Q = Quat( ROT_XYZ, -0.108260f, -0.018299f, -0.085759f );
+pTmp17->pBone[11].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArm_Dummy
+pTmp17->pBone[12].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftArm
+pTmp17->pBone[13].T = Vect( -20.843035f, -1.709348f, 11.313786f );
+pTmp17->pBone[13].Q = Quat( ROT_XYZ, 0.240330f, 0.196463f, -2.604659f );
+pTmp17->pBone[13].S = Vect( 0.999999f, 0.999997f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArmRoll
+pTmp17->pBone[14].T = Vect( 78.950714f, 0.000007f, -0.000002f );
+pTmp17->pBone[14].Q = Quat( ROT_XYZ, 0.672237f, 0.000000f, 0.000000f );
+pTmp17->pBone[14].S = Vect( 1.000000f, 0.999999f, 1.000002f );
+
+//     Node Name: Humanoid:LeftForeArm
+pTmp17->pBone[15].T = Vect( 65.979294f, 0.000019f, -0.000010f );
+pTmp17->pBone[15].Q = Quat( ROT_XYZ, 0.120549f, 0.024881f, -1.631149f );
+pTmp17->pBone[15].S = Vect( 1.000002f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftForeArmRoll
+pTmp17->pBone[16].T = Vect( 101.404221f, 0.000009f, 0.000010f );
+pTmp17->pBone[16].Q = Quat( ROT_XYZ, 0.174345f, 0.000000f, 0.000000f );
+pTmp17->pBone[16].S = Vect( 0.999999f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftHand
+pTmp17->pBone[17].T = Vect( 71.692039f, 0.000010f, 0.000004f );
+pTmp17->pBone[17].Q = Quat( ROT_XYZ, -0.031971f, -0.373382f, 0.168871f );
+pTmp17->pBone[17].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftThumb1
+pTmp17->pBone[18].T = Vect( 29.257690f, -22.640423f, -5.069802f );
+pTmp17->pBone[18].Q = Quat( ROT_XYZ, 0.709381f, 0.537656f, -0.914867f );
+pTmp17->pBone[18].S = Vect( 0.999999f, 1.000001f, 1.000003f );
+
+//     Node Name: Humanoid:LeftThumb2
+pTmp17->pBone[19].T = Vect( 22.746157f, -0.353276f, -0.113011f );
+pTmp17->pBone[19].Q = Quat( ROT_XYZ, 0.081784f, 0.342417f, 0.683623f );
+pTmp17->pBone[19].S = Vect( 0.999997f, 1.000002f, 1.000001f );
+
+
+
+ //------- Key Time: 17  ms: 566 ------------------ 
+
+
+
+ // --------  Frame 18  ---------------------------- 
+
+Frame_Bucket *pTmp18= new Frame_Bucket(); 
+pTmp18->prevBucket = pTmp17; 
+pTmp18->nextBucket = 0; 
+pTmp18->KeyTime = 18 * Time(TIME_NTSC_30_FRAME); 
+pTmp18->pBone = new Bone[NUM_BONES]; 
+pTmp17->nextBucket = pTmp18; 
+
+
+
+ //------- Key Time: 18  ms: 600 ------------------ 
+
+//     Node Name: RootNode
+//     Node Name: Humanoid:MaxToFilmbox_Root
+pTmp18->pBone[0].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Reference
+pTmp18->pBone[1].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Hips
+pTmp18->pBone[2].T = Vect( -254.465591f, -260.625824f, 526.262146f );
+pTmp18->pBone[2].Q = Quat( ROT_XYZ, 0.295711f, 0.116956f, -0.108689f );
+pTmp18->pBone[2].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine_Dummy
+pTmp18->pBone[3].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Spine
+pTmp18->pBone[4].T = Vect( 73.400002f, 0.000001f, 0.000000f );
+pTmp18->pBone[4].Q = Quat( ROT_XYZ, 0.063391f, -0.035899f, 0.016020f );
+pTmp18->pBone[4].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine1
+pTmp18->pBone[5].T = Vect( 70.001335f, -0.000002f, -0.000000f );
+pTmp18->pBone[5].Q = Quat( ROT_XYZ, 0.122072f, -0.060494f, 0.030348f );
+pTmp18->pBone[5].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine2
+pTmp18->pBone[6].T = Vect( 71.400032f, -0.000000f, 0.000000f );
+pTmp18->pBone[6].Q = Quat( ROT_XYZ, 0.122079f, -0.060494f, 0.030347f );
+pTmp18->pBone[6].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Neck
+pTmp18->pBone[7].T = Vect( 121.576225f, -0.000001f, -0.000000f );
+pTmp18->pBone[7].Q = Quat( ROT_XYZ, -0.034370f, -0.239768f, 0.163626f );
+pTmp18->pBone[7].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head
+pTmp18->pBone[8].T = Vect( 67.855774f, 0.000039f, -0.000000f );
+pTmp18->pBone[8].Q = Quat( ROT_XYZ, -0.098696f, 0.175408f, -0.066657f );
+pTmp18->pBone[8].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head_End
+pTmp18->pBone[9].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder_Dummy
+pTmp18->pBone[10].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder
+pTmp18->pBone[11].T = Vect( -36.845097f, -0.000012f, -0.000005f );
+pTmp18->pBone[11].Q = Quat( ROT_XYZ, -0.111655f, -0.015493f, -0.121139f );
+pTmp18->pBone[11].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArm_Dummy
+pTmp18->pBone[12].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftArm
+pTmp18->pBone[13].T = Vect( -20.843035f, -1.709348f, 11.313786f );
+pTmp18->pBone[13].Q = Quat( ROT_XYZ, 0.224188f, 0.202321f, -2.746976f );
+pTmp18->pBone[13].S = Vect( 0.999999f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArmRoll
+pTmp18->pBone[14].T = Vect( 78.950714f, 0.000007f, -0.000001f );
+pTmp18->pBone[14].Q = Quat( ROT_XYZ, 0.650240f, 0.000000f, 0.000000f );
+pTmp18->pBone[14].S = Vect( 1.000000f, 0.999999f, 1.000002f );
+
+//     Node Name: Humanoid:LeftForeArm
+pTmp18->pBone[15].T = Vect( 65.979294f, 0.000019f, -0.000010f );
+pTmp18->pBone[15].Q = Quat( ROT_XYZ, 0.088860f, 0.025197f, -1.625826f );
+pTmp18->pBone[15].S = Vect( 1.000002f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftForeArmRoll
+pTmp18->pBone[16].T = Vect( 101.404221f, 0.000009f, 0.000010f );
+pTmp18->pBone[16].Q = Quat( ROT_XYZ, 0.126726f, 0.000000f, 0.000000f );
+pTmp18->pBone[16].S = Vect( 0.999999f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftHand
+pTmp18->pBone[17].T = Vect( 71.692039f, 0.000010f, 0.000004f );
+pTmp18->pBone[17].Q = Quat( ROT_XYZ, -0.032383f, -0.410134f, 0.155395f );
+pTmp18->pBone[17].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftThumb1
+pTmp18->pBone[18].T = Vect( 29.257690f, -22.640423f, -5.069802f );
+pTmp18->pBone[18].Q = Quat( ROT_XYZ, 0.709381f, 0.537656f, -0.914867f );
+pTmp18->pBone[18].S = Vect( 0.999999f, 1.000001f, 1.000003f );
+
+//     Node Name: Humanoid:LeftThumb2
+pTmp18->pBone[19].T = Vect( 22.746157f, -0.353276f, -0.113011f );
+pTmp18->pBone[19].Q = Quat( ROT_XYZ, 0.081784f, 0.342417f, 0.683623f );
+pTmp18->pBone[19].S = Vect( 0.999997f, 1.000002f, 1.000001f );
+
+
+
+ //------- Key Time: 18  ms: 600 ------------------ 
+
+
+
+ // --------  Frame 19  ---------------------------- 
+
+Frame_Bucket *pTmp19= new Frame_Bucket(); 
+pTmp19->prevBucket = pTmp18; 
+pTmp19->nextBucket = 0; 
+pTmp19->KeyTime = 19 * Time(TIME_NTSC_30_FRAME); 
+pTmp19->pBone = new Bone[NUM_BONES]; 
+pTmp18->nextBucket = pTmp19; 
+
+
+
+ //------- Key Time: 19  ms: 633 ------------------ 
+
+//     Node Name: RootNode
+//     Node Name: Humanoid:MaxToFilmbox_Root
+pTmp19->pBone[0].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Reference
+pTmp19->pBone[1].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Hips
+pTmp19->pBone[2].T = Vect( -253.293686f, -343.521454f, 509.332123f );
+pTmp19->pBone[2].Q = Quat( ROT_XYZ, 0.322939f, 0.070212f, -0.047664f );
+pTmp19->pBone[2].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine_Dummy
+pTmp19->pBone[3].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Spine
+pTmp19->pBone[4].T = Vect( 73.400002f, 0.000001f, 0.000000f );
+pTmp19->pBone[4].Q = Quat( ROT_XYZ, 0.039997f, -0.047598f, 0.014183f );
+pTmp19->pBone[4].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine1
+pTmp19->pBone[5].T = Vect( 70.001335f, -0.000002f, -0.000000f );
+pTmp19->pBone[5].Q = Quat( ROT_XYZ, 0.079395f, -0.071451f, 0.026570f );
+pTmp19->pBone[5].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine2
+pTmp19->pBone[6].T = Vect( 71.400032f, -0.000000f, 0.000000f );
+pTmp19->pBone[6].Q = Quat( ROT_XYZ, 0.079413f, -0.071433f, 0.026588f );
+pTmp19->pBone[6].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Neck
+pTmp19->pBone[7].T = Vect( 121.576225f, -0.000001f, -0.000000f );
+pTmp19->pBone[7].Q = Quat( ROT_XYZ, -0.042900f, -0.156368f, 0.134691f );
+pTmp19->pBone[7].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head
+pTmp19->pBone[8].T = Vect( 67.855774f, 0.000039f, -0.000000f );
+pTmp19->pBone[8].Q = Quat( ROT_XYZ, -0.100192f, 0.144614f, -0.081732f );
+pTmp19->pBone[8].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head_End
+pTmp19->pBone[9].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder_Dummy
+pTmp19->pBone[10].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder
+pTmp19->pBone[11].T = Vect( -36.845097f, -0.000012f, -0.000005f );
+pTmp19->pBone[11].Q = Quat( ROT_XYZ, -0.109387f, -0.010357f, -0.158550f );
+pTmp19->pBone[11].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArm_Dummy
+pTmp19->pBone[12].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftArm
+pTmp19->pBone[13].T = Vect( -20.843035f, -1.709348f, 11.313786f );
+pTmp19->pBone[13].Q = Quat( ROT_XYZ, 0.200519f, 0.202299f, -2.960888f );
+pTmp19->pBone[13].S = Vect( 0.999999f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArmRoll
+pTmp19->pBone[14].T = Vect( 78.950714f, 0.000008f, -0.000001f );
+pTmp19->pBone[14].Q = Quat( ROT_XYZ, 0.625284f, 0.000000f, 0.000000f );
+pTmp19->pBone[14].S = Vect( 1.000000f, 0.999999f, 1.000002f );
+
+//     Node Name: Humanoid:LeftForeArm
+pTmp19->pBone[15].T = Vect( 65.979294f, 0.000019f, -0.000010f );
+pTmp19->pBone[15].Q = Quat( ROT_XYZ, 0.071270f, 0.025107f, -1.601415f );
+pTmp19->pBone[15].S = Vect( 1.000002f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftForeArmRoll
+pTmp19->pBone[16].T = Vect( 101.404221f, 0.000009f, 0.000010f );
+pTmp19->pBone[16].Q = Quat( ROT_XYZ, 0.099955f, 0.000000f, 0.000000f );
+pTmp19->pBone[16].S = Vect( 0.999999f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftHand
+pTmp19->pBone[17].T = Vect( 71.692039f, 0.000010f, 0.000004f );
+pTmp19->pBone[17].Q = Quat( ROT_XYZ, -0.037078f, -0.392683f, 0.185897f );
+pTmp19->pBone[17].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftThumb1
+pTmp19->pBone[18].T = Vect( 29.257690f, -22.640423f, -5.069802f );
+pTmp19->pBone[18].Q = Quat( ROT_XYZ, 0.709381f, 0.537656f, -0.914867f );
+pTmp19->pBone[18].S = Vect( 0.999999f, 1.000001f, 1.000003f );
+
+//     Node Name: Humanoid:LeftThumb2
+pTmp19->pBone[19].T = Vect( 22.746157f, -0.353276f, -0.113011f );
+pTmp19->pBone[19].Q = Quat( ROT_XYZ, 0.081784f, 0.342417f, 0.683623f );
+pTmp19->pBone[19].S = Vect( 0.999997f, 1.000002f, 1.000001f );
+
+
+
+ //------- Key Time: 19  ms: 633 ------------------ 
+
+
+
+ // --------  Frame 20  ---------------------------- 
+
+Frame_Bucket *pTmp20= new Frame_Bucket(); 
+pTmp20->prevBucket = pTmp19; 
+pTmp20->nextBucket = 0; 
+pTmp20->KeyTime = 20 * Time(TIME_NTSC_30_FRAME); 
+pTmp20->pBone = new Bone[NUM_BONES]; 
+pTmp19->nextBucket = pTmp20; 
+
+
+
+ //------- Key Time: 20  ms: 666 ------------------ 
+
+//     Node Name: RootNode
+//     Node Name: Humanoid:MaxToFilmbox_Root
+pTmp20->pBone[0].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Reference
+pTmp20->pBone[1].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Hips
+pTmp20->pBone[2].T = Vect( -250.201721f, -424.964691f, 497.058563f );
+pTmp20->pBone[2].Q = Quat( ROT_XYZ, 0.339490f, 0.034172f, -0.005714f );
+pTmp20->pBone[2].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine_Dummy
+pTmp20->pBone[3].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Spine
+pTmp20->pBone[4].T = Vect( 73.400002f, 0.000001f, 0.000000f );
+pTmp20->pBone[4].Q = Quat( ROT_XYZ, 0.018605f, -0.050232f, 0.019213f );
+pTmp20->pBone[4].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine1
+pTmp20->pBone[5].T = Vect( 70.001335f, -0.000002f, -0.000000f );
+pTmp20->pBone[5].Q = Quat( ROT_XYZ, 0.038260f, -0.067118f, 0.037115f );
+pTmp20->pBone[5].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine2
+pTmp20->pBone[6].T = Vect( 71.400032f, -0.000000f, 0.000000f );
+pTmp20->pBone[6].Q = Quat( ROT_XYZ, 0.038283f, -0.067115f, 0.037105f );
+pTmp20->pBone[6].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Neck
+pTmp20->pBone[7].T = Vect( 121.576225f, -0.000001f, -0.000000f );
+pTmp20->pBone[7].Q = Quat( ROT_XYZ, -0.039728f, -0.145142f, 0.076797f );
+pTmp20->pBone[7].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head
+pTmp20->pBone[8].T = Vect( 67.855774f, 0.000039f, -0.000000f );
+pTmp20->pBone[8].Q = Quat( ROT_XYZ, -0.098165f, 0.165993f, -0.091142f );
+pTmp20->pBone[8].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head_End
+pTmp20->pBone[9].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder_Dummy
+pTmp20->pBone[10].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder
+pTmp20->pBone[11].T = Vect( -36.845097f, -0.000012f, -0.000005f );
+pTmp20->pBone[11].Q = Quat( ROT_XYZ, -0.086308f, -0.001909f, -0.152237f );
+pTmp20->pBone[11].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArm_Dummy
+pTmp20->pBone[12].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftArm
+pTmp20->pBone[13].T = Vect( -20.843035f, -1.709348f, 11.313786f );
+pTmp20->pBone[13].Q = Quat( ROT_XYZ, 0.181002f, 0.266178f, 3.042246f );
+pTmp20->pBone[13].S = Vect( 0.999999f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArmRoll
+pTmp20->pBone[14].T = Vect( 78.950714f, 0.000008f, -0.000000f );
+pTmp20->pBone[14].Q = Quat( ROT_XYZ, 0.585755f, 0.000000f, 0.000000f );
+pTmp20->pBone[14].S = Vect( 1.000000f, 0.999999f, 1.000001f );
+
+//     Node Name: Humanoid:LeftForeArm
+pTmp20->pBone[15].T = Vect( 65.979294f, 0.000019f, -0.000010f );
+pTmp20->pBone[15].Q = Quat( ROT_XYZ, 0.062478f, 0.024741f, -1.572402f );
+pTmp20->pBone[15].S = Vect( 1.000002f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftForeArmRoll
+pTmp20->pBone[16].T = Vect( 101.404221f, 0.000009f, 0.000010f );
+pTmp20->pBone[16].Q = Quat( ROT_XYZ, 0.086325f, 0.000000f, 0.000000f );
+pTmp20->pBone[16].S = Vect( 0.999999f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftHand
+pTmp20->pBone[17].T = Vect( 71.692039f, 0.000010f, 0.000004f );
+pTmp20->pBone[17].Q = Quat( ROT_XYZ, -0.053381f, -0.427500f, 0.244753f );
+pTmp20->pBone[17].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftThumb1
+pTmp20->pBone[18].T = Vect( 29.257690f, -22.640423f, -5.069802f );
+pTmp20->pBone[18].Q = Quat( ROT_XYZ, 0.709381f, 0.537656f, -0.914867f );
+pTmp20->pBone[18].S = Vect( 0.999999f, 1.000001f, 1.000003f );
+
+//     Node Name: Humanoid:LeftThumb2
+pTmp20->pBone[19].T = Vect( 22.746157f, -0.353276f, -0.113011f );
+pTmp20->pBone[19].Q = Quat( ROT_XYZ, 0.081784f, 0.342417f, 0.683623f );
+pTmp20->pBone[19].S = Vect( 0.999997f, 1.000002f, 1.000001f );
+
+
+
+ //------- Key Time: 20  ms: 666 ------------------ 
+
+
+
+ // --------  Frame 21  ---------------------------- 
+
+Frame_Bucket *pTmp21= new Frame_Bucket(); 
+pTmp21->prevBucket = pTmp20; 
+pTmp21->nextBucket = 0; 
+pTmp21->KeyTime = 21 * Time(TIME_NTSC_30_FRAME); 
+pTmp21->pBone = new Bone[NUM_BONES]; 
+pTmp20->nextBucket = pTmp21; 
+
+
+
+ //------- Key Time: 21  ms: 700 ------------------ 
+
+//     Node Name: RootNode
+//     Node Name: Humanoid:MaxToFilmbox_Root
+pTmp21->pBone[0].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Reference
+pTmp21->pBone[1].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Hips
+pTmp21->pBone[2].T = Vect( -245.079468f, -514.132446f, 496.196442f );
+pTmp21->pBone[2].Q = Quat( ROT_XYZ, 0.353103f, 0.034468f, -0.011638f );
+pTmp21->pBone[2].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine_Dummy
+pTmp21->pBone[3].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Spine
+pTmp21->pBone[4].T = Vect( 73.400002f, 0.000001f, 0.000000f );
+pTmp21->pBone[4].Q = Quat( ROT_XYZ, -0.001638f, -0.043397f, 0.010137f );
+pTmp21->pBone[4].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine1
+pTmp21->pBone[5].T = Vect( 70.001335f, -0.000002f, -0.000000f );
+pTmp21->pBone[5].Q = Quat( ROT_XYZ, -0.003092f, -0.049650f, 0.019793f );
+pTmp21->pBone[5].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine2
+pTmp21->pBone[6].T = Vect( 71.400032f, -0.000000f, 0.000000f );
+pTmp21->pBone[6].Q = Quat( ROT_XYZ, -0.003075f, -0.049658f, 0.019773f );
+pTmp21->pBone[6].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Neck
+pTmp21->pBone[7].T = Vect( 121.576225f, -0.000001f, -0.000000f );
+pTmp21->pBone[7].Q = Quat( ROT_XYZ, -0.021340f, -0.083515f, 0.096963f );
+pTmp21->pBone[7].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head
+pTmp21->pBone[8].T = Vect( 67.855774f, 0.000039f, -0.000000f );
+pTmp21->pBone[8].Q = Quat( ROT_XYZ, -0.057258f, 0.132121f, -0.071386f );
+pTmp21->pBone[8].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head_End
+pTmp21->pBone[9].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder_Dummy
+pTmp21->pBone[10].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder
+pTmp21->pBone[11].T = Vect( -36.845097f, -0.000012f, -0.000005f );
+pTmp21->pBone[11].Q = Quat( ROT_XYZ, -0.068066f, -0.002434f, -0.096499f );
+pTmp21->pBone[11].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArm_Dummy
+pTmp21->pBone[12].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftArm
+pTmp21->pBone[13].T = Vect( -20.843035f, -1.709348f, 11.313786f );
+pTmp21->pBone[13].Q = Quat( ROT_XYZ, 0.131113f, 0.374091f, 2.884531f );
+pTmp21->pBone[13].S = Vect( 0.999999f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArmRoll
+pTmp21->pBone[14].T = Vect( 78.950714f, 0.000010f, 0.000001f );
+pTmp21->pBone[14].Q = Quat( ROT_XYZ, 0.500213f, 0.000000f, 0.000000f );
+pTmp21->pBone[14].S = Vect( 1.000000f, 0.999999f, 1.000001f );
+
+//     Node Name: Humanoid:LeftForeArm
+pTmp21->pBone[15].T = Vect( 65.979294f, 0.000019f, -0.000010f );
+pTmp21->pBone[15].Q = Quat( ROT_XYZ, 0.091983f, 0.024982f, -1.611269f );
+pTmp21->pBone[15].S = Vect( 1.000002f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftForeArmRoll
+pTmp21->pBone[16].T = Vect( 101.404221f, 0.000009f, 0.000010f );
+pTmp21->pBone[16].Q = Quat( ROT_XYZ, 0.131178f, 0.000000f, 0.000000f );
+pTmp21->pBone[16].S = Vect( 0.999999f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftHand
+pTmp21->pBone[17].T = Vect( 71.692039f, 0.000010f, 0.000004f );
+pTmp21->pBone[17].Q = Quat( ROT_XYZ, -0.054097f, -0.414140f, 0.256159f );
+pTmp21->pBone[17].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftThumb1
+pTmp21->pBone[18].T = Vect( 29.257690f, -22.640423f, -5.069802f );
+pTmp21->pBone[18].Q = Quat( ROT_XYZ, 0.709381f, 0.537656f, -0.914867f );
+pTmp21->pBone[18].S = Vect( 0.999999f, 1.000001f, 1.000003f );
+
+//     Node Name: Humanoid:LeftThumb2
+pTmp21->pBone[19].T = Vect( 22.746157f, -0.353276f, -0.113011f );
+pTmp21->pBone[19].Q = Quat( ROT_XYZ, 0.081784f, 0.342417f, 0.683623f );
+pTmp21->pBone[19].S = Vect( 0.999997f, 1.000002f, 1.000001f );
+
+
+
+ //------- Key Time: 21  ms: 700 ------------------ 
+
+
+
+ // --------  Frame 22  ---------------------------- 
+
+Frame_Bucket *pTmp22= new Frame_Bucket(); 
+pTmp22->prevBucket = pTmp21; 
+pTmp22->nextBucket = 0; 
+pTmp22->KeyTime = 22 * Time(TIME_NTSC_30_FRAME); 
+pTmp22->pBone = new Bone[NUM_BONES]; 
+pTmp21->nextBucket = pTmp22; 
+
+
+
+ //------- Key Time: 22  ms: 733 ------------------ 
+
+//     Node Name: RootNode
+//     Node Name: Humanoid:MaxToFilmbox_Root
+pTmp22->pBone[0].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Reference
+pTmp22->pBone[1].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Hips
+pTmp22->pBone[2].T = Vect( -237.604904f, -609.642517f, 508.843079f );
+pTmp22->pBone[2].Q = Quat( ROT_XYZ, 0.314228f, 0.037357f, -0.064926f );
+pTmp22->pBone[2].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine_Dummy
+pTmp22->pBone[3].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Spine
+pTmp22->pBone[4].T = Vect( 73.400002f, 0.000001f, 0.000000f );
+pTmp22->pBone[4].Q = Quat( ROT_XYZ, -0.014017f, -0.027087f, 0.007442f );
+pTmp22->pBone[4].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine1
+pTmp22->pBone[5].T = Vect( 70.001335f, -0.000002f, -0.000000f );
+pTmp22->pBone[5].Q = Quat( ROT_XYZ, -0.029714f, -0.033017f, 0.015166f );
+pTmp22->pBone[5].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine2
+pTmp22->pBone[6].T = Vect( 71.400032f, -0.000000f, 0.000000f );
+pTmp22->pBone[6].Q = Quat( ROT_XYZ, -0.029706f, -0.033017f, 0.015165f );
+pTmp22->pBone[6].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Neck
+pTmp22->pBone[7].T = Vect( 121.576225f, -0.000001f, -0.000000f );
+pTmp22->pBone[7].Q = Quat( ROT_XYZ, 0.000645f, -0.048102f, 0.124748f );
+pTmp22->pBone[7].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head
+pTmp22->pBone[8].T = Vect( 67.855774f, 0.000039f, -0.000000f );
+pTmp22->pBone[8].Q = Quat( ROT_XYZ, -0.014673f, 0.091475f, -0.043225f );
+pTmp22->pBone[8].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head_End
+pTmp22->pBone[9].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder_Dummy
+pTmp22->pBone[10].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder
+pTmp22->pBone[11].T = Vect( -36.845097f, -0.000012f, -0.000005f );
+pTmp22->pBone[11].Q = Quat( ROT_XYZ, -0.062450f, -0.006076f, -0.056631f );
+pTmp22->pBone[11].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArm_Dummy
+pTmp22->pBone[12].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftArm
+pTmp22->pBone[13].T = Vect( -20.843035f, -1.709348f, 11.313786f );
+pTmp22->pBone[13].Q = Quat( ROT_XYZ, 0.069344f, 0.418621f, 2.806260f );
+pTmp22->pBone[13].S = Vect( 0.999999f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArmRoll
+pTmp22->pBone[14].T = Vect( 78.950714f, 0.000012f, 0.000003f );
+pTmp22->pBone[14].Q = Quat( ROT_XYZ, 0.413596f, 0.000000f, 0.000000f );
+pTmp22->pBone[14].S = Vect( 1.000000f, 1.000000f, 1.000001f );
+
+//     Node Name: Humanoid:LeftForeArm
+pTmp22->pBone[15].T = Vect( 65.979294f, 0.000019f, -0.000010f );
+pTmp22->pBone[15].Q = Quat( ROT_XYZ, 0.140349f, 0.026064f, -1.737474f );
+pTmp22->pBone[15].S = Vect( 1.000002f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftForeArmRoll
+pTmp22->pBone[16].T = Vect( 101.404221f, 0.000009f, 0.000010f );
+pTmp22->pBone[16].Q = Quat( ROT_XYZ, 0.205894f, 0.000000f, 0.000000f );
+pTmp22->pBone[16].S = Vect( 0.999999f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftHand
+pTmp22->pBone[17].T = Vect( 71.692039f, 0.000010f, 0.000004f );
+pTmp22->pBone[17].Q = Quat( ROT_XYZ, -0.047511f, -0.375423f, 0.248884f );
+pTmp22->pBone[17].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftThumb1
+pTmp22->pBone[18].T = Vect( 29.257690f, -22.640423f, -5.069802f );
+pTmp22->pBone[18].Q = Quat( ROT_XYZ, 0.709381f, 0.537656f, -0.914867f );
+pTmp22->pBone[18].S = Vect( 0.999999f, 1.000001f, 1.000003f );
+
+//     Node Name: Humanoid:LeftThumb2
+pTmp22->pBone[19].T = Vect( 22.746157f, -0.353276f, -0.113011f );
+pTmp22->pBone[19].Q = Quat( ROT_XYZ, 0.081784f, 0.342417f, 0.683623f );
+pTmp22->pBone[19].S = Vect( 0.999997f, 1.000002f, 1.000001f );
+
+
+
+ //------- Key Time: 22  ms: 733 ------------------ 
+
+
+
+ // --------  Frame 23  ---------------------------- 
+
+Frame_Bucket *pTmp23= new Frame_Bucket(); 
+pTmp23->prevBucket = pTmp22; 
+pTmp23->nextBucket = 0; 
+pTmp23->KeyTime = 23 * Time(TIME_NTSC_30_FRAME); 
+pTmp23->pBone = new Bone[NUM_BONES]; 
+pTmp22->nextBucket = pTmp23; 
+
+
+
+ //------- Key Time: 23  ms: 766 ------------------ 
+
+//     Node Name: RootNode
+//     Node Name: Humanoid:MaxToFilmbox_Root
+pTmp23->pBone[0].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Reference
+pTmp23->pBone[1].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Hips
+pTmp23->pBone[2].T = Vect( -231.349426f, -704.996399f, 526.822693f );
+pTmp23->pBone[2].Q = Quat( ROT_XYZ, 0.281653f, 0.060262f, -0.090860f );
+pTmp23->pBone[2].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine_Dummy
+pTmp23->pBone[3].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Spine
+pTmp23->pBone[4].T = Vect( 73.400002f, 0.000001f, 0.000000f );
+pTmp23->pBone[4].Q = Quat( ROT_XYZ, -0.028359f, -0.004414f, 0.004789f );
+pTmp23->pBone[4].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine1
+pTmp23->pBone[5].T = Vect( 70.001335f, -0.000002f, -0.000000f );
+pTmp23->pBone[5].Q = Quat( ROT_XYZ, -0.056077f, -0.000970f, 0.009590f );
+pTmp23->pBone[5].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine2
+pTmp23->pBone[6].T = Vect( 71.400032f, -0.000000f, 0.000000f );
+pTmp23->pBone[6].Q = Quat( ROT_XYZ, -0.056070f, -0.000970f, 0.009590f );
+pTmp23->pBone[6].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Neck
+pTmp23->pBone[7].T = Vect( 121.576225f, -0.000001f, -0.000000f );
+pTmp23->pBone[7].Q = Quat( ROT_XYZ, 0.018817f, -0.042622f, 0.160635f );
+pTmp23->pBone[7].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head
+pTmp23->pBone[8].T = Vect( 67.855774f, 0.000039f, -0.000000f );
+pTmp23->pBone[8].Q = Quat( ROT_XYZ, 0.016470f, 0.060138f, -0.026768f );
+pTmp23->pBone[8].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head_End
+pTmp23->pBone[9].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder_Dummy
+pTmp23->pBone[10].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder
+pTmp23->pBone[11].T = Vect( -36.845097f, -0.000012f, -0.000005f );
+pTmp23->pBone[11].Q = Quat( ROT_XYZ, -0.056479f, -0.006155f, -0.041797f );
+pTmp23->pBone[11].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArm_Dummy
+pTmp23->pBone[12].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftArm
+pTmp23->pBone[13].T = Vect( -20.843035f, -1.709348f, 11.313786f );
+pTmp23->pBone[13].Q = Quat( ROT_XYZ, 0.031776f, 0.392485f, 2.784964f );
+pTmp23->pBone[13].S = Vect( 0.999999f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArmRoll
+pTmp23->pBone[14].T = Vect( 78.950714f, 0.000013f, 0.000003f );
+pTmp23->pBone[14].Q = Quat( ROT_XYZ, 0.365952f, 0.000000f, 0.000000f );
+pTmp23->pBone[14].S = Vect( 1.000000f, 1.000000f, 1.000001f );
+
+//     Node Name: Humanoid:LeftForeArm
+pTmp23->pBone[15].T = Vect( 65.979294f, 0.000019f, -0.000010f );
+pTmp23->pBone[15].Q = Quat( ROT_XYZ, 0.164037f, 0.027121f, -1.850648f );
+pTmp23->pBone[15].S = Vect( 1.000002f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftForeArmRoll
+pTmp23->pBone[16].T = Vect( 101.404221f, 0.000009f, 0.000010f );
+pTmp23->pBone[16].Q = Quat( ROT_XYZ, 0.243650f, 0.000000f, 0.000000f );
+pTmp23->pBone[16].S = Vect( 0.999999f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftHand
+pTmp23->pBone[17].T = Vect( 71.692039f, 0.000010f, 0.000004f );
+pTmp23->pBone[17].Q = Quat( ROT_XYZ, -0.052253f, -0.388323f, 0.264245f );
+pTmp23->pBone[17].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftThumb1
+pTmp23->pBone[18].T = Vect( 29.257690f, -22.640423f, -5.069802f );
+pTmp23->pBone[18].Q = Quat( ROT_XYZ, 0.709381f, 0.537656f, -0.914867f );
+pTmp23->pBone[18].S = Vect( 0.999999f, 1.000001f, 1.000003f );
+
+//     Node Name: Humanoid:LeftThumb2
+pTmp23->pBone[19].T = Vect( 22.746157f, -0.353276f, -0.113011f );
+pTmp23->pBone[19].Q = Quat( ROT_XYZ, 0.081784f, 0.342417f, 0.683623f );
+pTmp23->pBone[19].S = Vect( 0.999997f, 1.000002f, 1.000001f );
+
+
+
+ //------- Key Time: 23  ms: 766 ------------------ 
+
+
+
+ // --------  Frame 24  ---------------------------- 
+
+Frame_Bucket *pTmp24= new Frame_Bucket(); 
+pTmp24->prevBucket = pTmp23; 
+pTmp24->nextBucket = 0; 
+pTmp24->KeyTime = 24 * Time(TIME_NTSC_30_FRAME); 
+pTmp24->pBone = new Bone[NUM_BONES]; 
+pTmp23->nextBucket = pTmp24; 
+
+
+
+ //------- Key Time: 24  ms: 800 ------------------ 
+
+//     Node Name: RootNode
+//     Node Name: Humanoid:MaxToFilmbox_Root
+pTmp24->pBone[0].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Reference
+pTmp24->pBone[1].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Hips
+pTmp24->pBone[2].T = Vect( -227.557953f, -800.380066f, 539.243713f );
+pTmp24->pBone[2].Q = Quat( ROT_XYZ, 0.238095f, 0.086750f, -0.133886f );
+pTmp24->pBone[2].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine_Dummy
+pTmp24->pBone[3].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Spine
+pTmp24->pBone[4].T = Vect( 73.400002f, 0.000001f, 0.000000f );
+pTmp24->pBone[4].Q = Quat( ROT_XYZ, -0.036477f, 0.013574f, 0.008421f );
+pTmp24->pBone[4].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine1
+pTmp24->pBone[5].T = Vect( 70.001335f, -0.000002f, -0.000000f );
+pTmp24->pBone[5].Q = Quat( ROT_XYZ, -0.069774f, 0.024701f, 0.016451f );
+pTmp24->pBone[5].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine2
+pTmp24->pBone[6].T = Vect( 71.400032f, -0.000000f, 0.000000f );
+pTmp24->pBone[6].Q = Quat( ROT_XYZ, -0.069767f, 0.024701f, 0.016452f );
+pTmp24->pBone[6].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Neck
+pTmp24->pBone[7].T = Vect( 121.576225f, -0.000001f, -0.000000f );
+pTmp24->pBone[7].Q = Quat( ROT_XYZ, 0.035712f, -0.060961f, 0.197067f );
+pTmp24->pBone[7].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head
+pTmp24->pBone[8].T = Vect( 67.855774f, 0.000039f, -0.000000f );
+pTmp24->pBone[8].Q = Quat( ROT_XYZ, 0.039610f, 0.063254f, -0.028469f );
+pTmp24->pBone[8].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head_End
+pTmp24->pBone[9].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder_Dummy
+pTmp24->pBone[10].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder
+pTmp24->pBone[11].T = Vect( -36.845097f, -0.000012f, -0.000005f );
+pTmp24->pBone[11].Q = Quat( ROT_XYZ, -0.048134f, -0.005342f, -0.028408f );
+pTmp24->pBone[11].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArm_Dummy
+pTmp24->pBone[12].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftArm
+pTmp24->pBone[13].T = Vect( -20.843035f, -1.709348f, 11.313786f );
+pTmp24->pBone[13].Q = Quat( ROT_XYZ, 0.006935f, 0.342283f, 2.810320f );
+pTmp24->pBone[13].S = Vect( 0.999999f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArmRoll
+pTmp24->pBone[14].T = Vect( 78.950714f, 0.000014f, 0.000004f );
+pTmp24->pBone[14].Q = Quat( ROT_XYZ, 0.332803f, 0.000000f, 0.000000f );
+pTmp24->pBone[14].S = Vect( 1.000000f, 1.000000f, 1.000001f );
+
+//     Node Name: Humanoid:LeftForeArm
+pTmp24->pBone[15].T = Vect( 65.979294f, 0.000019f, -0.000010f );
+pTmp24->pBone[15].Q = Quat( ROT_XYZ, 0.176771f, 0.028058f, -1.953275f );
+pTmp24->pBone[15].S = Vect( 1.000002f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftForeArmRoll
+pTmp24->pBone[16].T = Vect( 101.404221f, 0.000009f, 0.000010f );
+pTmp24->pBone[16].Q = Quat( ROT_XYZ, 0.264970f, 0.000000f, 0.000000f );
+pTmp24->pBone[16].S = Vect( 0.999999f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftHand
+pTmp24->pBone[17].T = Vect( 71.692039f, 0.000010f, 0.000004f );
+pTmp24->pBone[17].Q = Quat( ROT_XYZ, -0.047828f, -0.376275f, 0.249951f );
+pTmp24->pBone[17].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftThumb1
+pTmp24->pBone[18].T = Vect( 29.257690f, -22.640423f, -5.069802f );
+pTmp24->pBone[18].Q = Quat( ROT_XYZ, 0.709381f, 0.537656f, -0.914867f );
+pTmp24->pBone[18].S = Vect( 0.999999f, 1.000001f, 1.000003f );
+
+//     Node Name: Humanoid:LeftThumb2
+pTmp24->pBone[19].T = Vect( 22.746157f, -0.353276f, -0.113011f );
+pTmp24->pBone[19].Q = Quat( ROT_XYZ, 0.081784f, 0.342417f, 0.683623f );
+pTmp24->pBone[19].S = Vect( 0.999997f, 1.000002f, 1.000001f );
+
+
+
+ //------- Key Time: 24  ms: 800 ------------------ 
+
+
+
+ // --------  Frame 25  ---------------------------- 
+
+Frame_Bucket *pTmp25= new Frame_Bucket(); 
+pTmp25->prevBucket = pTmp24; 
+pTmp25->nextBucket = 0; 
+pTmp25->KeyTime = 25 * Time(TIME_NTSC_30_FRAME); 
+pTmp25->pBone = new Bone[NUM_BONES]; 
+pTmp24->nextBucket = pTmp25; 
+
+
+
+ //------- Key Time: 25  ms: 833 ------------------ 
+
+//     Node Name: RootNode
+//     Node Name: Humanoid:MaxToFilmbox_Root
+pTmp25->pBone[0].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Reference
+pTmp25->pBone[1].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Hips
+pTmp25->pBone[2].T = Vect( -223.793625f, -890.950073f, 544.110657f );
+pTmp25->pBone[2].Q = Quat( ROT_XYZ, 0.246316f, 0.078929f, -0.156839f );
+pTmp25->pBone[2].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine_Dummy
+pTmp25->pBone[3].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Spine
+pTmp25->pBone[4].T = Vect( 73.400002f, 0.000001f, 0.000000f );
+pTmp25->pBone[4].Q = Quat( ROT_XYZ, -0.045507f, 0.022870f, 0.005757f );
+pTmp25->pBone[4].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine1
+pTmp25->pBone[5].T = Vect( 70.001335f, -0.000002f, -0.000000f );
+pTmp25->pBone[5].Q = Quat( ROT_XYZ, -0.083880f, 0.039391f, 0.010839f );
+pTmp25->pBone[5].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine2
+pTmp25->pBone[6].T = Vect( 71.400032f, -0.000000f, 0.000000f );
+pTmp25->pBone[6].Q = Quat( ROT_XYZ, -0.083873f, 0.039391f, 0.010839f );
+pTmp25->pBone[6].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Neck
+pTmp25->pBone[7].T = Vect( 121.576225f, -0.000001f, -0.000000f );
+pTmp25->pBone[7].Q = Quat( ROT_XYZ, 0.035525f, -0.106457f, 0.248184f );
+pTmp25->pBone[7].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head
+pTmp25->pBone[8].T = Vect( 67.855774f, 0.000039f, -0.000000f );
+pTmp25->pBone[8].Q = Quat( ROT_XYZ, 0.034370f, 0.085330f, -0.073788f );
+pTmp25->pBone[8].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head_End
+pTmp25->pBone[9].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder_Dummy
+pTmp25->pBone[10].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder
+pTmp25->pBone[11].T = Vect( -36.845097f, -0.000012f, -0.000005f );
+pTmp25->pBone[11].Q = Quat( ROT_XYZ, -0.043766f, -0.005344f, -0.018821f );
+pTmp25->pBone[11].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArm_Dummy
+pTmp25->pBone[12].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftArm
+pTmp25->pBone[13].T = Vect( -20.843035f, -1.709348f, 11.313786f );
+pTmp25->pBone[13].Q = Quat( ROT_XYZ, 0.006311f, 0.286111f, 2.837335f );
+pTmp25->pBone[13].S = Vect( 0.999999f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArmRoll
+pTmp25->pBone[14].T = Vect( 78.950714f, 0.000014f, 0.000004f );
+pTmp25->pBone[14].Q = Quat( ROT_XYZ, 0.338877f, 0.000000f, 0.000000f );
+pTmp25->pBone[14].S = Vect( 1.000000f, 1.000000f, 1.000001f );
+
+//     Node Name: Humanoid:LeftForeArm
+pTmp25->pBone[15].T = Vect( 65.979294f, 0.000019f, -0.000010f );
+pTmp25->pBone[15].Q = Quat( ROT_XYZ, 0.172454f, 0.028894f, -2.030112f );
+pTmp25->pBone[15].S = Vect( 1.000002f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftForeArmRoll
+pTmp25->pBone[16].T = Vect( 101.404221f, 0.000009f, 0.000010f );
+pTmp25->pBone[16].Q = Quat( ROT_XYZ, 0.260270f, 0.000000f, 0.000000f );
+pTmp25->pBone[16].S = Vect( 0.999999f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftHand
+pTmp25->pBone[17].T = Vect( 71.692039f, 0.000010f, 0.000004f );
+pTmp25->pBone[17].Q = Quat( ROT_XYZ, -0.051522f, -0.387763f, 0.260969f );
+pTmp25->pBone[17].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftThumb1
+pTmp25->pBone[18].T = Vect( 29.257690f, -22.640423f, -5.069802f );
+pTmp25->pBone[18].Q = Quat( ROT_XYZ, 0.709381f, 0.537656f, -0.914867f );
+pTmp25->pBone[18].S = Vect( 0.999999f, 1.000001f, 1.000003f );
+
+//     Node Name: Humanoid:LeftThumb2
+pTmp25->pBone[19].T = Vect( 22.746157f, -0.353276f, -0.113011f );
+pTmp25->pBone[19].Q = Quat( ROT_XYZ, 0.081784f, 0.342417f, 0.683623f );
+pTmp25->pBone[19].S = Vect( 0.999997f, 1.000002f, 1.000001f );
+
+
+
+ //------- Key Time: 25  ms: 833 ------------------ 
+
+
+
+ // --------  Frame 26  ---------------------------- 
+
+Frame_Bucket *pTmp26= new Frame_Bucket(); 
+pTmp26->prevBucket = pTmp25; 
+pTmp26->nextBucket = 0; 
+pTmp26->KeyTime = 26 * Time(TIME_NTSC_30_FRAME); 
+pTmp26->pBone = new Bone[NUM_BONES]; 
+pTmp25->nextBucket = pTmp26; 
+
+
+
+ //------- Key Time: 26  ms: 866 ------------------ 
+
+//     Node Name: RootNode
+//     Node Name: Humanoid:MaxToFilmbox_Root
+pTmp26->pBone[0].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Reference
+pTmp26->pBone[1].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Hips
+pTmp26->pBone[2].T = Vect( -219.188416f, -978.718506f, 541.790344f );
+pTmp26->pBone[2].Q = Quat( ROT_XYZ, 0.278020f, 0.031395f, -0.160945f );
+pTmp26->pBone[2].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine_Dummy
+pTmp26->pBone[3].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Spine
+pTmp26->pBone[4].T = Vect( 73.400002f, 0.000001f, 0.000000f );
+pTmp26->pBone[4].Q = Quat( ROT_XYZ, -0.050690f, 0.019787f, 0.001231f );
+pTmp26->pBone[4].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine1
+pTmp26->pBone[5].T = Vect( 70.001335f, -0.000002f, -0.000000f );
+pTmp26->pBone[5].Q = Quat( ROT_XYZ, -0.090163f, 0.033706f, 0.001907f );
+pTmp26->pBone[5].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine2
+pTmp26->pBone[6].T = Vect( 71.400032f, -0.000000f, 0.000000f );
+pTmp26->pBone[6].Q = Quat( ROT_XYZ, -0.090155f, 0.033706f, 0.001908f );
+pTmp26->pBone[6].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Neck
+pTmp26->pBone[7].T = Vect( 121.576225f, -0.000001f, -0.000000f );
+pTmp26->pBone[7].Q = Quat( ROT_XYZ, 0.016206f, -0.118798f, 0.298353f );
+pTmp26->pBone[7].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head
+pTmp26->pBone[8].T = Vect( 67.855774f, 0.000039f, -0.000000f );
+pTmp26->pBone[8].Q = Quat( ROT_XYZ, 0.005852f, 0.095742f, -0.140816f );
+pTmp26->pBone[8].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head_End
+pTmp26->pBone[9].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder_Dummy
+pTmp26->pBone[10].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder
+pTmp26->pBone[11].T = Vect( -36.845097f, -0.000012f, -0.000005f );
+pTmp26->pBone[11].Q = Quat( ROT_XYZ, -0.034018f, -0.004732f, -0.002446f );
+pTmp26->pBone[11].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArm_Dummy
+pTmp26->pBone[12].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftArm
+pTmp26->pBone[13].T = Vect( -20.843035f, -1.709348f, 11.313786f );
+pTmp26->pBone[13].Q = Quat( ROT_XYZ, 0.033402f, 0.266642f, 2.876730f );
+pTmp26->pBone[13].S = Vect( 0.999999f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArmRoll
+pTmp26->pBone[14].T = Vect( 78.950714f, 0.000013f, 0.000003f );
+pTmp26->pBone[14].Q = Quat( ROT_XYZ, 0.379702f, 0.000000f, 0.000000f );
+pTmp26->pBone[14].S = Vect( 1.000000f, 1.000000f, 1.000001f );
+
+//     Node Name: Humanoid:LeftForeArm
+pTmp26->pBone[15].T = Vect( 65.979294f, 0.000019f, -0.000010f );
+pTmp26->pBone[15].Q = Quat( ROT_XYZ, 0.202083f, 0.028702f, -2.074753f );
+pTmp26->pBone[15].S = Vect( 1.000002f, 0.999999f, 1.000000f );
+
+//     Node Name: Humanoid:LeftForeArmRoll
+pTmp26->pBone[16].T = Vect( 101.404221f, 0.000009f, 0.000009f );
+pTmp26->pBone[16].Q = Quat( ROT_XYZ, 0.305784f, 0.000000f, 0.000000f );
+pTmp26->pBone[16].S = Vect( 0.999999f, 0.999999f, 1.000000f );
+
+//     Node Name: Humanoid:LeftHand
+pTmp26->pBone[17].T = Vect( 71.692039f, 0.000010f, 0.000004f );
+pTmp26->pBone[17].Q = Quat( ROT_XYZ, -0.057060f, -0.391828f, 0.285636f );
+pTmp26->pBone[17].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftThumb1
+pTmp26->pBone[18].T = Vect( 29.257690f, -22.640423f, -5.069802f );
+pTmp26->pBone[18].Q = Quat( ROT_XYZ, 0.709381f, 0.537656f, -0.914867f );
+pTmp26->pBone[18].S = Vect( 0.999999f, 1.000001f, 1.000003f );
+
+//     Node Name: Humanoid:LeftThumb2
+pTmp26->pBone[19].T = Vect( 22.746157f, -0.353276f, -0.113011f );
+pTmp26->pBone[19].Q = Quat( ROT_XYZ, 0.081784f, 0.342417f, 0.683623f );
+pTmp26->pBone[19].S = Vect( 0.999997f, 1.000002f, 1.000001f );
+
+
+
+ //------- Key Time: 26  ms: 866 ------------------ 
+
+
+
+ // --------  Frame 27  ---------------------------- 
+
+Frame_Bucket *pTmp27= new Frame_Bucket(); 
+pTmp27->prevBucket = pTmp26; 
+pTmp27->nextBucket = 0; 
+pTmp27->KeyTime = 27 * Time(TIME_NTSC_30_FRAME); 
+pTmp27->pBone = new Bone[NUM_BONES]; 
+pTmp26->nextBucket = pTmp27; 
+
+
+
+ //------- Key Time: 27  ms: 900 ------------------ 
+
+//     Node Name: RootNode
+//     Node Name: Humanoid:MaxToFilmbox_Root
+pTmp27->pBone[0].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Reference
+pTmp27->pBone[1].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Hips
+pTmp27->pBone[2].T = Vect( -216.434021f, -1067.865112f, 532.778137f );
+pTmp27->pBone[2].Q = Quat( ROT_XYZ, 0.250141f, 0.006813f, -0.165800f );
+pTmp27->pBone[2].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine_Dummy
+pTmp27->pBone[3].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Spine
+pTmp27->pBone[4].T = Vect( 73.400002f, 0.000001f, 0.000000f );
+pTmp27->pBone[4].Q = Quat( ROT_XYZ, -0.049937f, 0.020015f, 0.008250f );
+pTmp27->pBone[4].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine1
+pTmp27->pBone[5].T = Vect( 70.001335f, -0.000002f, -0.000000f );
+pTmp27->pBone[5].Q = Quat( ROT_XYZ, -0.087837f, 0.033161f, 0.015990f );
+pTmp27->pBone[5].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine2
+pTmp27->pBone[6].T = Vect( 71.400032f, -0.000000f, 0.000000f );
+pTmp27->pBone[6].Q = Quat( ROT_XYZ, -0.087829f, 0.033160f, 0.015990f );
+pTmp27->pBone[6].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Neck
+pTmp27->pBone[7].T = Vect( 121.576225f, -0.000001f, -0.000000f );
+pTmp27->pBone[7].Q = Quat( ROT_XYZ, 0.003956f, -0.115802f, 0.342599f );
+pTmp27->pBone[7].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head
+pTmp27->pBone[8].T = Vect( 67.855774f, 0.000039f, -0.000000f );
+pTmp27->pBone[8].Q = Quat( ROT_XYZ, -0.008750f, 0.089189f, -0.183160f );
+pTmp27->pBone[8].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head_End
+pTmp27->pBone[9].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder_Dummy
+pTmp27->pBone[10].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder
+pTmp27->pBone[11].T = Vect( -36.845097f, -0.000012f, -0.000005f );
+pTmp27->pBone[11].Q = Quat( ROT_XYZ, -0.022020f, 0.000166f, -0.009715f );
+pTmp27->pBone[11].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArm_Dummy
+pTmp27->pBone[12].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftArm
+pTmp27->pBone[13].T = Vect( -20.843035f, -1.709348f, 11.313786f );
+pTmp27->pBone[13].Q = Quat( ROT_XYZ, 0.067012f, 0.261617f, 2.941619f );
+pTmp27->pBone[13].S = Vect( 0.999999f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArmRoll
+pTmp27->pBone[14].T = Vect( 78.950714f, 0.000012f, 0.000003f );
+pTmp27->pBone[14].Q = Quat( ROT_XYZ, 0.425490f, 0.000000f, 0.000000f );
+pTmp27->pBone[14].S = Vect( 1.000000f, 1.000000f, 1.000001f );
+
+//     Node Name: Humanoid:LeftForeArm
+pTmp27->pBone[15].T = Vect( 65.979294f, 0.000019f, -0.000010f );
+pTmp27->pBone[15].Q = Quat( ROT_XYZ, 0.201791f, 0.028710f, -2.076633f );
+pTmp27->pBone[15].S = Vect( 1.000002f, 0.999999f, 1.000000f );
+
+//     Node Name: Humanoid:LeftForeArmRoll
+pTmp27->pBone[16].T = Vect( 101.404221f, 0.000009f, 0.000009f );
+pTmp27->pBone[16].Q = Quat( ROT_XYZ, 0.305392f, 0.000000f, 0.000000f );
+pTmp27->pBone[16].S = Vect( 0.999999f, 0.999999f, 1.000000f );
+
+//     Node Name: Humanoid:LeftHand
+pTmp27->pBone[17].T = Vect( 71.692039f, 0.000010f, 0.000004f );
+pTmp27->pBone[17].Q = Quat( ROT_XYZ, -0.046906f, -0.340169f, 0.271485f );
+pTmp27->pBone[17].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftThumb1
+pTmp27->pBone[18].T = Vect( 29.257690f, -22.640423f, -5.069802f );
+pTmp27->pBone[18].Q = Quat( ROT_XYZ, 0.709381f, 0.537656f, -0.914867f );
+pTmp27->pBone[18].S = Vect( 0.999999f, 1.000001f, 1.000003f );
+
+//     Node Name: Humanoid:LeftThumb2
+pTmp27->pBone[19].T = Vect( 22.746157f, -0.353276f, -0.113011f );
+pTmp27->pBone[19].Q = Quat( ROT_XYZ, 0.081784f, 0.342417f, 0.683623f );
+pTmp27->pBone[19].S = Vect( 0.999997f, 1.000002f, 1.000001f );
+
+
+
+ //------- Key Time: 27  ms: 900 ------------------ 
+
+
+
+ // --------  Frame 28  ---------------------------- 
+
+Frame_Bucket *pTmp28= new Frame_Bucket(); 
+pTmp28->prevBucket = pTmp27; 
+pTmp28->nextBucket = 0; 
+pTmp28->KeyTime = 28 * Time(TIME_NTSC_30_FRAME); 
+pTmp28->pBone = new Bone[NUM_BONES]; 
+pTmp27->nextBucket = pTmp28; 
+
+
+
+ //------- Key Time: 28  ms: 933 ------------------ 
+
+//     Node Name: RootNode
+//     Node Name: Humanoid:MaxToFilmbox_Root
+pTmp28->pBone[0].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Reference
+pTmp28->pBone[1].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Hips
+pTmp28->pBone[2].T = Vect( -214.799240f, -1159.681763f, 518.025391f );
+pTmp28->pBone[2].Q = Quat( ROT_XYZ, 0.200705f, -0.000411f, -0.171423f );
+pTmp28->pBone[2].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine_Dummy
+pTmp28->pBone[3].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Spine
+pTmp28->pBone[4].T = Vect( 73.400002f, 0.000001f, 0.000000f );
+pTmp28->pBone[4].Q = Quat( ROT_XYZ, -0.046039f, 0.024144f, 0.017044f );
+pTmp28->pBone[4].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine1
+pTmp28->pBone[5].T = Vect( 70.001335f, -0.000002f, -0.000000f );
+pTmp28->pBone[5].Q = Quat( ROT_XYZ, -0.081327f, 0.040930f, 0.033492f );
+pTmp28->pBone[5].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine2
+pTmp28->pBone[6].T = Vect( 71.400032f, -0.000000f, 0.000000f );
+pTmp28->pBone[6].Q = Quat( ROT_XYZ, -0.081319f, 0.040930f, 0.033492f );
+pTmp28->pBone[6].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Neck
+pTmp28->pBone[7].T = Vect( 121.576225f, -0.000001f, -0.000000f );
+pTmp28->pBone[7].Q = Quat( ROT_XYZ, -0.006655f, -0.109590f, 0.374228f );
+pTmp28->pBone[7].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head
+pTmp28->pBone[8].T = Vect( 67.855774f, 0.000039f, -0.000000f );
+pTmp28->pBone[8].Q = Quat( ROT_XYZ, -0.015421f, 0.061570f, -0.204331f );
+pTmp28->pBone[8].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head_End
+pTmp28->pBone[9].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder_Dummy
+pTmp28->pBone[10].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder
+pTmp28->pBone[11].T = Vect( -36.845097f, -0.000012f, -0.000005f );
+pTmp28->pBone[11].Q = Quat( ROT_XYZ, -0.021323f, 0.004828f, -0.037308f );
+pTmp28->pBone[11].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArm_Dummy
+pTmp28->pBone[12].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftArm
+pTmp28->pBone[13].T = Vect( -20.843035f, -1.709348f, 11.313786f );
+pTmp28->pBone[13].Q = Quat( ROT_XYZ, 0.129274f, 0.277312f, 3.018138f );
+pTmp28->pBone[13].S = Vect( 0.999999f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArmRoll
+pTmp28->pBone[14].T = Vect( 78.950714f, 0.000010f, 0.000001f );
+pTmp28->pBone[14].Q = Quat( ROT_XYZ, 0.506656f, 0.000000f, 0.000000f );
+pTmp28->pBone[14].S = Vect( 1.000000f, 0.999999f, 1.000001f );
+
+//     Node Name: Humanoid:LeftForeArm
+pTmp28->pBone[15].T = Vect( 65.979294f, 0.000019f, -0.000010f );
+pTmp28->pBone[15].Q = Quat( ROT_XYZ, 0.173272f, 0.028620f, -2.005877f );
+pTmp28->pBone[15].S = Vect( 1.000002f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftForeArmRoll
+pTmp28->pBone[16].T = Vect( 101.404221f, 0.000009f, 0.000010f );
+pTmp28->pBone[16].Q = Quat( ROT_XYZ, 0.260926f, 0.000000f, 0.000000f );
+pTmp28->pBone[16].S = Vect( 0.999999f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftHand
+pTmp28->pBone[17].T = Vect( 71.692039f, 0.000010f, 0.000004f );
+pTmp28->pBone[17].Q = Quat( ROT_XYZ, -0.053440f, -0.378877f, 0.276997f );
+pTmp28->pBone[17].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftThumb1
+pTmp28->pBone[18].T = Vect( 29.257690f, -22.640423f, -5.069802f );
+pTmp28->pBone[18].Q = Quat( ROT_XYZ, 0.709381f, 0.537656f, -0.914867f );
+pTmp28->pBone[18].S = Vect( 0.999999f, 1.000001f, 1.000003f );
+
+//     Node Name: Humanoid:LeftThumb2
+pTmp28->pBone[19].T = Vect( 22.746157f, -0.353276f, -0.113011f );
+pTmp28->pBone[19].Q = Quat( ROT_XYZ, 0.081784f, 0.342417f, 0.683623f );
+pTmp28->pBone[19].S = Vect( 0.999997f, 1.000002f, 1.000001f );
+
+
+
+ //------- Key Time: 28  ms: 933 ------------------ 
+
+
+
+ // --------  Frame 29  ---------------------------- 
+
+Frame_Bucket *pTmp29= new Frame_Bucket(); 
+pTmp29->prevBucket = pTmp28; 
+pTmp29->nextBucket = 0; 
+pTmp29->KeyTime = 29 * Time(TIME_NTSC_30_FRAME); 
+pTmp29->pBone = new Bone[NUM_BONES]; 
+pTmp28->nextBucket = pTmp29; 
+
+
+
+ //------- Key Time: 29  ms: 966 ------------------ 
+
+//     Node Name: RootNode
+//     Node Name: Humanoid:MaxToFilmbox_Root
+pTmp29->pBone[0].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Reference
+pTmp29->pBone[1].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Hips
+pTmp29->pBone[2].T = Vect( -215.614120f, -1250.782715f, 498.603424f );
+pTmp29->pBone[2].Q = Quat( ROT_XYZ, 0.182534f, 0.007702f, -0.168152f );
+pTmp29->pBone[2].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine_Dummy
+pTmp29->pBone[3].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Spine
+pTmp29->pBone[4].T = Vect( 73.400002f, 0.000001f, 0.000000f );
+pTmp29->pBone[4].Q = Quat( ROT_XYZ, -0.040114f, 0.029595f, 0.023931f );
+pTmp29->pBone[4].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine1
+pTmp29->pBone[5].T = Vect( 70.001335f, -0.000002f, -0.000000f );
+pTmp29->pBone[5].Q = Quat( ROT_XYZ, -0.072497f, 0.046399f, 0.047222f );
+pTmp29->pBone[5].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine2
+pTmp29->pBone[6].T = Vect( 71.400032f, -0.000000f, 0.000000f );
+pTmp29->pBone[6].Q = Quat( ROT_XYZ, -0.072490f, 0.046399f, 0.047223f );
+pTmp29->pBone[6].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Neck
+pTmp29->pBone[7].T = Vect( 121.576225f, -0.000001f, -0.000000f );
+pTmp29->pBone[7].Q = Quat( ROT_XYZ, -0.011929f, -0.083439f, 0.322138f );
+pTmp29->pBone[7].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head
+pTmp29->pBone[8].T = Vect( 67.855774f, 0.000039f, -0.000000f );
+pTmp29->pBone[8].Q = Quat( ROT_XYZ, -0.019475f, 0.027338f, -0.180411f );
+pTmp29->pBone[8].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head_End
+pTmp29->pBone[9].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder_Dummy
+pTmp29->pBone[10].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder
+pTmp29->pBone[11].T = Vect( -36.845097f, -0.000012f, -0.000005f );
+pTmp29->pBone[11].Q = Quat( ROT_XYZ, -0.036100f, 0.002300f, -0.052689f );
+pTmp29->pBone[11].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArm_Dummy
+pTmp29->pBone[12].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftArm
+pTmp29->pBone[13].T = Vect( -20.843035f, -1.709348f, 11.313786f );
+pTmp29->pBone[13].Q = Quat( ROT_XYZ, 0.191838f, 0.306335f, 3.089037f );
+pTmp29->pBone[13].S = Vect( 0.999998f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArmRoll
+pTmp29->pBone[14].T = Vect( 78.950714f, 0.000008f, -0.000000f );
+pTmp29->pBone[14].Q = Quat( ROT_XYZ, 0.581495f, 0.000000f, 0.000000f );
+pTmp29->pBone[14].S = Vect( 1.000000f, 0.999999f, 1.000001f );
+
+//     Node Name: Humanoid:LeftForeArm
+pTmp29->pBone[15].T = Vect( 65.979294f, 0.000019f, -0.000010f );
+pTmp29->pBone[15].Q = Quat( ROT_XYZ, 0.096934f, 0.028884f, -1.920340f );
+pTmp29->pBone[15].S = Vect( 1.000002f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftForeArmRoll
+pTmp29->pBone[16].T = Vect( 101.404221f, 0.000009f, 0.000010f );
+pTmp29->pBone[16].Q = Quat( ROT_XYZ, 0.144483f, 0.000000f, 0.000000f );
+pTmp29->pBone[16].S = Vect( 0.999999f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftHand
+pTmp29->pBone[17].T = Vect( 71.692039f, 0.000010f, 0.000004f );
+pTmp29->pBone[17].Q = Quat( ROT_XYZ, -0.076556f, -0.492723f, 0.302260f );
+pTmp29->pBone[17].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftThumb1
+pTmp29->pBone[18].T = Vect( 29.257690f, -22.640423f, -5.069802f );
+pTmp29->pBone[18].Q = Quat( ROT_XYZ, 0.709381f, 0.537656f, -0.914867f );
+pTmp29->pBone[18].S = Vect( 0.999999f, 1.000001f, 1.000003f );
+
+//     Node Name: Humanoid:LeftThumb2
+pTmp29->pBone[19].T = Vect( 22.746157f, -0.353276f, -0.113011f );
+pTmp29->pBone[19].Q = Quat( ROT_XYZ, 0.081784f, 0.342417f, 0.683623f );
+pTmp29->pBone[19].S = Vect( 0.999997f, 1.000002f, 1.000001f );
+
+
+
+ //------- Key Time: 29  ms: 966 ------------------ 
+
+
+
+ // --------  Frame 30  ---------------------------- 
+
+Frame_Bucket *pTmp30= new Frame_Bucket(); 
+pTmp30->prevBucket = pTmp29; 
+pTmp30->nextBucket = 0; 
+pTmp30->KeyTime = 30 * Time(TIME_NTSC_30_FRAME); 
+pTmp30->pBone = new Bone[NUM_BONES]; 
+pTmp29->nextBucket = pTmp30; 
+
+
+
+ //------- Key Time: 30  ms: 1000 ------------------ 
+
+//     Node Name: RootNode
+//     Node Name: Humanoid:MaxToFilmbox_Root
+pTmp30->pBone[0].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Reference
+pTmp30->pBone[1].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Hips
+pTmp30->pBone[2].T = Vect( -217.275543f, -1333.912476f, 482.841919f );
+pTmp30->pBone[2].Q = Quat( ROT_XYZ, 0.229360f, 0.074517f, -0.173031f );
+pTmp30->pBone[2].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine_Dummy
+pTmp30->pBone[3].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:Spine
+pTmp30->pBone[4].T = Vect( 73.400002f, 0.000001f, 0.000000f );
+pTmp30->pBone[4].Q = Quat( ROT_XYZ, -0.019084f, 0.047400f, 0.017356f );
+pTmp30->pBone[4].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine1
+pTmp30->pBone[5].T = Vect( 70.001335f, -0.000002f, -0.000000f );
+pTmp30->pBone[5].Q = Quat( ROT_XYZ, -0.040502f, 0.063489f, 0.033074f );
+pTmp30->pBone[5].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Spine2
+pTmp30->pBone[6].T = Vect( 71.400032f, -0.000000f, 0.000000f );
+pTmp30->pBone[6].Q = Quat( ROT_XYZ, -0.040522f, 0.063460f, 0.033096f );
+pTmp30->pBone[6].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Neck
+pTmp30->pBone[7].T = Vect( 121.576225f, -0.000001f, -0.000000f );
+pTmp30->pBone[7].Q = Quat( ROT_XYZ, 0.022747f, -0.051344f, 0.027112f );
+pTmp30->pBone[7].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head
+pTmp30->pBone[8].T = Vect( 67.855774f, 0.000039f, -0.000000f );
+pTmp30->pBone[8].Q = Quat( ROT_XYZ, 0.019876f, 0.002384f, 0.049611f );
+pTmp30->pBone[8].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:Head_End
+pTmp30->pBone[9].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder_Dummy
+pTmp30->pBone[10].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftShoulder
+pTmp30->pBone[11].T = Vect( -36.845097f, -0.000012f, -0.000005f );
+pTmp30->pBone[11].Q = Quat( ROT_XYZ, -0.045467f, -0.000397f, -0.055310f );
+pTmp30->pBone[11].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArm_Dummy
+pTmp30->pBone[12].S = Vect( 1.0f, 1.0f, 1.0f );
+
+//     Node Name: Humanoid:LeftArm
+pTmp30->pBone[13].T = Vect( -20.843035f, -1.709348f, 11.313786f );
+pTmp30->pBone[13].Q = Quat( ROT_XYZ, 0.244442f, 0.346078f, -3.117186f );
+pTmp30->pBone[13].S = Vect( 0.999998f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftArmRoll
+pTmp30->pBone[14].T = Vect( 78.950714f, 0.000007f, -0.000001f );
+pTmp30->pBone[14].Q = Quat( ROT_XYZ, 0.631740f, 0.000000f, 0.000000f );
+pTmp30->pBone[14].S = Vect( 1.000000f, 0.999999f, 1.000002f );
+
+//     Node Name: Humanoid:LeftForeArm
+pTmp30->pBone[15].T = Vect( 65.979294f, 0.000019f, -0.000010f );
+pTmp30->pBone[15].Q = Quat( ROT_XYZ, 0.060419f, 0.027162f, -1.729209f );
+pTmp30->pBone[15].S = Vect( 1.000002f, 0.999998f, 1.000000f );
+
+//     Node Name: Humanoid:LeftForeArmRoll
+pTmp30->pBone[16].T = Vect( 101.404221f, 0.000009f, 0.000010f );
+pTmp30->pBone[16].Q = Quat( ROT_XYZ, 0.085847f, 0.000000f, 0.000000f );
+pTmp30->pBone[16].S = Vect( 0.999999f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftHand
+pTmp30->pBone[17].T = Vect( 71.692039f, 0.000010f, 0.000004f );
+pTmp30->pBone[17].Q = Quat( ROT_XYZ, -0.060332f, -0.514749f, 0.228289f );
+pTmp30->pBone[17].S = Vect( 1.000000f, 1.000000f, 1.000000f );
+
+//     Node Name: Humanoid:LeftThumb1
+pTmp30->pBone[18].T = Vect( 29.257690f, -22.640423f, -5.069802f );
+pTmp30->pBone[18].Q = Quat( ROT_XYZ, 0.709381f, 0.537656f, -0.914867f );
+pTmp30->pBone[18].S = Vect( 0.999999f, 1.000001f, 1.000003f );
+
+//     Node Name: Humanoid:LeftThumb2
+pTmp30->pBone[19].T = Vect( 22.746157f, -0.353276f, -0.113011f );
+pTmp30->pBone[19].Q = Quat( ROT_XYZ, 0.081784f, 0.342417f, 0.683623f );
+pTmp30->pBone[19].S = Vect( 0.999997f, 1.000002f, 1.000001f );
+

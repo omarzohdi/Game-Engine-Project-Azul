@@ -1,0 +1,3139 @@
+
+
+File: teddy_TGA.FBX
+
+FBX version number for this FBX SDK is 7.2.0
+FBX version number for file teddy_TGA.FBX is 7.2.0
+
+Animation Stack Information
+    Number of Animation Stacks: 3
+    Current Animation Stack: "idle"
+
+    Animation Stack 0
+         Name: "walk"
+         Description: ""
+         Import Name: "walk"
+         Import State: true
+
+    Animation Stack 1
+         Name: "idle"
+         Description: ""
+         Import Name: "idle"
+         Import State: true
+
+    Animation Stack 2
+         Name: "Take 003"
+         Description: ""
+         Import Name: "Take 003"
+         Import State: true
+
+
+
+--------------------
+Meta-Data
+--------------------
+
+    Title: 
+    Subject: 
+    Author: 
+    Keywords: 
+    Revision: 
+    Comment: 
+
+
+---------------------
+Global Light Settings
+---------------------
+
+Ambient Color: 0.000000 (red), 0.000000 (green), 0.000000 (blue)
+
+
+
+----------------------
+Global Camera Settings
+----------------------
+
+Default Camera: Producer Perspective
+
+
+
+--------------------
+Global Time Settings
+--------------------
+
+Time Mode : 30 fps
+Timeline default timespan: 
+     Start: 0
+     Stop : 139
+
+
+
+---------
+Hierarchy
+---------
+
+k  index:0   n:Bip01   p:RootNode
+k  index:1   n:Bip01 Pelvis   p:Bip01
+k  index:2   n:Bip01 Spine   p:Bip01 Pelvis
+k  index:3   n:Bip01 L Thigh   p:Bip01 Spine
+k  index:4   n:Bip01 L Calf   p:Bip01 L Thigh
+k  index:5   n:Bip01 L Foot   p:Bip01 L Calf
+k  index:6   n:Bip01 R Thigh   p:Bip01 Spine
+k  index:7   n:Bip01 R Calf   p:Bip01 R Thigh
+k  index:8   n:Bip01 R Foot   p:Bip01 R Calf
+k  index:9   n:Bip01 Spine1   p:Bip01 Spine
+k  index:10   n:Bip01 Neck   p:Bip01 Spine1
+k  index:11   n:Bip01 L Clavicle   p:Bip01 Neck
+k  index:12   n:Bip01 L UpperArm   p:Bip01 L Clavicle
+k  index:13   n:Bip01 L Forearm   p:Bip01 L UpperArm
+k  index:14   n:Bip01 L Hand   p:Bip01 L Forearm
+k  index:15   n:Bip01 R Clavicle   p:Bip01 Neck
+k  index:16   n:Bip01 R UpperArm   p:Bip01 R Clavicle
+k  index:17   n:Bip01 R Forearm   p:Bip01 R UpperArm
+k  index:18   n:Bip01 R Hand   p:Bip01 R Forearm
+k  index:19   n:Bip01 Head   p:Bip01 Neck
+k  index:20   n:teddyzsphere_unfold3d   p:Bip01
+k  index:0   n:Bip01_Ctrl:Reference   p:RootNode
+k  index:1   n:Bip01_Ctrl:Hips   p:Bip01_Ctrl:Reference
+k  index:2   n:Bip01_Ctrl:LeftUpLeg   p:Bip01_Ctrl:Hips
+k  index:3   n:Bip01_Ctrl:LeftLeg   p:Bip01_Ctrl:LeftUpLeg
+k  index:4   n:Bip01_Ctrl:LeftFoot   p:Bip01_Ctrl:LeftLeg
+k  index:5   n:Bip01_Ctrl:RightUpLeg   p:Bip01_Ctrl:Hips
+k  index:6   n:Bip01_Ctrl:RightLeg   p:Bip01_Ctrl:RightUpLeg
+k  index:7   n:Bip01_Ctrl:RightFoot   p:Bip01_Ctrl:RightLeg
+k  index:8   n:Bip01_Ctrl:Spine   p:Bip01_Ctrl:Hips
+k  index:9   n:Bip01_Ctrl:Spine1   p:Bip01_Ctrl:Spine
+k  index:10   n:Bip01_Ctrl:LeftShoulder   p:Bip01_Ctrl:Spine1
+k  index:11   n:Bip01_Ctrl:LeftArm   p:Bip01_Ctrl:LeftShoulder
+k  index:12   n:Bip01_Ctrl:LeftForeArm   p:Bip01_Ctrl:LeftArm
+k  index:13   n:Bip01_Ctrl:LeftHand   p:Bip01_Ctrl:LeftForeArm
+k  index:14   n:Bip01_Ctrl:RightShoulder   p:Bip01_Ctrl:Spine1
+k  index:15   n:Bip01_Ctrl:RightArm   p:Bip01_Ctrl:RightShoulder
+k  index:16   n:Bip01_Ctrl:RightForeArm   p:Bip01_Ctrl:RightArm
+k  index:17   n:Bip01_Ctrl:RightHand   p:Bip01_Ctrl:RightForeArm
+k  index:18   n:Bip01_Ctrl:Neck   p:Bip01_Ctrl:Spine1
+k  index:19   n:Bip01_Ctrl:Head   p:Bip01_Ctrl:Neck
+k  index:20   n:Bip01_Ctrl:HipsEffector   p:Bip01_Ctrl:Reference
+k  index:21   n:Bip01_Ctrl:LeftAnkleEffector   p:Bip01_Ctrl:Reference
+k  index:22   n:Bip01_Ctrl:RightAnkleEffector   p:Bip01_Ctrl:Reference
+k  index:23   n:Bip01_Ctrl:LeftWristEffector   p:Bip01_Ctrl:Reference
+k  index:24   n:Bip01_Ctrl:RightWristEffector   p:Bip01_Ctrl:Reference
+k  index:25   n:Bip01_Ctrl:LeftKneeEffector   p:Bip01_Ctrl:Reference
+k  index:26   n:Bip01_Ctrl:RightKneeEffector   p:Bip01_Ctrl:Reference
+k  index:27   n:Bip01_Ctrl:LeftElbowEffector   p:Bip01_Ctrl:Reference
+k  index:28   n:Bip01_Ctrl:RightElbowEffector   p:Bip01_Ctrl:Reference
+k  index:29   n:Bip01_Ctrl:ChestOriginEffector   p:Bip01_Ctrl:Reference
+k  index:30   n:Bip01_Ctrl:ChestEndEffector   p:Bip01_Ctrl:Reference
+k  index:31   n:Bip01_Ctrl:LeftShoulderEffector   p:Bip01_Ctrl:Reference
+k  index:32   n:Bip01_Ctrl:RightShoulderEffector   p:Bip01_Ctrl:Reference
+k  index:33   n:Bip01_Ctrl:HeadEffector   p:Bip01_Ctrl:Reference
+k  index:34   n:Bip01_Ctrl:LeftHipEffector   p:Bip01_Ctrl:Reference
+k  index:35   n:Bip01_Ctrl:RightHipEffector   p:Bip01_Ctrl:Reference
+
+
+------------
+Node Content
+------------
+
+Skeleton Name: Bip01
+    Type: Limb Node
+    Limb Node Size: 0.000000
+    Color: 0.800000 (red), 0.800000 (green), 0.800000 (blue)
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: -90.000000 0.000000 0.000000
+        Post-Rotation: 0.000000 0.000000 0.000000
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RSrs
+Skeleton Name: Bip01 Pelvis
+    Type: Limb Node
+    Limb Node Size: 42.118546
+    Color: 0.800000 (red), 0.800000 (green), 0.800000 (blue)
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 0.000000 0.000000 0.000000
+        Post-Rotation: 0.000000 0.000000 0.000000
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RSrs
+Skeleton Name: Bip01 Spine
+    Type: Limb Node
+    Limb Node Size: 104.558022
+    Color: 0.800000 (red), 0.800000 (green), 0.800000 (blue)
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 0.000000 0.000000 0.000000
+        Post-Rotation: 0.000000 0.000000 0.000000
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RSrs
+Skeleton Name: Bip01 L Thigh
+    Type: Limb Node
+    Limb Node Size: 118.731010
+    Color: 0.800000 (red), 0.800000 (green), 0.800000 (blue)
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 0.000000 0.000000 0.000000
+        Post-Rotation: 0.000000 0.000000 0.000000
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RSrs
+Skeleton Name: Bip01 L Calf
+    Type: Limb Node
+    Limb Node Size: 92.844841
+    Color: 0.800000 (red), 0.800000 (green), 0.800000 (blue)
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 0.000000 0.000000 0.000000
+        Post-Rotation: 0.000000 0.000000 0.000000
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RSrs
+Skeleton Name: Bip01 L Foot
+    Type: Limb Node
+    Limb Node Size: 92.844841
+    Color: 0.800000 (red), 0.800000 (green), 0.800000 (blue)
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 0.000000 0.000000 0.000000
+        Post-Rotation: 0.000000 0.000000 0.000000
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RSrs
+Skeleton Name: Bip01 R Thigh
+    Type: Limb Node
+    Limb Node Size: 118.731033
+    Color: 0.800000 (red), 0.800000 (green), 0.800000 (blue)
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 0.000000 0.000000 0.000000
+        Post-Rotation: 0.000000 0.000000 0.000000
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RSrs
+Skeleton Name: Bip01 R Calf
+    Type: Limb Node
+    Limb Node Size: 92.844849
+    Color: 0.800000 (red), 0.800000 (green), 0.800000 (blue)
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 0.000000 0.000000 0.000000
+        Post-Rotation: 0.000000 0.000000 0.000000
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RSrs
+Skeleton Name: Bip01 R Foot
+    Type: Limb Node
+    Limb Node Size: 92.844849
+    Color: 0.800000 (red), 0.800000 (green), 0.800000 (blue)
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 0.000000 0.000000 0.000000
+        Post-Rotation: 0.000000 0.000000 0.000000
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RSrs
+Skeleton Name: Bip01 Spine1
+    Type: Limb Node
+    Limb Node Size: 154.986145
+    Color: 0.800000 (red), 0.800000 (green), 0.800000 (blue)
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 0.000000 0.000000 0.000000
+        Post-Rotation: 0.000000 0.000000 0.000000
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RSrs
+Skeleton Name: Bip01 Neck
+    Type: Limb Node
+    Limb Node Size: 38.230282
+    Color: 0.800000 (red), 0.800000 (green), 0.800000 (blue)
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 0.000000 0.000000 0.000000
+        Post-Rotation: 0.000000 0.000000 0.000000
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RSrs
+Skeleton Name: Bip01 L Clavicle
+    Type: Limb Node
+    Limb Node Size: 91.474968
+    Color: 0.800000 (red), 0.800000 (green), 0.800000 (blue)
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 0.000000 0.000000 0.000000
+        Post-Rotation: 0.000000 0.000000 0.000000
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RSrs
+Skeleton Name: Bip01 L UpperArm
+    Type: Limb Node
+    Limb Node Size: 105.695801
+    Color: 0.800000 (red), 0.800000 (green), 0.800000 (blue)
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 0.000000 0.000000 0.000000
+        Post-Rotation: 0.000000 0.000000 0.000000
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RSrs
+Skeleton Name: Bip01 L Forearm
+    Type: Limb Node
+    Limb Node Size: 105.695900
+    Color: 0.800000 (red), 0.800000 (green), 0.800000 (blue)
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 0.000000 0.000000 0.000000
+        Post-Rotation: 0.000000 0.000000 0.000000
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RSrs
+Skeleton Name: Bip01 L Hand
+    Type: Limb Node
+    Limb Node Size: 105.695900
+    Color: 0.800000 (red), 0.800000 (green), 0.800000 (blue)
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 0.000000 0.000000 0.000000
+        Post-Rotation: 0.000000 0.000000 0.000000
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RSrs
+Skeleton Name: Bip01 R Clavicle
+    Type: Limb Node
+    Limb Node Size: 91.474960
+    Color: 0.800000 (red), 0.800000 (green), 0.800000 (blue)
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 0.000000 0.000000 0.000000
+        Post-Rotation: 0.000000 0.000000 0.000000
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RSrs
+Skeleton Name: Bip01 R UpperArm
+    Type: Limb Node
+    Limb Node Size: 105.695900
+    Color: 0.800000 (red), 0.800000 (green), 0.800000 (blue)
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 0.000000 0.000000 0.000000
+        Post-Rotation: 0.000000 0.000000 0.000000
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RSrs
+Skeleton Name: Bip01 R Forearm
+    Type: Limb Node
+    Limb Node Size: 105.695900
+    Color: 0.800000 (red), 0.800000 (green), 0.800000 (blue)
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 0.000000 0.000000 0.000000
+        Post-Rotation: 0.000000 0.000000 0.000000
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RSrs
+Skeleton Name: Bip01 R Hand
+    Type: Limb Node
+    Limb Node Size: 105.695900
+    Color: 0.800000 (red), 0.800000 (green), 0.800000 (blue)
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 0.000000 0.000000 0.000000
+        Post-Rotation: 0.000000 0.000000 0.000000
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RSrs
+Skeleton Name: Bip01 Head
+    Type: Limb Node
+    Limb Node Size: 77.554382
+    Color: 0.800000 (red), 0.800000 (green), 0.800000 (blue)
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 0.000000 0.000000 0.000000
+        Post-Rotation: 0.000000 0.000000 0.000000
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RSrs
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 0.000000 0.000000 0.000000
+        Post-Rotation: 0.000000 0.000000 0.000000
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RSrs
+Marker Name: Bip01_Ctrl:Reference
+    Marker Type: Standard
+    Marker Look: 
+    Size: 100.000000
+    Color: 0.300000 (red), 0.300000 (green), 1.000000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 0.000000 0.000000 0.000000
+        Post-Rotation: 0.000000 0.000000 0.000000
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:Hips
+    Marker Type: FK Effector
+    Marker Look: 
+    Size: 100.000000
+    Color: 1.000000 (red), 1.000000 (green), 0.000000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Property Count: 2
+        Property 0
+            Display Name: Bip01_Ctrl:HipsEffector.IK Reach Translation
+            Internal Name: Bip01_Ctrl:HipsEffector.IK Reach Translation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+        Property 1
+            Display Name: Bip01_Ctrl:HipsEffector.IK Reach Rotation
+            Internal Name: Bip01_Ctrl:HipsEffector.IK Reach Rotation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 90.000000 -0.000000 90.000000
+        Post-Rotation: 90.000000 -0.000000 90.000000
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:LeftUpLeg
+    Marker Type: FK Effector
+    Marker Look: 
+    Size: 100.000000
+    Color: 1.000000 (red), 1.000000 (green), 0.000000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Property Count: 2
+        Property 0
+            Display Name: Bip01_Ctrl:LeftHipEffector.IK Reach Translation
+            Internal Name: Bip01_Ctrl:LeftHipEffector.IK Reach Translation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+        Property 1
+            Display Name: Bip01_Ctrl:LeftHipEffector.IK Reach Rotation
+            Internal Name: Bip01_Ctrl:LeftHipEffector.IK Reach Rotation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: -89.999992 -5.729581 -90.000082
+        Post-Rotation: -89.999992 -5.729581 -90.000082
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:LeftLeg
+    Marker Type: FK Effector
+    Marker Look: 
+    Size: 100.000000
+    Color: 1.000000 (red), 1.000000 (green), 0.000000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Property Count: 2
+        Property 0
+            Display Name: Bip01_Ctrl:LeftKneeEffector.IK Reach Translation
+            Internal Name: Bip01_Ctrl:LeftKneeEffector.IK Reach Translation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+        Property 1
+            Display Name: Bip01_Ctrl:LeftKneeEffector.IK Reach Rotation
+            Internal Name: Bip01_Ctrl:LeftKneeEffector.IK Reach Rotation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: -90.000011 5.729561 -90.000107
+        Post-Rotation: -90.000011 5.729561 -90.000107
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:LeftFoot
+    Marker Type: FK Effector
+    Marker Look: 
+    Size: 30.000000
+    Color: 1.000000 (red), 1.000000 (green), 0.000000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Property Count: 2
+        Property 0
+            Display Name: Bip01_Ctrl:LeftAnkleEffector.IK Reach Translation
+            Internal Name: Bip01_Ctrl:LeftAnkleEffector.IK Reach Translation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+        Property 1
+            Display Name: Bip01_Ctrl:LeftAnkleEffector.IK Reach Rotation
+            Internal Name: Bip01_Ctrl:LeftAnkleEffector.IK Reach Rotation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: -180.000000 -90.000000 0.000000
+        Post-Rotation: -180.000000 -90.000000 0.000000
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:RightUpLeg
+    Marker Type: FK Effector
+    Marker Look: 
+    Size: 100.000000
+    Color: 1.000000 (red), 1.000000 (green), 0.000000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Property Count: 2
+        Property 0
+            Display Name: Bip01_Ctrl:RightHipEffector.IK Reach Translation
+            Internal Name: Bip01_Ctrl:RightHipEffector.IK Reach Translation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+        Property 1
+            Display Name: Bip01_Ctrl:RightHipEffector.IK Reach Rotation
+            Internal Name: Bip01_Ctrl:RightHipEffector.IK Reach Rotation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: -89.999992 -5.729581 -90.000082
+        Post-Rotation: -89.999992 -5.729581 -90.000082
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:RightLeg
+    Marker Type: FK Effector
+    Marker Look: 
+    Size: 100.000000
+    Color: 1.000000 (red), 1.000000 (green), 0.000000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Property Count: 2
+        Property 0
+            Display Name: Bip01_Ctrl:RightKneeEffector.IK Reach Translation
+            Internal Name: Bip01_Ctrl:RightKneeEffector.IK Reach Translation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+        Property 1
+            Display Name: Bip01_Ctrl:RightKneeEffector.IK Reach Rotation
+            Internal Name: Bip01_Ctrl:RightKneeEffector.IK Reach Rotation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: -90.000011 5.729563 -90.000107
+        Post-Rotation: -90.000011 5.729563 -90.000107
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:RightFoot
+    Marker Type: FK Effector
+    Marker Look: 
+    Size: 30.000000
+    Color: 1.000000 (red), 1.000000 (green), 0.000000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Property Count: 2
+        Property 0
+            Display Name: Bip01_Ctrl:RightAnkleEffector.IK Reach Translation
+            Internal Name: Bip01_Ctrl:RightAnkleEffector.IK Reach Translation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+        Property 1
+            Display Name: Bip01_Ctrl:RightAnkleEffector.IK Reach Rotation
+            Internal Name: Bip01_Ctrl:RightAnkleEffector.IK Reach Rotation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: -180.000000 -90.000000 0.000000
+        Post-Rotation: -180.000000 -90.000000 0.000000
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:Spine
+    Marker Type: FK Effector
+    Marker Look: 
+    Size: 100.000000
+    Color: 1.000000 (red), 1.000000 (green), 0.000000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Property Count: 2
+        Property 0
+            Display Name: Bip01_Ctrl:ChestOriginEffector.IK Reach Translation
+            Internal Name: Bip01_Ctrl:ChestOriginEffector.IK Reach Translation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+        Property 1
+            Display Name: Bip01_Ctrl:ChestOriginEffector.IK Reach Rotation
+            Internal Name: Bip01_Ctrl:ChestOriginEffector.IK Reach Rotation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 90.000000 0.011346 89.999918
+        Post-Rotation: 90.000000 0.011346 89.999918
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:Spine1
+    Marker Type: FK Effector
+    Marker Look: 
+    Size: 100.000000
+    Color: 1.000000 (red), 1.000000 (green), 0.000000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Property Count: 2
+        Property 0
+            Display Name: Bip01_Ctrl:ChestEndEffector.IK Reach Translation
+            Internal Name: Bip01_Ctrl:ChestEndEffector.IK Reach Translation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+        Property 1
+            Display Name: Bip01_Ctrl:ChestEndEffector.IK Reach Rotation
+            Internal Name: Bip01_Ctrl:ChestEndEffector.IK Reach Rotation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 90.000000 -0.022796 89.999918
+        Post-Rotation: 90.000000 -0.022796 89.999918
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:LeftShoulder
+    Marker Type: FK Effector
+    Marker Look: 
+    Size: 100.000000
+    Color: 1.000000 (red), 1.000000 (green), 0.000000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Property Count: 2
+        Property 0
+            Display Name: Bip01_Ctrl:LeftShoulderEffector.IK Reach Translation
+            Internal Name: Bip01_Ctrl:LeftShoulderEffector.IK Reach Translation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+        Property 1
+            Display Name: Bip01_Ctrl:LeftShoulderEffector.IK Reach Rotation
+            Internal Name: Bip01_Ctrl:LeftShoulderEffector.IK Reach Rotation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 0.000000 -9.999920 -0.000085
+        Post-Rotation: -0.000000 -9.999920 -0.000085
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:LeftArm
+    Marker Type: FK Effector
+    Marker Look: 
+    Size: 100.000000
+    Color: 1.000000 (red), 1.000000 (green), 0.000000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Property Count: 2
+        Property 0
+            Display Name: Bip01_Ctrl:LeftShoulderEffector.IK Reach Translation
+            Internal Name: Bip01_Ctrl:LeftShoulderEffector.IK Reach Translation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+        Property 1
+            Display Name: Bip01_Ctrl:LeftShoulderEffector.IK Reach Rotation
+            Internal Name: Bip01_Ctrl:LeftShoulderEffector.IK Reach Rotation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: -89.673942 -4.298631 -4.341776
+        Post-Rotation: -89.673942 -4.298631 -4.341776
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:LeftForeArm
+    Marker Type: FK Effector
+    Marker Look: 
+    Size: 100.000000
+    Color: 1.000000 (red), 1.000000 (green), 0.000000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Property Count: 2
+        Property 0
+            Display Name: Bip01_Ctrl:LeftElbowEffector.IK Reach Translation
+            Internal Name: Bip01_Ctrl:LeftElbowEffector.IK Reach Translation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+        Property 1
+            Display Name: Bip01_Ctrl:LeftElbowEffector.IK Reach Rotation
+            Internal Name: Bip01_Ctrl:LeftElbowEffector.IK Reach Rotation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 90.437891 -5.757727 -4.356518
+        Post-Rotation: 90.437891 -5.757727 -4.356518
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:LeftHand
+    Marker Type: FK Effector
+    Marker Look: 
+    Size: 30.000000
+    Color: 1.000000 (red), 1.000000 (green), 0.000000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Property Count: 2
+        Property 0
+            Display Name: Bip01_Ctrl:LeftWristEffector.IK Reach Translation
+            Internal Name: Bip01_Ctrl:LeftWristEffector.IK Reach Translation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+        Property 1
+            Display Name: Bip01_Ctrl:LeftWristEffector.IK Reach Rotation
+            Internal Name: Bip01_Ctrl:LeftWristEffector.IK Reach Rotation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 180.000000 -0.000000 0.000000
+        Post-Rotation: 180.000000 -0.000000 0.000000
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:RightShoulder
+    Marker Type: FK Effector
+    Marker Look: 
+    Size: 100.000000
+    Color: 1.000000 (red), 1.000000 (green), 0.000000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Property Count: 2
+        Property 0
+            Display Name: Bip01_Ctrl:RightShoulderEffector.IK Reach Translation
+            Internal Name: Bip01_Ctrl:RightShoulderEffector.IK Reach Translation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+        Property 1
+            Display Name: Bip01_Ctrl:RightShoulderEffector.IK Reach Rotation
+            Internal Name: Bip01_Ctrl:RightShoulderEffector.IK Reach Rotation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 0.000000 -10.000069 179.999925
+        Post-Rotation: 0.000000 -10.000069 179.999925
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:RightArm
+    Marker Type: FK Effector
+    Marker Look: 
+    Size: 100.000000
+    Color: 1.000000 (red), 1.000000 (green), 0.000000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Property Count: 2
+        Property 0
+            Display Name: Bip01_Ctrl:RightShoulderEffector.IK Reach Translation
+            Internal Name: Bip01_Ctrl:RightShoulderEffector.IK Reach Translation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+        Property 1
+            Display Name: Bip01_Ctrl:RightShoulderEffector.IK Reach Rotation
+            Internal Name: Bip01_Ctrl:RightShoulderEffector.IK Reach Rotation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 90.326069 4.298779 4.341772
+        Post-Rotation: 90.326069 4.298779 4.341772
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:RightForeArm
+    Marker Type: FK Effector
+    Marker Look: 
+    Size: 100.000000
+    Color: 1.000000 (red), 1.000000 (green), 0.000000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Property Count: 2
+        Property 0
+            Display Name: Bip01_Ctrl:RightElbowEffector.IK Reach Translation
+            Internal Name: Bip01_Ctrl:RightElbowEffector.IK Reach Translation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+        Property 1
+            Display Name: Bip01_Ctrl:RightElbowEffector.IK Reach Rotation
+            Internal Name: Bip01_Ctrl:RightElbowEffector.IK Reach Rotation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: -89.562121 5.757883 4.356281
+        Post-Rotation: -89.562121 5.757883 4.356281
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:RightHand
+    Marker Type: FK Effector
+    Marker Look: 
+    Size: 30.000000
+    Color: 1.000000 (red), 1.000000 (green), 0.000000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Property Count: 2
+        Property 0
+            Display Name: Bip01_Ctrl:RightWristEffector.IK Reach Translation
+            Internal Name: Bip01_Ctrl:RightWristEffector.IK Reach Translation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+        Property 1
+            Display Name: Bip01_Ctrl:RightWristEffector.IK Reach Rotation
+            Internal Name: Bip01_Ctrl:RightWristEffector.IK Reach Rotation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 0.000000 0.000000 -180.000000
+        Post-Rotation: 0.000000 0.000000 -180.000000
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:Neck
+    Marker Type: FK Effector
+    Marker Look: 
+    Size: 100.000000
+    Color: 1.000000 (red), 1.000000 (green), 0.000000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 90.000000 -0.045626 89.999918
+        Post-Rotation: 90.000000 -0.045626 89.999918
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:Head
+    Marker Type: FK Effector
+    Marker Look: 
+    Size: 100.000000
+    Color: 1.000000 (red), 1.000000 (green), 0.000000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Property Count: 2
+        Property 0
+            Display Name: Bip01_Ctrl:HeadEffector.IK Reach Translation
+            Internal Name: Bip01_Ctrl:HeadEffector.IK Reach Translation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+        Property 1
+            Display Name: Bip01_Ctrl:HeadEffector.IK Reach Rotation
+            Internal Name: Bip01_Ctrl:HeadEffector.IK Reach Rotation
+            Type: ReferenceProperty
+            Is Animatable: false
+            Is Temporary: false
+            Default Value: UNIDENTIFIED
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 90.000000 -0.000000 90.000000
+        Post-Rotation: 90.000000 -0.000000 90.000000
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:HipsEffector
+    Marker Type: IK Effector
+    Marker Look: Sphere
+    Size: 500.000000
+    Color: 1.000000 (red), 0.250000 (green), 0.250000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 90.000000 -0.000000 90.000000
+        Post-Rotation: 90.000000 -0.000000 90.000000
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:LeftAnkleEffector
+    Marker Type: IK Effector
+    Marker Look: Sphere
+    Size: 300.000000
+    Color: 1.000000 (red), 0.250000 (green), 0.250000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: -180.000000 -90.000000 0.000000
+        Post-Rotation: -180.000000 -90.000000 0.000000
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:RightAnkleEffector
+    Marker Type: IK Effector
+    Marker Look: Sphere
+    Size: 300.000000
+    Color: 1.000000 (red), 0.250000 (green), 0.250000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: -180.000000 -90.000000 0.000000
+        Post-Rotation: -180.000000 -90.000000 0.000000
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:LeftWristEffector
+    Marker Type: IK Effector
+    Marker Look: Sphere
+    Size: 300.000000
+    Color: 1.000000 (red), 0.250000 (green), 0.250000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 180.000000 -0.000000 0.000000
+        Post-Rotation: 180.000000 -0.000000 0.000000
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:RightWristEffector
+    Marker Type: IK Effector
+    Marker Look: Sphere
+    Size: 300.000000
+    Color: 1.000000 (red), 0.250000 (green), 0.250000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 0.000000 0.000000 -180.000000
+        Post-Rotation: 0.000000 0.000000 -180.000000
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:LeftKneeEffector
+    Marker Type: IK Effector
+    Marker Look: Sphere
+    Size: 200.000000
+    Color: 0.300000 (red), 0.300000 (green), 1.000000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: -90.000011 5.729561 -90.000107
+        Post-Rotation: -90.000011 5.729561 -90.000107
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:RightKneeEffector
+    Marker Type: IK Effector
+    Marker Look: Sphere
+    Size: 200.000000
+    Color: 0.300000 (red), 0.300000 (green), 1.000000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: -90.000011 5.729563 -90.000107
+        Post-Rotation: -90.000011 5.729563 -90.000107
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:LeftElbowEffector
+    Marker Type: IK Effector
+    Marker Look: Sphere
+    Size: 120.000000
+    Color: 0.300000 (red), 0.300000 (green), 1.000000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 90.437891 -5.757727 -4.356518
+        Post-Rotation: 90.437891 -5.757727 -4.356518
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:RightElbowEffector
+    Marker Type: IK Effector
+    Marker Look: Sphere
+    Size: 120.000000
+    Color: 0.300000 (red), 0.300000 (green), 1.000000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: -89.562121 5.757883 4.356281
+        Post-Rotation: -89.562121 5.757883 4.356281
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:ChestOriginEffector
+    Marker Type: IK Effector
+    Marker Look: Sphere
+    Size: 120.000000
+    Color: 1.000000 (red), 0.250000 (green), 0.250000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 90.000000 0.011346 89.999918
+        Post-Rotation: 90.000000 0.011346 89.999918
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:ChestEndEffector
+    Marker Type: IK Effector
+    Marker Look: Sphere
+    Size: 500.000000
+    Color: 1.000000 (red), 0.250000 (green), 0.250000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 90.000000 -0.022796 89.999918
+        Post-Rotation: 90.000000 -0.022796 89.999918
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:LeftShoulderEffector
+    Marker Type: IK Effector
+    Marker Look: Sphere
+    Size: 300.000000
+    Color: 1.000000 (red), 0.250000 (green), 0.250000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: -89.673942 -4.298631 -4.341776
+        Post-Rotation: -89.673942 -4.298631 -4.341776
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:RightShoulderEffector
+    Marker Type: IK Effector
+    Marker Look: Sphere
+    Size: 300.000000
+    Color: 1.000000 (red), 0.250000 (green), 0.250000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 90.326069 4.298779 4.341772
+        Post-Rotation: 90.326069 4.298779 4.341772
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:HeadEffector
+    Marker Type: IK Effector
+    Marker Look: Sphere
+    Size: 500.000000
+    Color: 1.000000 (red), 0.250000 (green), 0.250000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: 90.000000 -0.000000 90.000000
+        Post-Rotation: 90.000000 -0.000000 90.000000
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:LeftHipEffector
+    Marker Type: IK Effector
+    Marker Look: 
+    Size: 100.000000
+    Color: 0.300000 (red), 0.300000 (green), 1.000000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: -89.999992 -5.729581 -90.000082
+        Post-Rotation: -89.999992 -5.729581 -90.000082
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+Marker Name: Bip01_Ctrl:RightHipEffector
+    Marker Type: IK Effector
+    Marker Look: 
+    Size: 100.000000
+    Color: 0.300000 (red), 0.300000 (green), 1.000000 (blue)
+    IKPivot: 0.000000, 0.000000, 0.000000
+    Pivot Information
+        Pivot State: Reference
+        Pre-Rotation: -89.999992 -5.729581 -90.000082
+        Post-Rotation: -89.999992 -5.729581 -90.000082
+        Rotation Pivot: 0.000000 0.000000 0.000000
+        Rotation Offset: 0.000000 0.000000 0.000000
+        Scaling Pivot: 0.000000 0.000000 0.000000
+        Scaling Offset: 0.000000 0.000000 0.000000
+Keenan    Limits Information
+    Transformation Propagation
+        Rotation Space: Euler XYZ
+        Use the Rotation Space for Limit specification only: No
+        Transformation Inheritance: RrSs
+
+
+----
+Pose
+----
+
+Pose Name: BIND_POSES
+    Is a bind pose: true
+    Number of items in the pose: 21
+
+    Item name: teddyzsphere_unfold3d
+    Matrix value: 
+           5.3637   -0.0000   -0.0000    0.0000
+           0.0000   -0.0000    5.3637    0.0000
+          -0.0000   -5.3637   -0.0000    0.0000
+           0.0128    6.4315   -0.0026    1.0000
+
+    Item name: Bip01 Head
+    Matrix value: 
+           0.0000    0.1000    0.0000    0.0000
+          -0.0000   -0.0000    0.1000    0.0000
+           0.1000   -0.0000    0.0000    0.0000
+          -0.0000    9.8087    0.0000    1.0000
+
+    Item name: Bip01 R Hand
+    Matrix value: 
+          -0.0992   -0.0076    0.0100    0.0000
+           0.0075   -0.0997   -0.0011    0.0000
+           0.0101   -0.0003    0.0995    0.0000
+          -4.8324    8.4727    0.4916    1.0000
+
+    Item name: Bip01 R Forearm
+    Matrix value: 
+          -0.0992   -0.0076    0.0100    0.0000
+          -0.0101    0.0002   -0.0995    0.0000
+           0.0075   -0.0997   -0.0010    0.0000
+          -3.3345    8.5868    0.3401    1.0000
+
+    Item name: Bip01 R UpperArm
+    Matrix value: 
+          -0.0994   -0.0075    0.0075    0.0000
+          -0.0075    0.0004   -0.0997    0.0000
+           0.0075   -0.0997   -0.0010    0.0000
+          -1.8331    8.7008    0.2269    1.0000
+
+    Item name: Bip01 R Clavicle
+    Matrix value: 
+          -0.0985   -0.0000    0.0174    0.0000
+          -0.0174    0.0000   -0.0985    0.0000
+           0.0000   -0.1000   -0.0000    0.0000
+          -0.5461    8.7008    0.0000    1.0000
+
+    Item name: Bip01 L Hand
+    Matrix value: 
+           0.0992   -0.0076    0.0100    0.0000
+          -0.0075   -0.0997   -0.0011    0.0000
+           0.0101    0.0003   -0.0995    0.0000
+           4.8324    8.4727    0.4916    1.0000
+
+    Item name: Bip01 L Forearm
+    Matrix value: 
+           0.0992   -0.0076    0.0100    0.0000
+           0.0101    0.0002   -0.0995    0.0000
+           0.0075    0.0997    0.0010    0.0000
+           3.3345    8.5868    0.3401    1.0000
+
+    Item name: Bip01 L UpperArm
+    Matrix value: 
+           0.0994   -0.0075    0.0075    0.0000
+           0.0075    0.0004   -0.0997    0.0000
+           0.0075    0.0997    0.0010    0.0000
+           1.8331    8.7008    0.2269    1.0000
+
+    Item name: Bip01 L Clavicle
+    Matrix value: 
+           0.0985   -0.0000    0.0174    0.0000
+           0.0174    0.0000   -0.0985    0.0000
+           0.0000    0.1000    0.0000    0.0000
+           0.5461    8.7008   -0.0000    1.0000
+
+    Item name: Bip01 Neck
+    Matrix value: 
+           0.0000    0.1000    0.0000    0.0000
+          -0.0000   -0.0000    0.1000    0.0000
+           0.1000   -0.0000    0.0000    0.0000
+          -0.0000    8.7008   -0.0009    1.0000
+
+    Item name: Bip01 Spine1
+    Matrix value: 
+           0.0000    0.1000    0.0000    0.0000
+          -0.0000   -0.0000    0.1000    0.0000
+           0.1000   -0.0000    0.0000    0.0000
+          -0.0000    6.4867   -0.0018    1.0000
+
+    Item name: Bip01 R Foot
+    Matrix value: 
+          -0.0000   -0.1000   -0.0000    0.0000
+           0.0000   -0.0000    0.1000    0.0000
+          -0.1000   -0.0000    0.0000    0.0000
+          -1.3671    1.1045    0.0369    1.0000
+
+    Item name: Bip01 R Calf
+    Matrix value: 
+          -0.0000   -0.0995   -0.0100    0.0000
+           0.0000   -0.0100    0.0995    0.0000
+          -0.1000    0.0000    0.0000    0.0000
+          -1.3671    2.4243    0.1693    1.0000
+
+    Item name: Bip01 R Thigh
+    Matrix value: 
+           0.0000   -0.0995    0.0100    0.0000
+           0.0000    0.0100    0.0995    0.0000
+          -0.1000    0.0000    0.0000    0.0000
+          -1.3671    4.1120    0.0000    1.0000
+
+    Item name: Bip01 L Foot
+    Matrix value: 
+          -0.0000   -0.1000   -0.0000    0.0000
+           0.0000   -0.0000    0.1000    0.0000
+          -0.1000   -0.0000    0.0000    0.0000
+           1.3671    1.1045    0.0369    1.0000
+
+    Item name: Bip01 L Calf
+    Matrix value: 
+          -0.0000   -0.0995   -0.0100    0.0000
+           0.0000   -0.0100    0.0995    0.0000
+          -0.1000    0.0000    0.0000    0.0000
+           1.3671    2.4243    0.1693    1.0000
+
+    Item name: Bip01 L Thigh
+    Matrix value: 
+           0.0000   -0.0995    0.0100    0.0000
+           0.0000    0.0100    0.0995    0.0000
+          -0.1000    0.0000    0.0000    0.0000
+           1.3671    4.1120   -0.0000    1.0000
+
+    Item name: Bip01 Spine
+    Matrix value: 
+           0.0000    0.1000    0.0000    0.0000
+          -0.0000   -0.0000    0.1000    0.0000
+           0.1000   -0.0000    0.0000    0.0000
+          -0.0000    4.7137   -0.0014    1.0000
+
+    Item name: Bip01 Pelvis
+    Matrix value: 
+           0.0000    0.1000    0.0000    0.0000
+           0.0000   -0.0000    0.1000    0.0000
+           0.1000    0.0000   -0.0000    0.0000
+          -0.0000    4.1120   -0.0000    1.0000
+
+    Item name: Bip01
+    Matrix value: 
+          -0.0000   -0.0000    0.1000    0.0000
+           0.1000   -0.0000    0.0000    0.0000
+           0.0000    0.1000    0.0000    0.0000
+          -0.0000    4.1120   -0.0000    1.0000
+
+
+
+---------
+Animation
+---------
+
+Animation Stack Name: walk
+
+Animation stack contains 2 Animation Layer(s)
+AnimLayer 0
+     Node Name: RootNode
+
+     Node Name: Bip01
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  0.970236, -2.711161, 1.899864
+Rot:  1.624573, -1.264373, 3.121366
+Scale:  0.100000, 0.100000, 0.100000
+
+     Node Name: Bip01 Pelvis
+
+     Node Name: Bip01 Spine
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  6.016934, -0.014115, -0.000028
+Rot:  -0.047765, 0.020883, 0.010792
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 L Thigh
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  -6.300546, -0.567644, 13.531080
+Rot:  3.060995, 0.095672, -3.015697
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 L Calf
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  16.961559, -0.000002, -0.000004
+Rot:  -0.348718, -0.021303, -0.650505
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 L Foot
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  13.263550, 0.000003, 0.000002
+Rot:  -0.103780, -0.201808, 0.767066
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 R Thigh
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  -5.729567, 0.737561, -13.774520
+Rot:  3.118021, 0.054987, 2.213239
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 R Calf
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  16.961571, 0.000003, -0.000003
+Rot:  -0.023962, 0.004592, -0.865707
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 R Foot
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  13.263530, -0.000000, 0.000002
+Rot:  -0.001414, 0.038321, 0.268111
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 Spine1
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  17.730431, -0.017629, 0.000002
+Rot:  -0.095342, 0.042221, 0.018989
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 Neck
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  22.140881, -0.008821, 0.000003
+Rot:  0.204811, 0.010239, -0.060075
+Scale:  1.000000, 1.000000, 1.000001
+
+     Node Name: Bip01 L Clavicle
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  -0.056449, 1.119313, 5.345238
+Rot:  1.012052, -1.036376, 2.183302
+Scale:  0.999999, 1.000000, 1.000000
+
+     Node Name: Bip01 L UpperArm
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  13.067860, 0.000004, -0.000004
+Rot:  -0.141163, 0.660794, 0.057318
+Scale:  1.000000, 1.000001, 1.000001
+
+     Node Name: Bip01 L Forearm
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  15.099380, -0.012400, 0.002757
+Rot:  0.645437, 0.044597, -0.613745
+Scale:  1.000000, 1.000001, 1.000001
+
+     Node Name: Bip01 L Hand
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  15.099410, 0.000082, 0.000072
+Rot:  -1.583676, 0.166629, -0.123964
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 R Clavicle
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  0.055393, -1.102072, -5.348833
+Rot:  -0.402011, 1.128657, 2.673232
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 R UpperArm
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  13.067840, -0.000001, 0.000001
+Rot:  -0.103288, -0.809167, 0.449669
+Scale:  1.000000, 1.000000, 1.000001
+
+     Node Name: Bip01 R Forearm
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  15.099410, -0.000577, -0.000088
+Rot:  -0.818463, -0.029294, -0.231554
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 R Hand
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  15.099400, 0.000180, -0.000104
+Rot:  1.566849, -0.070789, -0.100040
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 Head
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  11.079190, 0.000001, 0.000001
+Rot:  0.191348, -0.036722, 0.254348
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: teddyzsphere_unfold3d
+
+     Node Name: Bip01_Ctrl:Reference
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  0.000000, 0.000000, 0.000000
+Rot:  0.000000, -0.000000, 0.000000
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:Hips
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  0.970240, -2.711184, 1.899866
+Rot:  -0.017004, -0.305968, 0.036171
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftUpLeg
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  24.150339, 61.551380, -0.000029
+Rot:  0.240685, 0.045050, -0.063170
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftLeg
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  -0.000044, -29.812740, 2.991256
+Rot:  0.480630, 0.306460, 0.170406
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftFoot
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  -0.000047, -23.312880, -2.339072
+Rot:  -0.651851, -0.041965, -0.222749
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightUpLeg
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  -24.150330, 61.551418, 0.000033
+Rot:  -0.813628, -0.077230, -0.031921
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightLeg
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  -0.000046, -29.812750, 2.991261
+Rot:  0.665786, 0.014091, 0.019917
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightFoot
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  -0.000046, -23.312851, -2.339079
+Rot:  -0.167988, 0.007805, 0.037545
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:Spine
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  0.000017, 72.180153, -0.024935
+Rot:  0.010006, -0.047983, 0.020367
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:Spine1
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  0.000045, 31.320650, -0.006202
+Rot:  0.019063, -0.096158, 0.040322
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftShoulder
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  9.647666, 39.111622, 0.031134
+Rot:  0.000001, -0.077521, -0.281498
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftArm
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  22.733530, -0.000044, 4.008495
+Rot:  -0.079729, -0.010965, -0.594703
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftForeArm
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  26.520241, -2.008898, 2.021153
+Rot:  0.592851, -0.652653, 0.013500
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftHand
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  26.461720, -2.015641, 2.675881
+Rot:  0.014640, -0.120597, -0.169055
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightShoulder
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  -9.647557, 39.111649, 0.031156
+Rot:  -0.000010, 0.231986, 0.411820
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightArm
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  -22.733490, 0.000025, 4.008558
+Rot:  -0.089480, -0.270713, 0.758502
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightForeArm
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  -26.521570, -2.013436, 2.000362
+Rot:  0.793358, 0.291942, -0.022064
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightHand
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  -26.461729, -2.015710, 2.675792
+Rot:  0.009805, 0.099864, 0.071092
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:Neck
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  0.000057, 39.111641, 0.015561
+Rot:  -0.061342, 0.205053, -0.002086
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:Head
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  0.000028, 19.571270, 0.015585
+Rot:  0.259974, 0.194344, 0.013375
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:HipsEffector
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  -0.940310, 58.802441, 0.901892
+Rot:  -0.017004, -0.305968, 0.036171
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftAnkleEffector
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  25.634850, 13.435250, -12.235440
+Rot:  0.000000, 0.106198, 0.000000
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightAnkleEffector
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  -33.126919, 16.410980, 16.981119
+Rot:  -0.337656, -0.345604, 0.044884
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftWristEffector
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  36.177170, 100.405998, 50.572811
+Rot:  1.349980, -0.844288, -1.453550
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightWristEffector
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  -48.128330, 76.605690, -7.187449
+Rot:  0.466844, 0.062017, 1.308947
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftKneeEffector
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  22.293131, 29.961390, 4.033586
+Rot:  0.667547, 0.002370, 0.201806
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightKneeEffector
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  -32.820839, 39.806271, 15.745710
+Rot:  -0.156357, -0.359399, 0.006760
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftElbowEffector
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  33.237049, 116.107597, 29.212589
+Rot:  1.128718, -0.964551, -1.178834
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightElbowEffector
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  -41.356911, 102.354500, -8.797750
+Rot:  0.457044, 0.003730, 1.201111
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:ChestOriginEffector
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  -1.262692, 69.424507, 0.705789
+Rot:  -0.013814, -0.353526, 0.058723
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:ChestEndEffector
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  -6.869005, 139.610107, -0.058516
+Rot:  -0.010803, -0.448787, 0.104742
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftShoulderEffector
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  19.147730, 136.163696, 18.691771
+Rot:  0.321341, -0.359076, -0.854399
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightShoulderEffector
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  -36.024799, 128.110992, -4.368512
+Rot:  -0.355307, -0.263818, 1.321334
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:HeadEffector
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  -8.491537, 159.069199, -1.394182
+Rot:  0.188304, -0.048967, 0.099869
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftHipEffector
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  22.073320, 59.635220, 8.176337
+Rot:  0.243618, -0.261362, -0.029941
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightHipEffector
+
+Matrix:   Key Time: 0           In ms: 0
+Trans:  -23.953939, 57.969669, -6.372553
+Rot:  -0.820736, -0.383578, 0.003271
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: RootNode
+
+     Node Name: Bip01
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  -1.743190, -0.423828, -1.576679
+Rot:  1.720291, -1.349081, 2.975647
+Scale:  0.100000, 0.100000, 0.100000
+
+     Node Name: Bip01 Pelvis
+
+     Node Name: Bip01 Spine
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  6.016912, -0.014115, 0.000003
+Rot:  -0.018790, -0.012725, 0.011367
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 L Thigh
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  -5.841920, -0.175780, 13.745930
+Rot:  3.073161, -0.117379, 2.736919
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 L Calf
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  16.961559, -0.000002, -0.000004
+Rot:  -0.217510, -0.020214, -0.992974
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 L Foot
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  13.263550, 0.000003, 0.000002
+Rot:  -0.035641, -0.075892, 0.547680
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 R Thigh
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  -6.189781, 0.337890, -13.589760
+Rot:  3.137179, 0.173454, 2.701841
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 R Calf
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  16.961571, 0.000003, -0.000003
+Rot:  -0.115390, 0.009399, -1.501093
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 R Foot
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  13.263530, -0.000000, 0.000002
+Rot:  -0.008936, -0.030732, 0.380502
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 Spine1
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  17.730431, -0.017629, 0.000002
+Rot:  -0.037711, -0.025246, 0.021381
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 Neck
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  22.140881, -0.008821, 0.000003
+Rot:  0.132547, 0.072374, -0.088049
+Scale:  1.000000, 1.000000, 1.000001
+
+     Node Name: Bip01 L Clavicle
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  -0.395692, 0.728581, 5.398170
+Rot:  0.798327, -1.006933, 2.403643
+Scale:  0.999999, 1.000000, 1.000000
+
+     Node Name: Bip01 L UpperArm
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  13.067860, 0.000004, -0.000004
+Rot:  -0.032819, 0.782153, 0.233908
+Scale:  1.000000, 1.000001, 1.000001
+
+     Node Name: Bip01 L Forearm
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  15.099380, -0.000549, 0.000112
+Rot:  0.771123, 0.027996, -0.390859
+Scale:  1.000000, 1.000001, 1.000001
+
+     Node Name: Bip01 L Hand
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  15.099410, 0.000058, 0.000054
+Rot:  -1.576220, 0.123043, -0.128343
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 R Clavicle
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  0.394143, -0.711174, -5.400606
+Rot:  -0.514079, 1.006188, 2.566810
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 R UpperArm
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  13.067840, -0.000001, 0.000001
+Rot:  -0.122532, -0.765876, 0.417622
+Scale:  1.000000, 1.000000, 1.000001
+
+     Node Name: Bip01 R Forearm
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  15.099410, 0.000452, 0.000201
+Rot:  -0.977760, -0.032223, -0.239256
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 R Hand
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  15.099400, 0.000184, -0.000110
+Rot:  1.557878, -0.014141, -0.188850
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 Head
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  11.079190, 0.000001, 0.000001
+Rot:  0.135169, 0.020157, 0.272915
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: teddyzsphere_unfold3d
+
+     Node Name: Bip01_Ctrl:Reference
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  0.000000, 0.000000, 0.000000
+Rot:  0.000000, -0.000000, 0.000000
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:Hips
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  -1.743192, -0.423855, -1.576680
+Rot:  -0.033561, -0.219203, -0.012757
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftUpLeg
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  24.150339, 61.551380, -0.000029
+Rot:  -0.294407, 0.089565, 0.069194
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftLeg
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  -0.000044, -29.812740, 2.991256
+Rot:  0.807185, 0.151277, 0.158173
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftFoot
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  -0.000047, -23.312880, -2.339072
+Rot:  -0.446294, -0.000676, -0.083826
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightUpLeg
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  -24.150330, 61.551418, 0.000033
+Rot:  -0.319584, -0.086132, -0.173031
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightLeg
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  -0.000046, -29.812750, 2.991261
+Rot:  1.301114, 0.010246, 0.115315
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightFoot
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  -0.000046, -23.312851, -2.339079
+Rot:  -0.280348, 0.000081, -0.032002
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:Spine
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  0.000017, 72.180168, -0.024935
+Rot:  0.010572, -0.018640, -0.012936
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:Spine1
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  0.000045, 31.320650, -0.006202
+Rot:  0.021389, -0.037142, -0.026075
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftShoulder
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  9.647666, 39.111622, 0.031134
+Rot:  0.000001, -0.101533, -0.325619
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftArm
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  22.733530, -0.000044, 4.008495
+Rot:  -0.076088, 0.122940, -0.713334
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftForeArm
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  26.521490, -2.013472, 2.000238
+Rot:  0.729288, -0.444539, 0.026940
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftHand
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  26.461720, -2.015879, 2.675642
+Rot:  0.012461, -0.126669, -0.124704
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightShoulder
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  -9.647557, 39.111649, 0.031156
+Rot:  -0.000012, 0.283896, 0.550264
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightArm
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  -22.733490, 0.000025, 4.008558
+Rot:  -0.039214, -0.252831, 0.707065
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightForeArm
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  -26.521620, -2.013936, 1.998537
+Rot:  0.951235, 0.319495, -0.020213
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightHand
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  -26.461729, -2.015670, 2.675693
+Rot:  0.001761, 0.189373, 0.013634
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:Neck
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  0.000057, 39.111641, 0.015561
+Rot:  -0.088661, 0.138343, 0.060502
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:Head
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  0.000028, 19.571270, 0.015585
+Rot:  0.275852, 0.124665, 0.056119
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:HipsEffector
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  -0.509358, 61.082150, -3.592612
+Rot:  -0.033561, -0.219203, -0.012757
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftAnkleEffector
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  25.041420, 13.778600, 2.171882
+Rot:  -0.003090, 0.104802, 0.073900
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightAnkleEffector
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  -28.550840, 23.209829, -17.051220
+Rot:  0.679720, -0.234474, -0.099279
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftWristEffector
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  45.801620, 86.564262, 27.030170
+Rot:  1.093653, -0.483801, -1.372914
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightWristEffector
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  -42.567760, 82.225937, 1.938141
+Rot:  0.875345, 0.298922, 1.301750
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftKneeEffector
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  22.891609, 33.656960, 14.386210
+Rot:  0.449856, 0.069195, 0.150083
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightKneeEffector
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  -32.861649, 35.141891, 2.646596
+Rot:  0.955430, -0.260696, -0.080355
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftElbowEffector
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  40.044849, 109.069702, 13.922550
+Rot:  0.993524, -0.526863, -1.175995
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightElbowEffector
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  -34.895569, 107.247200, -3.211564
+Rot:  0.837305, 0.184739, 1.145411
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:ChestOriginEffector
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  -0.290882, 71.702171, -3.965053
+Rot:  -0.020240, -0.238251, -0.025416
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:ChestEndEffector
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  2.590852, 142.064896, -4.280436
+Rot:  0.007351, -0.275834, -0.051710
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftShoulderEffector
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  30.015169, 133.484894, 10.081940
+Rot:  0.231198, -0.089135, -1.089270
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightShoulderEffector
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  -26.955170, 132.680099, -1.960855
+Rot:  -0.115640, -0.130431, 1.201698
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:HeadEffector
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  2.664704, 161.544998, -6.179985
+Rot:  0.171049, -0.007734, 0.053023
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftHipEffector
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  23.061150, 60.781391, 1.658900
+Rot:  -0.342520, -0.126891, 0.053647
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightHipEffector
+
+Matrix:   Key Time: 35           In ms: 1166
+Trans:  -24.079861, 61.382900, -8.844125
+Rot:  -0.314154, -0.307786, -0.190551
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: RootNode
+
+     Node Name: Bip01
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  0.970241, -2.711164, 1.899865
+Rot:  1.624573, -1.264373, 3.121366
+Scale:  0.100000, 0.100000, 0.100000
+
+     Node Name: Bip01 Pelvis
+
+     Node Name: Bip01 Spine
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  6.016909, -0.014115, 0.000003
+Rot:  -0.047765, 0.020883, 0.010792
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 L Thigh
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  -6.300597, -0.567644, 13.531080
+Rot:  3.060995, 0.095672, -3.015694
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 L Calf
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  16.961559, -0.000002, -0.000004
+Rot:  -0.348719, -0.021303, -0.650498
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 L Foot
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  13.263550, 0.000003, 0.000002
+Rot:  -0.103779, -0.201807, 0.767062
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 R Thigh
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  -5.729619, 0.737561, -13.774520
+Rot:  3.118021, 0.054987, 2.213237
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 R Calf
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  16.961571, 0.000003, -0.000003
+Rot:  -0.023962, 0.004592, -0.865712
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 R Foot
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  13.263530, -0.000000, 0.000002
+Rot:  -0.001414, 0.038321, 0.268113
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 Spine1
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  17.730431, -0.017629, 0.000002
+Rot:  -0.095342, 0.042221, 0.018989
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 Neck
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  22.140881, -0.008821, 0.000003
+Rot:  0.204811, 0.010239, -0.060075
+Scale:  1.000000, 1.000000, 1.000001
+
+     Node Name: Bip01 L Clavicle
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  -0.056449, 1.119313, 5.345238
+Rot:  1.012052, -1.036376, 2.183302
+Scale:  0.999999, 1.000000, 1.000000
+
+     Node Name: Bip01 L UpperArm
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  13.067860, 0.000004, -0.000004
+Rot:  -0.141168, 0.660791, 0.057310
+Scale:  1.000000, 1.000001, 1.000001
+
+     Node Name: Bip01 L Forearm
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  15.099380, -0.012282, 0.002727
+Rot:  0.645436, 0.044599, -0.613739
+Scale:  1.000000, 1.000001, 1.000001
+
+     Node Name: Bip01 L Hand
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  15.099410, 0.000056, 0.000054
+Rot:  -1.583675, 0.166629, -0.123963
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 R Clavicle
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  0.055393, -1.102071, -5.348833
+Rot:  -0.402010, 1.128657, 2.673232
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 R UpperArm
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  13.067840, -0.000001, 0.000001
+Rot:  -0.103290, -0.809167, 0.449671
+Scale:  1.000000, 1.000000, 1.000001
+
+     Node Name: Bip01 R Forearm
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  15.099410, -0.000566, -0.000081
+Rot:  -0.818463, -0.029294, -0.231555
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 R Hand
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  15.099400, 0.000184, -0.000110
+Rot:  1.566849, -0.070789, -0.100040
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01 Head
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  11.079190, 0.000001, 0.000001
+Rot:  0.191348, -0.036722, 0.254347
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: teddyzsphere_unfold3d
+
+     Node Name: Bip01_Ctrl:Reference
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  0.000000, 0.000000, 0.000000
+Rot:  0.000000, -0.000000, 0.000000
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:Hips
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  0.970241, -2.711184, 1.899867
+Rot:  -0.017004, -0.305968, 0.036171
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftUpLeg
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  24.150339, 61.551380, -0.000029
+Rot:  0.240685, 0.045050, -0.063171
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftLeg
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  -0.000044, -29.812740, 2.991256
+Rot:  0.480629, 0.306460, 0.170406
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftFoot
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  -0.000047, -23.312880, -2.339072
+Rot:  -0.651851, -0.041965, -0.222749
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightUpLeg
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  -24.150330, 61.551418, 0.000033
+Rot:  -0.813628, -0.077230, -0.031921
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightLeg
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  -0.000046, -29.812750, 2.991261
+Rot:  0.665786, 0.014091, 0.019917
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightFoot
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  -0.000046, -23.312851, -2.339079
+Rot:  -0.167988, 0.007805, 0.037545
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:Spine
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  0.000017, 72.180237, -0.024935
+Rot:  0.010006, -0.047983, 0.020367
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:Spine1
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  0.000045, 31.320650, -0.006202
+Rot:  0.019063, -0.096158, 0.040322
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftShoulder
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  9.647666, 39.111622, 0.031134
+Rot:  0.000001, -0.077521, -0.281498
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftArm
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  22.733530, -0.000044, 4.008495
+Rot:  -0.079730, -0.010973, -0.594701
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftForeArm
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  26.520241, -2.008953, 2.020947
+Rot:  0.592852, -0.652646, 0.013497
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftHand
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  26.461720, -2.015711, 2.675807
+Rot:  0.014640, -0.120596, -0.169055
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightShoulder
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  -9.647557, 39.111649, 0.031156
+Rot:  -0.000010, 0.231986, 0.411820
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightArm
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  -22.733490, 0.000025, 4.008558
+Rot:  -0.089481, -0.270712, 0.758502
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightForeArm
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  -26.521469, -2.013445, 2.000345
+Rot:  0.793358, 0.291941, -0.022063
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightHand
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  -26.461729, -2.015670, 2.675693
+Rot:  0.009805, 0.099864, 0.071092
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:Neck
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  0.000057, 39.111641, 0.015561
+Rot:  -0.061342, 0.205053, -0.002086
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:Head
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  0.000028, 19.571270, 0.015585
+Rot:  0.259974, 0.194344, 0.013375
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:HipsEffector
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  -0.940308, 58.802441, 0.901893
+Rot:  -0.017004, -0.305968, 0.036171
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftAnkleEffector
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  25.634840, 13.435210, -12.235440
+Rot:  0.000000, 0.106198, 0.000000
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightAnkleEffector
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  -33.126911, 16.410980, 16.981110
+Rot:  -0.337655, -0.345604, 0.044884
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftWristEffector
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  36.177151, 100.406097, 50.572800
+Rot:  1.349980, -0.844288, -1.453549
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightWristEffector
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  -48.128330, 76.605782, -7.187452
+Rot:  0.466844, 0.062017, 1.308947
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftKneeEffector
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  22.293140, 29.961370, 4.033572
+Rot:  0.667546, 0.002370, 0.201806
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightKneeEffector
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  -32.820839, 39.806278, 15.745710
+Rot:  -0.156357, -0.359399, 0.006759
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftElbowEffector
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  33.237019, 116.107697, 29.212580
+Rot:  1.128717, -0.964551, -1.178834
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightElbowEffector
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  -41.356911, 102.354599, -8.797749
+Rot:  0.457044, 0.003730, 1.201111
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:ChestOriginEffector
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  -1.262693, 69.424606, 0.705789
+Rot:  -0.013814, -0.353526, 0.058723
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:ChestEndEffector
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  -6.869007, 139.610199, -0.058515
+Rot:  -0.010803, -0.448787, 0.104742
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftShoulderEffector
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  19.147711, 136.163803, 18.691759
+Rot:  0.321340, -0.359084, -0.854400
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightShoulderEffector
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  -36.024799, 128.111099, -4.368510
+Rot:  -0.355307, -0.263817, 1.321333
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:HeadEffector
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  -8.491539, 159.069305, -1.394182
+Rot:  0.188304, -0.048967, 0.099869
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:LeftHipEffector
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  22.073320, 59.635220, 8.176337
+Rot:  0.243619, -0.261362, -0.029941
+Scale:  1.000000, 1.000000, 1.000000
+
+     Node Name: Bip01_Ctrl:RightHipEffector
+
+Matrix:   Key Time: 70           In ms: 2333
+Trans:  -23.953939, 57.969669, -6.372551
+Rot:  -0.820736, -0.383578, 0.003271
+Scale:  1.000000, 1.000000, 1.000000
+
+AnimLayer 1
+     Node Name: RootNode
+
+     Node Name: Bip01
+
+     Node Name: Bip01 Pelvis
+
+     Node Name: Bip01 Spine
+
+     Node Name: Bip01 L Thigh
+
+     Node Name: Bip01 L Calf
+
+     Node Name: Bip01 L Foot
+
+     Node Name: Bip01 R Thigh
+
+     Node Name: Bip01 R Calf
+
+     Node Name: Bip01 R Foot
+
+     Node Name: Bip01 Spine1
+
+     Node Name: Bip01 Neck
+
+     Node Name: Bip01 L Clavicle
+
+     Node Name: Bip01 L UpperArm
+
+     Node Name: Bip01 L Forearm
+
+     Node Name: Bip01 L Hand
+
+     Node Name: Bip01 R Clavicle
+
+     Node Name: Bip01 R UpperArm
+
+     Node Name: Bip01 R Forearm
+
+     Node Name: Bip01 R Hand
+
+     Node Name: Bip01 Head
+
+     Node Name: teddyzsphere_unfold3d
+
+     Node Name: Bip01_Ctrl:Reference
+
+     Node Name: Bip01_Ctrl:Hips
+
+     Node Name: Bip01_Ctrl:LeftUpLeg
+
+     Node Name: Bip01_Ctrl:LeftLeg
+
+     Node Name: Bip01_Ctrl:LeftFoot
+
+     Node Name: Bip01_Ctrl:RightUpLeg
+
+     Node Name: Bip01_Ctrl:RightLeg
+
+     Node Name: Bip01_Ctrl:RightFoot
+
+     Node Name: Bip01_Ctrl:Spine
+
+     Node Name: Bip01_Ctrl:Spine1
+
+     Node Name: Bip01_Ctrl:LeftShoulder
+
+     Node Name: Bip01_Ctrl:LeftArm
+
+     Node Name: Bip01_Ctrl:LeftForeArm
+
+     Node Name: Bip01_Ctrl:LeftHand
+
+     Node Name: Bip01_Ctrl:RightShoulder
+
+     Node Name: Bip01_Ctrl:RightArm
+
+     Node Name: Bip01_Ctrl:RightForeArm
+
+     Node Name: Bip01_Ctrl:RightHand
+
+     Node Name: Bip01_Ctrl:Neck
+
+     Node Name: Bip01_Ctrl:Head
+
+     Node Name: Bip01_Ctrl:HipsEffector
+
+     Node Name: Bip01_Ctrl:LeftAnkleEffector
+
+     Node Name: Bip01_Ctrl:RightAnkleEffector
+
+     Node Name: Bip01_Ctrl:LeftWristEffector
+
+     Node Name: Bip01_Ctrl:RightWristEffector
+
+     Node Name: Bip01_Ctrl:LeftKneeEffector
+
+     Node Name: Bip01_Ctrl:RightKneeEffector
+
+     Node Name: Bip01_Ctrl:LeftElbowEffector
+
+     Node Name: Bip01_Ctrl:RightElbowEffector
+
+     Node Name: Bip01_Ctrl:ChestOriginEffector
+
+     Node Name: Bip01_Ctrl:ChestEndEffector
+
+     Node Name: Bip01_Ctrl:LeftShoulderEffector
+
+     Node Name: Bip01_Ctrl:RightShoulderEffector
+
+     Node Name: Bip01_Ctrl:HeadEffector
+
+     Node Name: Bip01_Ctrl:LeftHipEffector
+
+     Node Name: Bip01_Ctrl:RightHipEffector
+
+     Node Name: RootNode
+
+     Node Name: Bip01
+
+     Node Name: Bip01 Pelvis
+
+     Node Name: Bip01 Spine
+
+     Node Name: Bip01 L Thigh
+
+     Node Name: Bip01 L Calf
+
+     Node Name: Bip01 L Foot
+
+     Node Name: Bip01 R Thigh
+
+     Node Name: Bip01 R Calf
+
+     Node Name: Bip01 R Foot
+
+     Node Name: Bip01 Spine1
+
+     Node Name: Bip01 Neck
+
+     Node Name: Bip01 L Clavicle
+
+     Node Name: Bip01 L UpperArm
+
+     Node Name: Bip01 L Forearm
+
+     Node Name: Bip01 L Hand
+
+     Node Name: Bip01 R Clavicle
+
+     Node Name: Bip01 R UpperArm
+
+     Node Name: Bip01 R Forearm
+
+     Node Name: Bip01 R Hand
+
+     Node Name: Bip01 Head
+
+     Node Name: teddyzsphere_unfold3d
+
+     Node Name: Bip01_Ctrl:Reference
+
+     Node Name: Bip01_Ctrl:Hips
+
+     Node Name: Bip01_Ctrl:LeftUpLeg
+
+     Node Name: Bip01_Ctrl:LeftLeg
+
+     Node Name: Bip01_Ctrl:LeftFoot
+
+     Node Name: Bip01_Ctrl:RightUpLeg
+
+     Node Name: Bip01_Ctrl:RightLeg
+
+     Node Name: Bip01_Ctrl:RightFoot
+
+     Node Name: Bip01_Ctrl:Spine
+
+     Node Name: Bip01_Ctrl:Spine1
+
+     Node Name: Bip01_Ctrl:LeftShoulder
+
+     Node Name: Bip01_Ctrl:LeftArm
+
+     Node Name: Bip01_Ctrl:LeftForeArm
+
+     Node Name: Bip01_Ctrl:LeftHand
+
+     Node Name: Bip01_Ctrl:RightShoulder
+
+     Node Name: Bip01_Ctrl:RightArm
+
+     Node Name: Bip01_Ctrl:RightForeArm
+
+     Node Name: Bip01_Ctrl:RightHand
+
+     Node Name: Bip01_Ctrl:Neck
+
+     Node Name: Bip01_Ctrl:Head
+
+     Node Name: Bip01_Ctrl:HipsEffector
+
+     Node Name: Bip01_Ctrl:LeftAnkleEffector
+
+     Node Name: Bip01_Ctrl:RightAnkleEffector
+
+     Node Name: Bip01_Ctrl:LeftWristEffector
+
+     Node Name: Bip01_Ctrl:RightWristEffector
+
+     Node Name: Bip01_Ctrl:LeftKneeEffector
+
+     Node Name: Bip01_Ctrl:RightKneeEffector
+
+     Node Name: Bip01_Ctrl:LeftElbowEffector
+
+     Node Name: Bip01_Ctrl:RightElbowEffector
+
+     Node Name: Bip01_Ctrl:ChestOriginEffector
+
+     Node Name: Bip01_Ctrl:ChestEndEffector
+
+     Node Name: Bip01_Ctrl:LeftShoulderEffector
+
+     Node Name: Bip01_Ctrl:RightShoulderEffector
+
+     Node Name: Bip01_Ctrl:HeadEffector
+
+     Node Name: Bip01_Ctrl:LeftHipEffector
+
+     Node Name: Bip01_Ctrl:RightHipEffector
+
+     Node Name: RootNode
+
+     Node Name: Bip01
+
+     Node Name: Bip01 Pelvis
+
+     Node Name: Bip01 Spine
+
+     Node Name: Bip01 L Thigh
+
+     Node Name: Bip01 L Calf
+
+     Node Name: Bip01 L Foot
+
+     Node Name: Bip01 R Thigh
+
+     Node Name: Bip01 R Calf
+
+     Node Name: Bip01 R Foot
+
+     Node Name: Bip01 Spine1
+
+     Node Name: Bip01 Neck
+
+     Node Name: Bip01 L Clavicle
+
+     Node Name: Bip01 L UpperArm
+
+     Node Name: Bip01 L Forearm
+
+     Node Name: Bip01 L Hand
+
+     Node Name: Bip01 R Clavicle
+
+     Node Name: Bip01 R UpperArm
+
+     Node Name: Bip01 R Forearm
+
+     Node Name: Bip01 R Hand
+
+     Node Name: Bip01 Head
+
+     Node Name: teddyzsphere_unfold3d
+
+     Node Name: Bip01_Ctrl:Reference
+
+     Node Name: Bip01_Ctrl:Hips
+
+     Node Name: Bip01_Ctrl:LeftUpLeg
+
+     Node Name: Bip01_Ctrl:LeftLeg
+
+     Node Name: Bip01_Ctrl:LeftFoot
+
+     Node Name: Bip01_Ctrl:RightUpLeg
+
+     Node Name: Bip01_Ctrl:RightLeg
+
+     Node Name: Bip01_Ctrl:RightFoot
+
+     Node Name: Bip01_Ctrl:Spine
+
+     Node Name: Bip01_Ctrl:Spine1
+
+     Node Name: Bip01_Ctrl:LeftShoulder
+
+     Node Name: Bip01_Ctrl:LeftArm
+
+     Node Name: Bip01_Ctrl:LeftForeArm
+
+     Node Name: Bip01_Ctrl:LeftHand
+
+     Node Name: Bip01_Ctrl:RightShoulder
+
+     Node Name: Bip01_Ctrl:RightArm
+
+     Node Name: Bip01_Ctrl:RightForeArm
+
+     Node Name: Bip01_Ctrl:RightHand
+
+     Node Name: Bip01_Ctrl:Neck
+
+     Node Name: Bip01_Ctrl:Head
+
+     Node Name: Bip01_Ctrl:HipsEffector
+
+     Node Name: Bip01_Ctrl:LeftAnkleEffector
+
+     Node Name: Bip01_Ctrl:RightAnkleEffector
+
+     Node Name: Bip01_Ctrl:LeftWristEffector
+
+     Node Name: Bip01_Ctrl:RightWristEffector
+
+     Node Name: Bip01_Ctrl:LeftKneeEffector
+
+     Node Name: Bip01_Ctrl:RightKneeEffector
+
+     Node Name: Bip01_Ctrl:LeftElbowEffector
+
+     Node Name: Bip01_Ctrl:RightElbowEffector
+
+     Node Name: Bip01_Ctrl:ChestOriginEffector
+
+     Node Name: Bip01_Ctrl:ChestEndEffector
+
+     Node Name: Bip01_Ctrl:LeftShoulderEffector
+
+     Node Name: Bip01_Ctrl:RightShoulderEffector
+
+     Node Name: Bip01_Ctrl:HeadEffector
+
+     Node Name: Bip01_Ctrl:LeftHipEffector
+
+     Node Name: Bip01_Ctrl:RightHipEffector
+
+
+
+---------
+Generic Information
+---------
+

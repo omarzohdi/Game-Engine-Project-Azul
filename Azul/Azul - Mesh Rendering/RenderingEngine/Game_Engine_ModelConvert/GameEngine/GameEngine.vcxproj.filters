@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Graphics.cpp" />
+    <ClCompile Include="UserInterface.cpp" />
+    <ClCompile Include="GlobalState.cpp" />
+    <ClCompile Include="RenderScene.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderState.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsManager.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="NullObject.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicModel.cpp" />
+    <ClCompile Include="Object.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\OpenGL\GLTools\lib\gltools.lib">
+      <Filter>_OpenGL</Filter>
+    </Library>
+    <Library Include="..\OpenGL\GLUT\lib\freeglut_static.lib">
+      <Filter>_OpenGL</Filter>
+    </Library>
+    <Library Include="..\Math\lib\MathEngineDebug.lib">
+      <Filter>_Math</Filter>
+    </Library>
+    <Library Include="..\Math\lib\MathEngineRelease.lib">
+      <Filter>_Math</Filter>
+    </Library>
+    <Library Include="..\File\lib\FileSystemRelease.lib">
+      <Filter>_File</Filter>
+    </Library>
+    <Library Include="..\File\lib\FileSystemDebug.lib">
+      <Filter>_File</Filter>
+    </Library>
+    <Library Include="..\PCSTree\lib\PCSTreeRelease.lib">
+      <Filter>_PCSTree</Filter>
+    </Library>
+    <Library Include="..\PCSTree\lib\PCSTreeDebug.lib">
+      <Filter>_PCSTree</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="_OpenGL">
+      <UniqueIdentifier>{f07ce561-f2c7-4a92-839e-8e2f628cea7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Math">
+      <UniqueIdentifier>{381e9c85-01d7-42a8-bdbe-f74927e8a2a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{033fc5a8-ac47-4111-9a54-90af2ae7a4e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{2cb38ae4-8112-483f-89dc-3ee30f8bbf5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_File">
+      <UniqueIdentifier>{d7c315c2-3584-4986-bad2-52ecd69a9421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_PCSTree">
+      <UniqueIdentifier>{c3530f79-bf90-4961-9421-a7ee64101f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__Headers">
+      <UniqueIdentifier>{78de8148-8a6a-4e1f-b2b7-fea7ff88ce4f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Math\include\MathEngine.h">
+      <Filter>_Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\File\include\File.h">
+      <Filter>_File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PCSTree\include\PCSTree.h">
+      <Filter>_PCSTree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PCSTree\include\PCSNode.h">
+      <Filter>_PCSTree</Filter>
+    </ClInclude>
+    <ClInclude Include="PackageHeader.h">
+      <Filter>__Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkHeader.h">
+      <Filter>__Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelData.h">
+      <Filter>__Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureData.h">
+      <Filter>__Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderState.h">
+      <Filter>__Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderScene.h">
+      <Filter>__Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLWrapper.h">
+      <Filter>__Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>__Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>__Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsManager.h">
+      <Filter>__Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="NullObject.h">
+      <Filter>__Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObjectFileHdr.h">
+      <Filter>__Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>__Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject.h">
+      <Filter>__Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicModel.h">
+      <Filter>__Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface.h">
+      <Filter>__Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalState.h">
+      <Filter>__Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObjectBufferHdr.h">
+      <Filter>__Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

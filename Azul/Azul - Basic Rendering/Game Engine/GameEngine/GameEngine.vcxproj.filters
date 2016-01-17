@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Graphics.cpp" />
+    <ClCompile Include="UserInterface.cpp" />
+    <ClCompile Include="GlobalState.cpp" />
+    <ClCompile Include="Pyramid.cpp">
+      <Filter>Objects\Pyramid</Filter>
+    </ClCompile>
+    <ClCompile Include="PyramidObject.cpp">
+      <Filter>Objects\Pyramid</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderScene.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderState.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsManager.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="NullObject.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>Objects\Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeObject.cpp">
+      <Filter>Objects\Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="SqrAPrism.cpp">
+      <Filter>Objects\SquareAntiPrism</Filter>
+    </ClCompile>
+    <ClCompile Include="SqrAPrismObject.cpp">
+      <Filter>Objects\SquareAntiPrism</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\OpenGL\GLTools\lib\gltools.lib">
+      <Filter>__Libraries\_OpenGL</Filter>
+    </Library>
+    <Library Include="..\OpenGL\GLUT\lib\freeglut_static.lib">
+      <Filter>__Libraries\_OpenGL</Filter>
+    </Library>
+    <Library Include="..\Math\lib\MathEngineDebug.lib">
+      <Filter>__Libraries\_Math</Filter>
+    </Library>
+    <Library Include="..\Math\lib\MathEngineRelease.lib">
+      <Filter>__Libraries\_Math</Filter>
+    </Library>
+    <Library Include="..\File\lib\FileSystemRelease.lib">
+      <Filter>__Libraries\_File</Filter>
+    </Library>
+    <Library Include="..\File\lib\FileSystemDebug.lib">
+      <Filter>__Libraries\_File</Filter>
+    </Library>
+    <Library Include="..\PCSTree\lib\PCSTreeRelease.lib">
+      <Filter>__Libraries\_PCSTree</Filter>
+    </Library>
+    <Library Include="..\PCSTree\lib\PCSTreeDebug.lib">
+      <Filter>__Libraries\_PCSTree</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{033fc5a8-ac47-4111-9a54-90af2ae7a4e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{2cb38ae4-8112-483f-89dc-3ee30f8bbf5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{f6a9c390-8862-4b9f-93f9-5a4d266d4ba3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Cube">
+      <UniqueIdentifier>{286fb179-8732-493b-bd60-f0d7d408c49a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\SquareAntiPrism">
+      <UniqueIdentifier>{90ea96ef-a64b-4cfb-90ff-5cf0baabfa22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Pyramid">
+      <UniqueIdentifier>{9dc7f82c-a7f0-4b8e-9d29-ad08ef7fe286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Headers">
+      <UniqueIdentifier>{7a8d034c-b8d2-47f8-b247-ba2b69f9883c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__Libraries">
+      <UniqueIdentifier>{5574e84a-4e7e-41fc-848b-e2746d820cc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__Libraries\_File">
+      <UniqueIdentifier>{d7c315c2-3584-4986-bad2-52ecd69a9421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__Libraries\_PCSTree">
+      <UniqueIdentifier>{c3530f79-bf90-4961-9421-a7ee64101f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__Libraries\_Math">
+      <UniqueIdentifier>{381e9c85-01d7-42a8-bdbe-f74927e8a2a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__Libraries\_OpenGL">
+      <UniqueIdentifier>{f07ce561-f2c7-4a92-839e-8e2f628cea7a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Math\include\MathEngine.h">
+      <Filter>__Libraries\_Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\File\include\File.h">
+      <Filter>__Libraries\_File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PCSTree\include\PCSTree.h">
+      <Filter>__Libraries\_PCSTree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PCSTree\include\PCSNode.h">
+      <Filter>__Libraries\_PCSTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Pyramid.h">
+      <Filter>_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeObject.h">
+      <Filter>_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PyramidObject.h">
+      <Filter>_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SqrAPrismObject.h">
+      <Filter>_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SqrAPrism.h">
+      <Filter>_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLWrapper.h">
+      <Filter>_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderScene.h">
+      <Filter>_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderState.h">
+      <Filter>_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureData.h">
+      <Filter>_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalState.h">
+      <Filter>_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface.h">
+      <Filter>_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsManager.h">
+      <Filter>_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject.h">
+      <Filter>_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="NullObject.h">
+      <Filter>_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObjectFileHdr.h">
+      <Filter>_Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

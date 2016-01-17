@@ -1,0 +1,53 @@
+ Volume in drive C is BOOTCAMP
+ Volume Serial Number is 90B1-A800
+
+ Directory of C:\code\gam575_s2013\reference\lectures\Week_07\AnimConverter_2_ReducePrints\ConvertMe
+
+05/16/2013  05:16 AM    <DIR>          .
+05/16/2013  05:16 AM    <DIR>          ..
+05/16/2013  05:16 AM            22,035 ConvertMe.vcxproj
+04/22/2013  10:00 AM               584 ConvertMe.vcxproj.user
+04/22/2013  10:00 AM            19,816 DisplayAnimation.cxx
+04/22/2013  10:00 AM               875 DisplayAnimation.h
+04/22/2013  10:00 AM            11,278 DisplayCamera.cxx
+04/22/2013  10:00 AM               972 DisplayCamera.h
+04/22/2013  10:00 AM             6,145 DisplayCommon.cxx
+04/22/2013  10:00 AM             1,481 DisplayCommon.h
+04/22/2013  10:00 AM             4,978 DisplayGenericInfo.cxx
+04/22/2013  10:00 AM               735 DisplayGenericInfo.h
+04/22/2013  10:00 AM             1,504 DisplayGlobalSettings.cxx
+04/22/2013  10:00 AM             1,004 DisplayGlobalSettings.h
+04/22/2013  10:00 AM             1,237 DisplayHierarchy.cxx
+04/22/2013  10:00 AM               765 DisplayHierarchy.h
+04/22/2013  10:00 AM             2,009 DisplayLight.cxx
+04/22/2013  10:00 AM               746 DisplayLight.h
+04/22/2013  10:00 AM             3,708 DisplayLink.cxx
+04/22/2013  10:00 AM               754 DisplayLink.h
+04/22/2013  10:00 AM             1,982 DisplayLodGroup.cxx
+04/22/2013  10:00 AM               756 DisplayLodGroup.h
+04/22/2013  10:00 AM             1,951 DisplayMarker.cxx
+04/22/2013  10:00 AM               750 DisplayMarker.h
+04/22/2013  10:00 AM            12,318 DisplayMaterial.cxx
+04/22/2013  10:00 AM               770 DisplayMaterial.h
+04/22/2013  10:00 AM            19,418 DisplayMesh.cxx
+04/22/2013  10:00 AM               742 DisplayMesh.h
+04/22/2013  10:00 AM             3,712 DisplayNurb.cxx
+04/22/2013  10:00 AM               742 DisplayNurb.h
+04/22/2013  10:00 AM             2,420 DisplayPatch.cxx
+04/22/2013  10:00 AM               746 DisplayPatch.h
+04/22/2013  10:00 AM             6,521 DisplayPivotsAndLimits.cxx
+04/22/2013  10:00 AM               790 DisplayPivotsAndLimits.h
+04/22/2013  10:00 AM             3,238 DisplayPose.cxx
+04/22/2013  10:00 AM               745 DisplayPose.h
+04/22/2013  10:00 AM             2,548 DisplayShape.cxx
+04/22/2013  10:00 AM               758 DisplayShape.h
+04/22/2013  10:00 AM             1,453 DisplaySkeleton.cxx
+04/22/2013  10:00 AM               758 DisplaySkeleton.h
+04/22/2013  10:00 AM             7,204 DisplayTexture.cxx
+04/22/2013  10:00 AM               980 DisplayTexture.h
+04/22/2013  10:00 AM             3,918 DisplayUserProperties.cxx
+04/22/2013  10:00 AM               791 DisplayUserProperties.h
+04/22/2013  10:00 AM             9,560 main.cxx
+05/16/2013  05:16 AM                 0 tttt.txt
+              44 File(s)        166,197 bytes
+               2 Dir(s)  314,254,995,456 bytes free

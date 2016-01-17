@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\_Converter_common\common\Common.cxx" />
+    <ClCompile Include="DisplayAnimation.cxx" />
+    <ClCompile Include="DisplayCamera.cxx" />
+    <ClCompile Include="DisplayCommon.cxx" />
+    <ClCompile Include="DisplayGenericInfo.cxx" />
+    <ClCompile Include="DisplayGlobalSettings.cxx" />
+    <ClCompile Include="DisplayHierarchy.cxx" />
+    <ClCompile Include="DisplayLight.cxx" />
+    <ClCompile Include="DisplayLink.cxx" />
+    <ClCompile Include="DisplayMarker.cxx" />
+    <ClCompile Include="DisplayMaterial.cxx" />
+    <ClCompile Include="DisplayMesh.cxx" />
+    <ClCompile Include="DisplayNurb.cxx" />
+    <ClCompile Include="DisplayPatch.cxx" />
+    <ClCompile Include="DisplayPivotsAndLimits.cxx" />
+    <ClCompile Include="DisplayPose.cxx" />
+    <ClCompile Include="DisplayShape.cxx" />
+    <ClCompile Include="DisplaySkeleton.cxx" />
+    <ClCompile Include="DisplayTexture.cxx" />
+    <ClCompile Include="DisplayUserProperties.cxx" />
+    <ClCompile Include="DisplayLodGroup.cxx" />
+    <ClCompile Include="main.cxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\_Converter_common\common\Common.h" />
+    <ClInclude Include="DisplayAnimation.h" />
+    <ClInclude Include="DisplayCamera.h" />
+    <ClInclude Include="DisplayCommon.h" />
+    <ClInclude Include="DisplayGenericInfo.h" />
+    <ClInclude Include="DisplayGlobalSettings.h" />
+    <ClInclude Include="DisplayHierarchy.h" />
+    <ClInclude Include="DisplayLight.h" />
+    <ClInclude Include="DisplayLink.h" />
+    <ClInclude Include="DisplayMarker.h" />
+    <ClInclude Include="DisplayMaterial.h" />
+    <ClInclude Include="DisplayMesh.h" />
+    <ClInclude Include="DisplayNurb.h" />
+    <ClInclude Include="DisplayPatch.h" />
+    <ClInclude Include="DisplayPivotsAndLimits.h" />
+    <ClInclude Include="DisplayPose.h" />
+    <ClInclude Include="DisplayShape.h" />
+    <ClInclude Include="DisplaySkeleton.h" />
+    <ClInclude Include="DisplayTexture.h" />
+    <ClInclude Include="DisplayLodGroup.h" />
+    <ClInclude Include="..\File\include\File.h">
+      <Filter>_FIle</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelData.h">
+      <Filter>_Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\File\lib\FileSystemDebug.lib">
+      <Filter>_FIle</Filter>
+    </Library>
+    <Library Include="..\File\lib\FileSystemRelease.lib">
+      <Filter>_FIle</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="_FIle">
+      <UniqueIdentifier>{e73edc86-aab9-408c-80ef-4bd07a76ccec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Headers">
+      <UniqueIdentifier>{65979b01-cf1b-41cb-bbbb-e0597d9b2759}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

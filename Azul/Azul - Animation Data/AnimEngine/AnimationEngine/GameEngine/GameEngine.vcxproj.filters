@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Graphics.cpp" />
+    <ClCompile Include="UserInterface.cpp" />
+    <ClCompile Include="GlobalState.cpp" />
+    <ClCompile Include="Pyramid.cpp">
+      <Filter>Pyramid</Filter>
+    </ClCompile>
+    <ClCompile Include="PyramidObject.cpp">
+      <Filter>Pyramid</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderScene.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderState.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsManager.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="NullObject.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationObject.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationManager.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationData.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\OpenGL\GLTools\lib\gltools.lib">
+      <Filter>_OpenGL</Filter>
+    </Library>
+    <Library Include="..\OpenGL\GLUT\lib\freeglut_static.lib">
+      <Filter>_OpenGL</Filter>
+    </Library>
+    <Library Include="..\Math\lib\MathEngineDebug.lib">
+      <Filter>_Math</Filter>
+    </Library>
+    <Library Include="..\Math\lib\MathEngineRelease.lib">
+      <Filter>_Math</Filter>
+    </Library>
+    <Library Include="..\File\lib\FileSystemRelease.lib">
+      <Filter>_File</Filter>
+    </Library>
+    <Library Include="..\File\lib\FileSystemDebug.lib">
+      <Filter>_File</Filter>
+    </Library>
+    <Library Include="..\PCSTree\lib\PCSTreeRelease.lib">
+      <Filter>_PCSTree</Filter>
+    </Library>
+    <Library Include="..\PCSTree\lib\PCSTreeDebug.lib">
+      <Filter>_PCSTree</Filter>
+    </Library>
+    <Library Include="..\Time\lib\TimeDebug.lib">
+      <Filter>_Time</Filter>
+    </Library>
+    <Library Include="..\Time\lib\TimeRelease.lib">
+      <Filter>_Time</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="_OpenGL">
+      <UniqueIdentifier>{f07ce561-f2c7-4a92-839e-8e2f628cea7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Math">
+      <UniqueIdentifier>{381e9c85-01d7-42a8-bdbe-f74927e8a2a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_File">
+      <UniqueIdentifier>{d7c315c2-3584-4986-bad2-52ecd69a9421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_PCSTree">
+      <UniqueIdentifier>{c3530f79-bf90-4961-9421-a7ee64101f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Time">
+      <UniqueIdentifier>{146d0fa5-a3e7-499d-95b4-0a04abcdfd4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{21a41f35-1742-4515-9e25-15b5d7397223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{2cb38ae4-8112-483f-89dc-3ee30f8bbf5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pyramid">
+      <UniqueIdentifier>{9dc7f82c-a7f0-4b8e-9d29-ad08ef7fe286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{033fc5a8-ac47-4111-9a54-90af2ae7a4e7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Math\include\MathEngine.h">
+      <Filter>_Math</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface.h" />
+    <ClInclude Include="GlobalState.h" />
+    <ClInclude Include="PyramidObject.h">
+      <Filter>Pyramid</Filter>
+    </ClInclude>
+    <ClInclude Include="Pyramid.h">
+      <Filter>Pyramid</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLWrapper.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderState.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderScene.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsManager.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\File\include\File.h">
+      <Filter>_File</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObjectFileHdr.h">
+      <Filter>Pyramid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PCSTree\include\PCSTree.h">
+      <Filter>_PCSTree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PCSTree\include\PCSNode.h">
+      <Filter>_PCSTree</Filter>
+    </ClInclude>
+    <ClInclude Include="NullObject.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureData.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Math\include\MathApp.h">
+      <Filter>_Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Time\include\Time.h">
+      <Filter>_Time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Time\include\Timer.h">
+      <Filter>_Time</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationObject.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationManager.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationData.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ozohdi_Amagi_gam475\ozohdi_Amagi_2-3\keenan2013spring_gam575\student\ozohdi\AnimEngine\AnimationEngine\GameEngine\AnimDataTypes.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkHeader.h" />
+    <ClInclude Include="PackageHeader.h" />
+  </ItemGroup>
+</Project>
